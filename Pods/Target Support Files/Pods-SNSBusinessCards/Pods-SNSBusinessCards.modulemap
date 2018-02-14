@@ -1,0 +1,6 @@
+framework module Pods_SNSBusinessCards {
+  umbrella header "Pods-SNSBusinessCards-umbrella.h"
+
+  export *
+  module * { export * }
+}

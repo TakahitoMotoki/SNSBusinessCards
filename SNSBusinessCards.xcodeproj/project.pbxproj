@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E3C9AB146ADC419FD223AD7 /* Pods_SNSBusinessCards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BDD121C0B974BF1D669A06 /* Pods_SNSBusinessCards.framework */; };
 		CD6F00682034379B002DA6F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6F00672034379B002DA6F4 /* AppDelegate.swift */; };
 		CD6F006A2034379B002DA6F4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6F00692034379B002DA6F4 /* FirstViewController.swift */; };
 		CD6F006C2034379B002DA6F4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6F006B2034379B002DA6F4 /* SecondViewController.swift */; };
@@ -16,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2AF3EA2D2EAF229DB6C3DBCD /* Pods-SNSBusinessCards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSBusinessCards.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SNSBusinessCards/Pods-SNSBusinessCards.debug.xcconfig"; sourceTree = "<group>"; };
+		453E6431AC3B6C446A1A6E93 /* Pods-SNSBusinessCards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSBusinessCards.release.xcconfig"; path = "Pods/Target Support Files/Pods-SNSBusinessCards/Pods-SNSBusinessCards.release.xcconfig"; sourceTree = "<group>"; };
+		A4BDD121C0B974BF1D669A06 /* Pods_SNSBusinessCards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SNSBusinessCards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD6F00642034379B002DA6F4 /* SNSBusinessCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNSBusinessCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD6F00672034379B002DA6F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD6F00692034379B002DA6F4 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -31,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E3C9AB146ADC419FD223AD7 /* Pods_SNSBusinessCards.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58C2695E46363F16C3CFB9ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4BDD121C0B974BF1D669A06 /* Pods_SNSBusinessCards.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C697297675DCE3CCDD9378C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AF3EA2D2EAF229DB6C3DBCD /* Pods-SNSBusinessCards.debug.xcconfig */,
+				453E6431AC3B6C446A1A6E93 /* Pods-SNSBusinessCards.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CD6F005B2034379B002DA6F4 = {
 			isa = PBXGroup;
 			children = (
 				CD6F00662034379B002DA6F4 /* SNSBusinessCards */,
 				CD6F00652034379B002DA6F4 /* Products */,
+				C697297675DCE3CCDD9378C9 /* Pods */,
+				58C2695E46363F16C3CFB9ED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD6F00782034379B002DA6F4 /* Build configuration list for PBXNativeTarget "SNSBusinessCards" */;
 			buildPhases = (
+				96D4AC925361E5E49C7C86A9 /* [CP] Check Pods Manifest.lock */,
 				CD6F00602034379B002DA6F4 /* Sources */,
 				CD6F00612034379B002DA6F4 /* Frameworks */,
 				CD6F00622034379B002DA6F4 /* Resources */,
+				FC0D4A25195C1F591E194069 /* [CP] Embed Pods Frameworks */,
+				287035AF2426D4521E7F94B1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,6 +160,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		287035AF2426D4521E7F94B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SNSBusinessCards/Pods-SNSBusinessCards-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96D4AC925361E5E49C7C86A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SNSBusinessCards-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC0D4A25195C1F591E194069 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SNSBusinessCards/Pods-SNSBusinessCards-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SNSBusinessCards/Pods-SNSBusinessCards-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CD6F00602034379B002DA6F4 /* Sources */ = {
@@ -276,6 +357,7 @@
 		};
 		CD6F00792034379B002DA6F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AF3EA2D2EAF229DB6C3DBCD /* Pods-SNSBusinessCards.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +373,7 @@
 		};
 		CD6F007A2034379B002DA6F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 453E6431AC3B6C446A1A6E93 /* Pods-SNSBusinessCards.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
