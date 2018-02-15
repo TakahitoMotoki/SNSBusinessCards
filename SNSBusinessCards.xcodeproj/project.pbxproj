@@ -8,26 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		2E3C9AB146ADC419FD223AD7 /* Pods_SNSBusinessCards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BDD121C0B974BF1D669A06 /* Pods_SNSBusinessCards.framework */; };
+		CD565D5E203568E3004CD120 /* FriendListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD565D5D203568E3004CD120 /* FriendListView.swift */; };
+		CD565D60203568EF004CD120 /* FriendListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD565D5F203568EF004CD120 /* FriendListViewModel.swift */; };
 		CD6F00682034379B002DA6F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6F00672034379B002DA6F4 /* AppDelegate.swift */; };
-		CD6F006A2034379B002DA6F4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6F00692034379B002DA6F4 /* FirstViewController.swift */; };
+		CD6F006A2034379B002DA6F4 /* FriendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6F00692034379B002DA6F4 /* FriendListViewController.swift */; };
 		CD6F006C2034379B002DA6F4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6F006B2034379B002DA6F4 /* SecondViewController.swift */; };
 		CD6F006F2034379B002DA6F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6F006D2034379B002DA6F4 /* Main.storyboard */; };
 		CD6F00712034379B002DA6F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD6F00702034379B002DA6F4 /* Assets.xcassets */; };
 		CD6F00742034379B002DA6F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6F00722034379B002DA6F4 /* LaunchScreen.storyboard */; };
+		CD7C45D220343D5A0091CE61 /* FriendModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD7C45D020343D5A0091CE61 /* FriendModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2AF3EA2D2EAF229DB6C3DBCD /* Pods-SNSBusinessCards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSBusinessCards.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SNSBusinessCards/Pods-SNSBusinessCards.debug.xcconfig"; sourceTree = "<group>"; };
 		453E6431AC3B6C446A1A6E93 /* Pods-SNSBusinessCards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSBusinessCards.release.xcconfig"; path = "Pods/Target Support Files/Pods-SNSBusinessCards/Pods-SNSBusinessCards.release.xcconfig"; sourceTree = "<group>"; };
 		A4BDD121C0B974BF1D669A06 /* Pods_SNSBusinessCards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SNSBusinessCards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD565D5D203568E3004CD120 /* FriendListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListView.swift; sourceTree = "<group>"; };
+		CD565D5F203568EF004CD120 /* FriendListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListViewModel.swift; sourceTree = "<group>"; };
 		CD6F00642034379B002DA6F4 /* SNSBusinessCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNSBusinessCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD6F00672034379B002DA6F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CD6F00692034379B002DA6F4 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		CD6F00692034379B002DA6F4 /* FriendListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListViewController.swift; sourceTree = "<group>"; };
 		CD6F006B2034379B002DA6F4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		CD6F006E2034379B002DA6F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD6F00702034379B002DA6F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD6F00732034379B002DA6F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD6F00752034379B002DA6F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD7C45D120343D5A0091CE61 /* FriendModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FriendModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +87,11 @@
 			isa = PBXGroup;
 			children = (
 				CD6F00672034379B002DA6F4 /* AppDelegate.swift */,
-				CD6F00692034379B002DA6F4 /* FirstViewController.swift */,
+				CD6F00692034379B002DA6F4 /* FriendListViewController.swift */,
 				CD6F006B2034379B002DA6F4 /* SecondViewController.swift */,
+				CD565D5D203568E3004CD120 /* FriendListView.swift */,
+				CD565D5F203568EF004CD120 /* FriendListViewModel.swift */,
+				CD7C45D020343D5A0091CE61 /* FriendModel.xcdatamodeld */,
 				CD6F006D2034379B002DA6F4 /* Main.storyboard */,
 				CD6F00702034379B002DA6F4 /* Assets.xcassets */,
 				CD6F00722034379B002DA6F4 /* LaunchScreen.storyboard */,
@@ -202,10 +211,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SNSBusinessCards/Pods-SNSBusinessCards-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FontAwesomeKit/FontAwesomeKit.framework",
+				"${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework",
 				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesomeKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMAnimatedTabBarController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,8 +234,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD6F006C2034379B002DA6F4 /* SecondViewController.swift in Sources */,
+				CD565D60203568EF004CD120 /* FriendListViewModel.swift in Sources */,
+				CD7C45D220343D5A0091CE61 /* FriendModel.xcdatamodeld in Sources */,
 				CD6F00682034379B002DA6F4 /* AppDelegate.swift in Sources */,
-				CD6F006A2034379B002DA6F4 /* FirstViewController.swift in Sources */,
+				CD6F006A2034379B002DA6F4 /* FriendListViewController.swift in Sources */,
+				CD565D5E203568E3004CD120 /* FriendListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +425,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CD7C45D020343D5A0091CE61 /* FriendModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CD7C45D120343D5A0091CE61 /* FriendModel.xcdatamodel */,
+			);
+			currentVersion = CD7C45D120343D5A0091CE61 /* FriendModel.xcdatamodel */;
+			path = FriendModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CD6F005C2034379B002DA6F4 /* Project object */;
 }

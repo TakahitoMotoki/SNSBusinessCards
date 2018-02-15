@@ -7,99 +7,207 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06BC3362ED9ABE710BA744A003966A25 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E1C478C66613314778A9E914076019 /* HoshiTextField.swift */; };
-		076FACCED154272769F73E8CE4941932 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9133FAE39EB1D9892F29355AB69358DC /* MinoruTextField.swift */; };
-		1EA14C38F4E33966AC014A6AE36822B9 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E63D044812E3765F6EDA42828A72C4 /* YoshikoTextField.swift */; };
-		1F1C338A321C91B916BE0AAA00E9D13A /* Pods-SNSBusinessCards-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F3F1FFD63B6805A530F129740BC7C6 /* Pods-SNSBusinessCards-dummy.m */; };
-		4649AC369C72297372CB378352FDF76F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		5365E2A909E32AB51C0251EAE0E04A70 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC4B423B2A9D22E359C9E3CB872549A /* JiroTextField.swift */; };
-		553CCA15C35AF3DDB9E8C07FA4BD2BD4 /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2C3490F5194C7714570F38D6D2E481 /* TextFieldEffects.swift */; };
-		5E84CDA2CDA97DF1976A919279974012 /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D364D5FF41B3CE8F6D0228FB598EC67 /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64693E2C905C9D73F96E2CD5AE80793E /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21059C29D49087D301FA139D8726F631 /* YokoTextField.swift */; };
-		6C6939EF0CAC70D1FAF81E210F0D89DA /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38565F6B1DC573225643D9F2A7505D1A /* KaedeTextField.swift */; };
-		767A23A027F99BEDDE3E7E21F466B35B /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C13156D30D470663AD8E2F0122EFC96 /* MadokaTextField.swift */; };
-		8CEE239EE83B904773D5EAB654B3863C /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 008C803C59120436A273DB50612CEC78 /* TextFieldEffects-dummy.m */; };
-		AAD5F43DE634B528A12C84692B6F25A7 /* Pods-SNSBusinessCards-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79021F994F2CCB56A633D68263A5684A /* Pods-SNSBusinessCards-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B90580E0E43F27D28B246D26ABA42080 /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6472965B50FB550F1E374D7B33A9D5F /* IsaoTextField.swift */; };
-		D020115146B3E6D378F93B5017F850C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E5B895D79C7970E63DE997A85CE85D0B /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8131792BBEE6A90CF9918BAC65034066 /* AkiraTextField.swift */; };
+		01BE10979DDDA1449072E5D710ED7596 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
+		0281A099B6DF240CD72EE130618B1B0F /* octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 749912B0E1DD72E625B064A3128C20E6 /* octicons.ttf */; };
+		0664858BE3BEB63562A554CA51FA5208 /* RAMItemAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8376C62EE8587347558490953681410B /* RAMItemAnimationProtocol.swift */; };
+		113902E55762062A2D48B56D8DAA0532 /* FAKFontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = C993B50BDA1DC5C87167C0E608BBBF4D /* FAKFontAwesome.m */; };
+		130A29BFC06CD3D6B89A164915039276 /* RAMFrameItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64C5974AB86435FA8C5DCD6FC09F627 /* RAMFrameItemAnimation.swift */; };
+		16C233CACC4EC8E127E2D7C3B583CB12 /* RAMBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEC2E731DA39C8F6255AE5213D0A662 /* RAMBadge.swift */; };
+		1769170427A6B5C9688007764866EDDA /* foundation-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7BBDBB0F93307DA115BFD9039731D55 /* foundation-icons.ttf */; };
+		1872CD2DA576F188DAFBE6CCA3EC4DCF /* FAKOcticons.h in Headers */ = {isa = PBXBuildFile; fileRef = AAF0E40281502AD98F46CCE70DA43C69 /* FAKOcticons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1910E3E78B66F32FE33C3200EF6C8B88 /* RAMRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD097D7C1A47E96023EE1DC2CBA54B3 /* RAMRotationAnimation.swift */; };
+		2166C0EC39F6BB2B691B380B539FE8AD /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C55C580E1FC5B6E9F442FE42A9553FEA /* CoreText.framework */; };
+		275893AE5F06D05536598EF74DC8E6D0 /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF7E3428AF5DD695B255B1FB7293138 /* IsaoTextField.swift */; };
+		2A1B30AF73791C92C21A02EBA9B3EEB7 /* RAMFumeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E430E85E677AB4F221BBCDFB3A213 /* RAMFumeAnimation.swift */; };
+		32D98051B36334AE938F6B35ACF33025 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
+		332E15E9E986025C0150030E720D976A /* FAKZocial.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B5D5F0F7845888C539A94585BDDDDF /* FAKZocial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37DA891DDA5E91349A6E7CEF0465CC51 /* FAKIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2A903B35F7EACD5C4A107B26E748 /* FAKIcon.m */; };
+		3964A2B00BB8619003961BD7D3BD1AF1 /* FAKIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = E6B51E443C281C65EB849E2D3C1029C0 /* FAKIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43C289029D31E1097802878C9DABBDEA /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38539EEE44711B036EFDA10CD20099F1 /* MinoruTextField.swift */; };
+		4B7E574AEF9BAB8E643CCBA149E8A85F /* FAKFoundationIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 3557E1006B1A6D667CF4F329C13FC28F /* FAKFoundationIcons.m */; };
+		5093F84F27DF70B22CA692D3485AF2DB /* FAKFontAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ABF99FE2667EA486D4EBA97902D6D43 /* FAKFontAwesome.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52341315AD29A2716D4D91C66FD62217 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5A6A3E336D98498B47768E689EF492 /* KaedeTextField.swift */; };
+		52C3E135A4F8F37E9E48AB170202A48C /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A7ED5874B53718752A3A452329670 /* JiroTextField.swift */; };
+		57E0CE5DA556E9A8483716C31D3843B2 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C3371D45C4F2FA4B9805E7FAB07403 /* HoshiTextField.swift */; };
+		5832280486E1376CBD13F70A8C6F02C6 /* FAKOcticons.m in Sources */ = {isa = PBXBuildFile; fileRef = 551625BDA53EB0E63CE3C1E012A3E236 /* FAKOcticons.m */; };
+		587B4579C6B7641EF8076185B9AB0035 /* Pods-SNSBusinessCards-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79021F994F2CCB56A633D68263A5684A /* Pods-SNSBusinessCards-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		594AFFA9CEB1776FA1C853281ADB3D0B /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D1B330E7012800E3B2F4BDA15FD376 /* TextFieldEffects.swift */; };
+		61FA9EF01CB62B6F8F33C42E50CAF536 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9EA06482471B9953000C46109481775E /* FontAwesome.otf */; };
+		639C4AECF710FD113F4CBCCBB3602DC6 /* RAMAnimatedTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE54FFE3B8B7261228B3C2871CBA72CF /* RAMAnimatedTabBarController-dummy.m */; };
+		67B08EEBFAF69578EE180330B6ADE064 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533543BEF7565733E20AE7CBFCE1AE0C /* YoshikoTextField.swift */; };
+		6A72C8E44A0E2774C76D073F982E117F /* zocial-regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B880161E0A52B3B364206840437D117D /* zocial-regular-webfont.ttf */; };
+		6B3C2778C40F244D98903E993A211EB5 /* FAKIonIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = EA176DB3839AA16A0823CBFD51D86CEA /* FAKIonIcons.m */; };
+		70644D2FAACDCB954D268086F220F534 /* FAKFoundationIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = A21DC9E974082CEC509AE322614FADDE /* FAKFoundationIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8267189738A27E9FB0B3B61F0B2C84CA /* FAKMaterialIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = B565A3A0A7E483FFD08BFCBE8B27F358 /* FAKMaterialIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8513E85651B03831741DAFEED07E724A /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78485EEAA10C1C44850FA671A9DAB3AF /* MadokaTextField.swift */; };
+		8B7FA4ECCF190B7E0D291D24B94F3F56 /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 055D827A4E0928F13F0ED4F2121A40C9 /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91FF5315FCDBE4415DEB1F6730B9BF5B /* Pods-SNSBusinessCards-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F3F1FFD63B6805A530F129740BC7C6 /* Pods-SNSBusinessCards-dummy.m */; };
+		93FC15C234BF17B0046EAA4857BA943B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
+		9725563C2AEE1687840A7F5E61719B20 /* RAMAnimatedTabBarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B606B2F760DB3BE193B4F8ED4BA02377 /* RAMAnimatedTabBarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99D62A3C6928E8C7BD61E2C98E5A360F /* FontAwesomeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 304A00725BEAC3AB3AC66F230D1695D5 /* FontAwesomeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BF8930E69FAFBCFCA70563E4775913F /* FontAwesomeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F5CC72B7CFCA0C8C9FD1F7397A9B8E57 /* FontAwesomeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6D1C9304CF49244EB5D99A69971A8EE /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB767A92D62014A2A0912FAC38D5C15E /* ionicons.ttf */; };
+		A7BC09314467DF874C03B88C326FC039 /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D09C99B4D6C48E45227ED9820F1353 /* RAMBounceAnimation.swift */; };
+		B9847B8C3E705EC7EAF58C2BFCCB350A /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50ACB9D24A45153268D7E7291DEBADA9 /* TextFieldEffects-dummy.m */; };
+		B98B26D76E50DE44887EDA3096028C46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
+		BB377AC3B7923B0182478FB34EAAC42D /* FAKMaterialIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = F7138C2DA0E36040D45175A36C37226D /* FAKMaterialIcons.m */; };
+		BE1B2D29DB7A92DD4B3F561F4A479832 /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20461B169EE8C91100FB57E54A6AC598 /* YokoTextField.swift */; };
+		C7DA2447575E683C18E8A452A886B85C /* FontAwesomeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C63E0A34DE669E295AD7EB9C78C783FB /* FontAwesomeKit-dummy.m */; };
+		D26832C96E013704F116A04D12D9B10D /* FAKIonIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = 8589542D4E4D3B62F0F14D1595D3928E /* FAKIonIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D327632C06E3B012E8956FFC6A4219EB /* FAKZocial.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B51E2BCF1F660033AFBB98719D3D9 /* FAKZocial.m */; };
+		D4E6FB4C3492D8DD24A24C4AD81BD51A /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C804B2243CEE6827269060D13AB92DF3 /* AkiraTextField.swift */; };
+		F3D5C5CC4CD812699F9921AC90CFA2A3 /* RAMAnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F744D5B65AA9460525E1A395E35BBC0A /* RAMAnimatedTabBarController.swift */; };
+		FA700B17895CF8819CD5E3DA04308999 /* RAMTransitionItemAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55C43097DD8A3CA0C0DD3A07437002D /* RAMTransitionItemAnimations.swift */; };
+		FAA3DAE967FF67C21B6F3F730A9EEB59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BE1AF8CEE8818CBCFD0010AE8BEE51 /* UIKit.framework */; };
+		FDFB10982DFB0AE07FB9571456B05CC7 /* Material-Design-Iconic-Font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2ECEB9DDF892E9B96693C62D245215F6 /* Material-Design-Iconic-Font.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B0E3C2660AF81D24688F404B4B2F84E9 /* PBXContainerItemProxy */ = {
+		0E212A79548AAC6265C4D2F45EAD3879 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E461DB2D021AB241923BAED0DACC4DC6;
+			remoteGlobalIDString = 3BE329A6FA4F57E5848D524326AF7554;
 			remoteInfo = TextFieldEffects;
+		};
+		1C28F947BA589710FCEA19A7FE28261C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8E1DFAA9703A5C068D915A4C272EA21;
+			remoteInfo = FontAwesomeKit;
+		};
+		DF8FEEE895903A1C10AE84C14E6A735E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 626D0A030458E6191AB5B1C389D17CB1;
+			remoteInfo = RAMAnimatedTabBarController;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		008C803C59120436A273DB50612CEC78 /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
+		055D827A4E0928F13F0ED4F2121A40C9 /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
 		0C9947732EEC361C16AE0C2C181670D4 /* Pods-SNSBusinessCards-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SNSBusinessCards-frameworks.sh"; sourceTree = "<group>"; };
-		21059C29D49087D301FA139D8726F631 /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
-		38565F6B1DC573225643D9F2A7505D1A /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
+		0F1E520192DCB4BB3673359F07C82729 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12D09C99B4D6C48E45227ED9820F1353 /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMBounceAnimation.swift; path = RAMAnimatedTabBarController/Animations/BounceAnimation/RAMBounceAnimation.swift; sourceTree = "<group>"; };
+		1448E368A495A0BB83DC05C2984E4707 /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
+		15B5D5F0F7845888C539A94585BDDDDF /* FAKZocial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKZocial.h; path = FontAwesomeKit/FAKZocial.h; sourceTree = "<group>"; };
+		20461B169EE8C91100FB57E54A6AC598 /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
+		27BE1AF8CEE8818CBCFD0010AE8BEE51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2ECEB9DDF892E9B96693C62D245215F6 /* Material-Design-Iconic-Font.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Material-Design-Iconic-Font.ttf"; path = "FontAwesomeKit/Material-Design-Iconic-Font.ttf"; sourceTree = "<group>"; };
+		304A00725BEAC3AB3AC66F230D1695D5 /* FontAwesomeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeKit-umbrella.h"; sourceTree = "<group>"; };
+		350F0077E66B21BDED69168EBF262399 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3557E1006B1A6D667CF4F329C13FC28F /* FAKFoundationIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKFoundationIcons.m; path = FontAwesomeKit/FAKFoundationIcons.m; sourceTree = "<group>"; };
+		3678F7C472B86DB487FBB6FF09B0EAC5 /* FontAwesomeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FontAwesomeKit.framework; path = FontAwesomeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38539EEE44711B036EFDA10CD20099F1 /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
 		40C6E8BF051A276E21405F4D1853475E /* Pods-SNSBusinessCards.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SNSBusinessCards.modulemap"; sourceTree = "<group>"; };
-		44E1C478C66613314778A9E914076019 /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
+		438C33F09E63AD854B88B81B11DA2502 /* FontAwesomeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FontAwesomeKit.modulemap; sourceTree = "<group>"; };
+		4610FEBC9643A9D055A0D79BAC8EAD89 /* Pods_SNSBusinessCards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SNSBusinessCards.framework; path = "Pods-SNSBusinessCards.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F3F1FFD63B6805A530F129740BC7C6 /* Pods-SNSBusinessCards-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SNSBusinessCards-dummy.m"; sourceTree = "<group>"; };
-		4D364D5FF41B3CE8F6D0228FB598EC67 /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
-		4EC4B423B2A9D22E359C9E3CB872549A /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		49FCF48EB5D2DF204737798FDBA820C7 /* FontAwesomeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesomeKit.xcconfig; sourceTree = "<group>"; };
+		4D8B51E2BCF1F660033AFBB98719D3D9 /* FAKZocial.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKZocial.m; path = FontAwesomeKit/FAKZocial.m; sourceTree = "<group>"; };
+		50ACB9D24A45153268D7E7291DEBADA9 /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
+		533543BEF7565733E20AE7CBFCE1AE0C /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
+		551625BDA53EB0E63CE3C1E012A3E236 /* FAKOcticons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKOcticons.m; path = FontAwesomeKit/FAKOcticons.m; sourceTree = "<group>"; };
+		5ABF99FE2667EA486D4EBA97902D6D43 /* FAKFontAwesome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKFontAwesome.h; path = FontAwesomeKit/FAKFontAwesome.h; sourceTree = "<group>"; };
+		5BF7E3428AF5DD695B255B1FB7293138 /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
+		5C6BA63DD9A17FE7695B4D680D2725E5 /* RAMAnimatedTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RAMAnimatedTabBarController.modulemap; sourceTree = "<group>"; };
+		5CD097D7C1A47E96023EE1DC2CBA54B3 /* RAMRotationAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMRotationAnimation.swift; path = RAMAnimatedTabBarController/Animations/RotationAnimation/RAMRotationAnimation.swift; sourceTree = "<group>"; };
+		63C3371D45C4F2FA4B9805E7FAB07403 /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
+		669A6F42AF7C023DD46AC8BAA70B64AD /* FontAwesomeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeKit-prefix.pch"; sourceTree = "<group>"; };
 		67852B0A9354AF2479A039C7CBDCE2F4 /* Pods-SNSBusinessCards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNSBusinessCards.debug.xcconfig"; sourceTree = "<group>"; };
+		6E5A6A3E336D98498B47768E689EF492 /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
+		749912B0E1DD72E625B064A3128C20E6 /* octicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = octicons.ttf; path = FontAwesomeKit/octicons.ttf; sourceTree = "<group>"; };
+		78485EEAA10C1C44850FA671A9DAB3AF /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
 		79021F994F2CCB56A633D68263A5684A /* Pods-SNSBusinessCards-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SNSBusinessCards-umbrella.h"; sourceTree = "<group>"; };
-		7E2B968C1EEF7E892CCABF10335F758B /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TextFieldEffects.framework; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		806E866C8906CF97A0F2102090265347 /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
-		8131792BBEE6A90CF9918BAC65034066 /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
-		86E63D044812E3765F6EDA42828A72C4 /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
-		8C13156D30D470663AD8E2F0122EFC96 /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
-		9133FAE39EB1D9892F29355AB69358DC /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
+		81B32C5CF6D5E88E1721E18D5E90F254 /* RAMAnimatedTabBarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RAMAnimatedTabBarController.xcconfig; sourceTree = "<group>"; };
+		8376C62EE8587347558490953681410B /* RAMItemAnimationProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMItemAnimationProtocol.swift; path = RAMAnimatedTabBarController/RAMItemAnimationProtocol.swift; sourceTree = "<group>"; };
+		8589542D4E4D3B62F0F14D1595D3928E /* FAKIonIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKIonIcons.h; path = FontAwesomeKit/FAKIonIcons.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9773C24029052FBB9C88B362ECD353CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		958A7ED5874B53718752A3A452329670 /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
+		96D1B330E7012800E3B2F4BDA15FD376 /* TextFieldEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldEffects.swift; sourceTree = "<group>"; };
+		9AEE2A903B35F7EACD5C4A107B26E748 /* FAKIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKIcon.m; path = FontAwesomeKit/FAKIcon.m; sourceTree = "<group>"; };
 		9B022641335EDD0CDCEBC5E49540ECDA /* Pods-SNSBusinessCards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNSBusinessCards.release.xcconfig"; sourceTree = "<group>"; };
-		9E02C9C946E587E73CEBC76713796A6F /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
-		A1B985645CADD42277D702523CAFDD1E /* TextFieldEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.xcconfig; sourceTree = "<group>"; };
-		BC2C3490F5194C7714570F38D6D2E481 /* TextFieldEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldEffects.swift; sourceTree = "<group>"; };
+		9EA06482471B9953000C46109481775E /* FontAwesome.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.otf; path = FontAwesomeKit/FontAwesome.otf; sourceTree = "<group>"; };
+		A21DC9E974082CEC509AE322614FADDE /* FAKFoundationIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKFoundationIcons.h; path = FontAwesomeKit/FAKFoundationIcons.h; sourceTree = "<group>"; };
+		A3544DF05A3E475AF9F4D049D929B6DC /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TextFieldEffects.framework; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4257E5C8426805D78CF48B66A982D6A /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
+		A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		AAF0E40281502AD98F46CCE70DA43C69 /* FAKOcticons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKOcticons.h; path = FontAwesomeKit/FAKOcticons.h; sourceTree = "<group>"; };
+		B55C43097DD8A3CA0C0DD3A07437002D /* RAMTransitionItemAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMTransitionItemAnimations.swift; path = RAMAnimatedTabBarController/Animations/TransitionAniamtions/RAMTransitionItemAnimations.swift; sourceTree = "<group>"; };
+		B565A3A0A7E483FFD08BFCBE8B27F358 /* FAKMaterialIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKMaterialIcons.h; path = FontAwesomeKit/FAKMaterialIcons.h; sourceTree = "<group>"; };
+		B606B2F760DB3BE193B4F8ED4BA02377 /* RAMAnimatedTabBarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAMAnimatedTabBarController-umbrella.h"; sourceTree = "<group>"; };
+		B880161E0A52B3B364206840437D117D /* zocial-regular-webfont.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "zocial-regular-webfont.ttf"; path = "FontAwesomeKit/zocial-regular-webfont.ttf"; sourceTree = "<group>"; };
+		C55C580E1FC5B6E9F442FE42A9553FEA /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		C63E0A34DE669E295AD7EB9C78C783FB /* FontAwesomeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesomeKit-dummy.m"; sourceTree = "<group>"; };
+		C804B2243CEE6827269060D13AB92DF3 /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
+		C993B50BDA1DC5C87167C0E608BBBF4D /* FAKFontAwesome.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKFontAwesome.m; path = FontAwesomeKit/FAKFontAwesome.m; sourceTree = "<group>"; };
+		CBC07F1A99302E00AAAD9833E110DF44 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1536DE41DC7D7F23A7A5BF93C7CC0D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D49B75FDCA45D1745FAB3287CB7DDEC3 /* RAMAnimatedTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RAMAnimatedTabBarController.framework; path = RAMAnimatedTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D723CB096F87F316BBCCB76033F7A15C /* Pods-SNSBusinessCards-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SNSBusinessCards-resources.sh"; sourceTree = "<group>"; };
-		E6472965B50FB550F1E374D7B33A9D5F /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
+		D7BBDBB0F93307DA115BFD9039731D55 /* foundation-icons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "foundation-icons.ttf"; path = "FontAwesomeKit/foundation-icons.ttf"; sourceTree = "<group>"; };
+		D7F7289291AE601FF2EFE6076CB2564C /* TextFieldEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.xcconfig; sourceTree = "<group>"; };
+		DE54FFE3B8B7261228B3C2871CBA72CF /* RAMAnimatedTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RAMAnimatedTabBarController-dummy.m"; sourceTree = "<group>"; };
+		DECEDA2A5B9C60CE11F32A25947BEFD0 /* RAMAnimatedTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAMAnimatedTabBarController-prefix.pch"; sourceTree = "<group>"; };
+		E64C5974AB86435FA8C5DCD6FC09F627 /* RAMFrameItemAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMFrameItemAnimation.swift; path = RAMAnimatedTabBarController/Animations/FrameAnimation/RAMFrameItemAnimation.swift; sourceTree = "<group>"; };
+		E6B51E443C281C65EB849E2D3C1029C0 /* FAKIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKIcon.h; path = FontAwesomeKit/FAKIcon.h; sourceTree = "<group>"; };
+		EA176DB3839AA16A0823CBFD51D86CEA /* FAKIonIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKIonIcons.m; path = FontAwesomeKit/FAKIonIcons.m; sourceTree = "<group>"; };
 		ECA20E65782FB9F5141F0736FF479C94 /* Pods-SNSBusinessCards-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SNSBusinessCards-acknowledgements.plist"; sourceTree = "<group>"; };
-		ECC6FB7075B3B3E6F039C0A8BA23F0AE /* Pods_SNSBusinessCards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SNSBusinessCards.framework; path = "Pods-SNSBusinessCards.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEEC2E731DA39C8F6255AE5213D0A662 /* RAMBadge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMBadge.swift; path = RAMAnimatedTabBarController/RAMBadge/RAMBadge.swift; sourceTree = "<group>"; };
+		F42E430E85E677AB4F221BBCDFB3A213 /* RAMFumeAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMFumeAnimation.swift; path = RAMAnimatedTabBarController/Animations/FumeAnimation/RAMFumeAnimation.swift; sourceTree = "<group>"; };
+		F5CC72B7CFCA0C8C9FD1F7397A9B8E57 /* FontAwesomeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FontAwesomeKit.h; path = FontAwesomeKit/FontAwesomeKit.h; sourceTree = "<group>"; };
+		F7138C2DA0E36040D45175A36C37226D /* FAKMaterialIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKMaterialIcons.m; path = FontAwesomeKit/FAKMaterialIcons.m; sourceTree = "<group>"; };
+		F744D5B65AA9460525E1A395E35BBC0A /* RAMAnimatedTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMAnimatedTabBarController.swift; path = RAMAnimatedTabBarController/RAMAnimatedTabBarController.swift; sourceTree = "<group>"; };
+		FB767A92D62014A2A0912FAC38D5C15E /* ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = ionicons.ttf; path = FontAwesomeKit/ionicons.ttf; sourceTree = "<group>"; };
 		FE635BE5B0B1E1FE3F1658DEFBC3B801 /* Pods-SNSBusinessCards-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SNSBusinessCards-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		04847D86D33CBB511499E0A3FE340EE2 /* Frameworks */ = {
+		8501462497975B6EFFE9E8FF266B725C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D020115146B3E6D378F93B5017F850C4 /* Foundation.framework in Frameworks */,
+				2166C0EC39F6BB2B691B380B539FE8AD /* CoreText.framework in Frameworks */,
+				B98B26D76E50DE44887EDA3096028C46 /* Foundation.framework in Frameworks */,
+				FAA3DAE967FF67C21B6F3F730A9EEB59 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC8088905F08BACA2D2D3113E267FF64 /* Frameworks */ = {
+		A3FF119F81A01E1B1C371874B0453497 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4649AC369C72297372CB378352FDF76F /* Foundation.framework in Frameworks */,
+				93FC15C234BF17B0046EAA4857BA943B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1F6B0D3C2407A27F0F57D5C76E8C9BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BE10979DDDA1449072E5D710ED7596 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB5308CA59A3FA6903B211AECE9EA6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D98051B36334AE938F6B35ACF33025 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0886DF59C26D74FEC40625067FDEB830 /* Support Files */ = {
+		0937A99829984D8C4B44C1670A6EDB3E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9773C24029052FBB9C88B362ECD353CC /* Info.plist */,
-				9E02C9C946E587E73CEBC76713796A6F /* TextFieldEffects.modulemap */,
-				A1B985645CADD42277D702523CAFDD1E /* TextFieldEffects.xcconfig */,
-				008C803C59120436A273DB50612CEC78 /* TextFieldEffects-dummy.m */,
-				806E866C8906CF97A0F2102090265347 /* TextFieldEffects-prefix.pch */,
-				4D364D5FF41B3CE8F6D0228FB598EC67 /* TextFieldEffects-umbrella.h */,
+				749912B0E1DD72E625B064A3128C20E6 /* octicons.ttf */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/TextFieldEffects";
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		10690183D226E2B51F4D6D7E4CAC8E04 /* Targets Support Files */ = {
@@ -108,6 +216,59 @@
 				429633E15DE7C72B0ACD9968E8F3256F /* Pods-SNSBusinessCards */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF1CA95E532A8F990E19506982FA04EE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D823D7B8FB8FFCC74D05100054BA686 /* FoundationIcons */ = {
+			isa = PBXGroup;
+			children = (
+				A21DC9E974082CEC509AE322614FADDE /* FAKFoundationIcons.h */,
+				3557E1006B1A6D667CF4F329C13FC28F /* FAKFoundationIcons.m */,
+				2BBE5C388060C5A7148DD15AA618860C /* Resources */,
+			);
+			name = FoundationIcons;
+			sourceTree = "<group>";
+		};
+		235D1932C6C10220BD4B53437F52D8F2 /* RAMAnimatedTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				F744D5B65AA9460525E1A395E35BBC0A /* RAMAnimatedTabBarController.swift */,
+				EEEC2E731DA39C8F6255AE5213D0A662 /* RAMBadge.swift */,
+				12D09C99B4D6C48E45227ED9820F1353 /* RAMBounceAnimation.swift */,
+				E64C5974AB86435FA8C5DCD6FC09F627 /* RAMFrameItemAnimation.swift */,
+				F42E430E85E677AB4F221BBCDFB3A213 /* RAMFumeAnimation.swift */,
+				8376C62EE8587347558490953681410B /* RAMItemAnimationProtocol.swift */,
+				5CD097D7C1A47E96023EE1DC2CBA54B3 /* RAMRotationAnimation.swift */,
+				B55C43097DD8A3CA0C0DD3A07437002D /* RAMTransitionItemAnimations.swift */,
+				76EE1E2A0B264BE73BE0BB1532E3A66F /* Support Files */,
+			);
+			name = RAMAnimatedTabBarController;
+			path = RAMAnimatedTabBarController;
+			sourceTree = "<group>";
+		};
+		2BBE5C388060C5A7148DD15AA618860C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D7BBDBB0F93307DA115BFD9039731D55 /* foundation-icons.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2EF55D8063FD78C5D806D461256B3029 /* Octicons */ = {
+			isa = PBXGroup;
+			children = (
+				AAF0E40281502AD98F46CCE70DA43C69 /* FAKOcticons.h */,
+				551625BDA53EB0E63CE3C1E012A3E236 /* FAKOcticons.m */,
+				0937A99829984D8C4B44C1670A6EDB3E /* Resources */,
+			);
+			name = Octicons;
 			sourceTree = "<group>";
 		};
 		429633E15DE7C72B0ACD9968E8F3256F /* Pods-SNSBusinessCards */ = {
@@ -128,116 +289,280 @@
 			path = "Target Support Files/Pods-SNSBusinessCards";
 			sourceTree = "<group>";
 		};
-		55EDCE76AA05D63B893FD4328BFE3F6B /* TextFieldEffects */ = {
+		666EEFD4FFAB96F3456313E467685117 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8131792BBEE6A90CF9918BAC65034066 /* AkiraTextField.swift */,
-				44E1C478C66613314778A9E914076019 /* HoshiTextField.swift */,
-				E6472965B50FB550F1E374D7B33A9D5F /* IsaoTextField.swift */,
-				4EC4B423B2A9D22E359C9E3CB872549A /* JiroTextField.swift */,
-				38565F6B1DC573225643D9F2A7505D1A /* KaedeTextField.swift */,
-				8C13156D30D470663AD8E2F0122EFC96 /* MadokaTextField.swift */,
-				9133FAE39EB1D9892F29355AB69358DC /* MinoruTextField.swift */,
-				BC2C3490F5194C7714570F38D6D2E481 /* TextFieldEffects.swift */,
-				21059C29D49087D301FA139D8726F631 /* YokoTextField.swift */,
-				86E63D044812E3765F6EDA42828A72C4 /* YoshikoTextField.swift */,
-				0886DF59C26D74FEC40625067FDEB830 /* Support Files */,
+				9EA06482471B9953000C46109481775E /* FontAwesome.otf */,
 			);
-			name = TextFieldEffects;
-			path = TextFieldEffects;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		76EE1E2A0B264BE73BE0BB1532E3A66F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBC07F1A99302E00AAAD9833E110DF44 /* Info.plist */,
+				5C6BA63DD9A17FE7695B4D680D2725E5 /* RAMAnimatedTabBarController.modulemap */,
+				81B32C5CF6D5E88E1721E18D5E90F254 /* RAMAnimatedTabBarController.xcconfig */,
+				DE54FFE3B8B7261228B3C2871CBA72CF /* RAMAnimatedTabBarController-dummy.m */,
+				DECEDA2A5B9C60CE11F32A25947BEFD0 /* RAMAnimatedTabBarController-prefix.pch */,
+				B606B2F760DB3BE193B4F8ED4BA02377 /* RAMAnimatedTabBarController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RAMAnimatedTabBarController";
+			sourceTree = "<group>";
+		};
+		7751941A1B0B99A86358D89A1DE6A708 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B880161E0A52B3B364206840437D117D /* zocial-regular-webfont.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				FB9A7A6FC3D2FEAD2BDF6ABD4DDE0449 /* Pods */,
-				CA0416CDEB4F9711202CCD1144F60C40 /* Products */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				FA90C1913324181D3A69F100EA3E7F92 /* Pods */,
+				FE2F8A7877A31D2E38D4F3E78542CDBD /* Products */,
 				10690183D226E2B51F4D6D7E4CAC8E04 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		844AD5638AFA86593709F215F9EBF527 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				FB767A92D62014A2A0912FAC38D5C15E /* ionicons.ttf */,
 			);
-			name = Frameworks;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		CA0416CDEB4F9711202CCD1144F60C40 /* Products */ = {
+		8CC995EB0C742D658BF1AB5E569F5083 /* FontAwesomeKit */ = {
 			isa = PBXGroup;
 			children = (
-				ECC6FB7075B3B3E6F039C0A8BA23F0AE /* Pods_SNSBusinessCards.framework */,
-				7E2B968C1EEF7E892CCABF10335F758B /* TextFieldEffects.framework */,
+				F5CC72B7CFCA0C8C9FD1F7397A9B8E57 /* FontAwesomeKit.h */,
+				DD56D55E8551A5F621866A46C1D8DE9C /* Core */,
+				FE6C385A7F0A87FE80E2D1D24DA5876E /* FontAwesome */,
+				1D823D7B8FB8FFCC74D05100054BA686 /* FoundationIcons */,
+				D3FC0531D6DDBBCA848D537C6530A835 /* IonIcons */,
+				D3D865CAC2EA0EED652ED9EE682FB2E3 /* Material */,
+				2EF55D8063FD78C5D806D461256B3029 /* Octicons */,
+				B7EF61E5D0050065B5B2E51B25B10708 /* Support Files */,
+				A842C1805B26A035F2E73FF5315776F3 /* Zocial */,
+			);
+			name = FontAwesomeKit;
+			path = FontAwesomeKit;
+			sourceTree = "<group>";
+		};
+		A842C1805B26A035F2E73FF5315776F3 /* Zocial */ = {
+			isa = PBXGroup;
+			children = (
+				15B5D5F0F7845888C539A94585BDDDDF /* FAKZocial.h */,
+				4D8B51E2BCF1F660033AFBB98719D3D9 /* FAKZocial.m */,
+				7751941A1B0B99A86358D89A1DE6A708 /* Resources */,
+			);
+			name = Zocial;
+			sourceTree = "<group>";
+		};
+		A990BD3103454EDDD5FB75516813CF53 /* TextFieldEffects */ = {
+			isa = PBXGroup;
+			children = (
+				C804B2243CEE6827269060D13AB92DF3 /* AkiraTextField.swift */,
+				63C3371D45C4F2FA4B9805E7FAB07403 /* HoshiTextField.swift */,
+				5BF7E3428AF5DD695B255B1FB7293138 /* IsaoTextField.swift */,
+				958A7ED5874B53718752A3A452329670 /* JiroTextField.swift */,
+				6E5A6A3E336D98498B47768E689EF492 /* KaedeTextField.swift */,
+				78485EEAA10C1C44850FA671A9DAB3AF /* MadokaTextField.swift */,
+				38539EEE44711B036EFDA10CD20099F1 /* MinoruTextField.swift */,
+				96D1B330E7012800E3B2F4BDA15FD376 /* TextFieldEffects.swift */,
+				20461B169EE8C91100FB57E54A6AC598 /* YokoTextField.swift */,
+				533543BEF7565733E20AE7CBFCE1AE0C /* YoshikoTextField.swift */,
+				EE85415FA465965454AB50DA2006A8BC /* Support Files */,
+			);
+			name = TextFieldEffects;
+			path = TextFieldEffects;
+			sourceTree = "<group>";
+		};
+		B7EF61E5D0050065B5B2E51B25B10708 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				438C33F09E63AD854B88B81B11DA2502 /* FontAwesomeKit.modulemap */,
+				49FCF48EB5D2DF204737798FDBA820C7 /* FontAwesomeKit.xcconfig */,
+				C63E0A34DE669E295AD7EB9C78C783FB /* FontAwesomeKit-dummy.m */,
+				669A6F42AF7C023DD46AC8BAA70B64AD /* FontAwesomeKit-prefix.pch */,
+				304A00725BEAC3AB3AC66F230D1695D5 /* FontAwesomeKit-umbrella.h */,
+				0F1E520192DCB4BB3673359F07C82729 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FontAwesomeKit";
+			sourceTree = "<group>";
+		};
+		D3D865CAC2EA0EED652ED9EE682FB2E3 /* Material */ = {
+			isa = PBXGroup;
+			children = (
+				B565A3A0A7E483FFD08BFCBE8B27F358 /* FAKMaterialIcons.h */,
+				F7138C2DA0E36040D45175A36C37226D /* FAKMaterialIcons.m */,
+				E118941FA98FAE5F989C1CAF1EF6A14B /* Resources */,
+			);
+			name = Material;
+			sourceTree = "<group>";
+		};
+		D3FC0531D6DDBBCA848D537C6530A835 /* IonIcons */ = {
+			isa = PBXGroup;
+			children = (
+				8589542D4E4D3B62F0F14D1595D3928E /* FAKIonIcons.h */,
+				EA176DB3839AA16A0823CBFD51D86CEA /* FAKIonIcons.m */,
+				844AD5638AFA86593709F215F9EBF527 /* Resources */,
+			);
+			name = IonIcons;
+			sourceTree = "<group>";
+		};
+		DD56D55E8551A5F621866A46C1D8DE9C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E6B51E443C281C65EB849E2D3C1029C0 /* FAKIcon.h */,
+				9AEE2A903B35F7EACD5C4A107B26E748 /* FAKIcon.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		E118941FA98FAE5F989C1CAF1EF6A14B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2ECEB9DDF892E9B96693C62D245215F6 /* Material-Design-Iconic-Font.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EE85415FA465965454AB50DA2006A8BC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				350F0077E66B21BDED69168EBF262399 /* Info.plist */,
+				A4257E5C8426805D78CF48B66A982D6A /* TextFieldEffects.modulemap */,
+				D7F7289291AE601FF2EFE6076CB2564C /* TextFieldEffects.xcconfig */,
+				50ACB9D24A45153268D7E7291DEBADA9 /* TextFieldEffects-dummy.m */,
+				1448E368A495A0BB83DC05C2984E4707 /* TextFieldEffects-prefix.pch */,
+				055D827A4E0928F13F0ED4F2121A40C9 /* TextFieldEffects-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TextFieldEffects";
+			sourceTree = "<group>";
+		};
+		FA90C1913324181D3A69F100EA3E7F92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CC995EB0C742D658BF1AB5E569F5083 /* FontAwesomeKit */,
+				235D1932C6C10220BD4B53437F52D8F2 /* RAMAnimatedTabBarController */,
+				A990BD3103454EDDD5FB75516813CF53 /* TextFieldEffects */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FE2F8A7877A31D2E38D4F3E78542CDBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3678F7C472B86DB487FBB6FF09B0EAC5 /* FontAwesomeKit.framework */,
+				4610FEBC9643A9D055A0D79BAC8EAD89 /* Pods_SNSBusinessCards.framework */,
+				D49B75FDCA45D1745FAB3287CB7DDEC3 /* RAMAnimatedTabBarController.framework */,
+				A3544DF05A3E475AF9F4D049D929B6DC /* TextFieldEffects.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		FE6C385A7F0A87FE80E2D1D24DA5876E /* FontAwesome */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				5ABF99FE2667EA486D4EBA97902D6D43 /* FAKFontAwesome.h */,
+				C993B50BDA1DC5C87167C0E608BBBF4D /* FAKFontAwesome.m */,
+				666EEFD4FFAB96F3456313E467685117 /* Resources */,
 			);
-			name = iOS;
+			name = FontAwesome;
 			sourceTree = "<group>";
 		};
-		FB9A7A6FC3D2FEAD2BDF6ABD4DDE0449 /* Pods */ = {
+		FF1CA95E532A8F990E19506982FA04EE /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				55EDCE76AA05D63B893FD4328BFE3F6B /* TextFieldEffects */,
+				C55C580E1FC5B6E9F442FE42A9553FEA /* CoreText.framework */,
+				A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */,
+				27BE1AF8CEE8818CBCFD0010AE8BEE51 /* UIKit.framework */,
 			);
-			name = Pods;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3A7D9E919D0CB68E3C38F9AFC77D24D6 /* Headers */ = {
+		7B50FA4406BD898FF03C1FC4333DBAA1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAD5F43DE634B528A12C84692B6F25A7 /* Pods-SNSBusinessCards-umbrella.h in Headers */,
+				8B7FA4ECCF190B7E0D291D24B94F3F56 /* TextFieldEffects-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		70F55FCA80718F8F350618FBB0DC457C /* Headers */ = {
+		8FF933365F7C3E1F06DEC61034BEA127 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E84CDA2CDA97DF1976A919279974012 /* TextFieldEffects-umbrella.h in Headers */,
+				5093F84F27DF70B22CA692D3485AF2DB /* FAKFontAwesome.h in Headers */,
+				70644D2FAACDCB954D268086F220F534 /* FAKFoundationIcons.h in Headers */,
+				3964A2B00BB8619003961BD7D3BD1AF1 /* FAKIcon.h in Headers */,
+				D26832C96E013704F116A04D12D9B10D /* FAKIonIcons.h in Headers */,
+				8267189738A27E9FB0B3B61F0B2C84CA /* FAKMaterialIcons.h in Headers */,
+				1872CD2DA576F188DAFBE6CCA3EC4DCF /* FAKOcticons.h in Headers */,
+				332E15E9E986025C0150030E720D976A /* FAKZocial.h in Headers */,
+				99D62A3C6928E8C7BD61E2C98E5A360F /* FontAwesomeKit-umbrella.h in Headers */,
+				9BF8930E69FAFBCFCA70563E4775913F /* FontAwesomeKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4AEEF38E10A761A6D67A6699DB41B7A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9725563C2AEE1687840A7F5E61719B20 /* RAMAnimatedTabBarController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E93FE673F38384CF97A9F3F143E45A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587B4579C6B7641EF8076185B9AB0035 /* Pods-SNSBusinessCards-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		098ABA856A68A4BA1B1EB2D120A2847B /* Pods-SNSBusinessCards */ = {
+		29631F1059DBACAD166424FA8151A25B /* Pods-SNSBusinessCards */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36C46E138D70DDD9D8FFEB9C8FCA090B /* Build configuration list for PBXNativeTarget "Pods-SNSBusinessCards" */;
+			buildConfigurationList = 5405065CBA0F749468BB7042C9535867 /* Build configuration list for PBXNativeTarget "Pods-SNSBusinessCards" */;
 			buildPhases = (
-				B000A5F5E69B107DAEB0113E22B0A610 /* Sources */,
-				AC8088905F08BACA2D2D3113E267FF64 /* Frameworks */,
-				3A7D9E919D0CB68E3C38F9AFC77D24D6 /* Headers */,
+				EAD0D5C645F28487869E5F076A4F3823 /* Sources */,
+				B1F6B0D3C2407A27F0F57D5C76E8C9BD /* Frameworks */,
+				F2E93FE673F38384CF97A9F3F143E45A /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				071BDAC9763B41C6D74A3D8C6A85C4CA /* PBXTargetDependency */,
+				6EA9EB8C714590A1799DD392A8DFB3B0 /* PBXTargetDependency */,
+				6F3382E7BE66AB46793A9EEBB0275BE3 /* PBXTargetDependency */,
+				73613B3A66B5BA75A4286818F95B93E3 /* PBXTargetDependency */,
 			);
 			name = "Pods-SNSBusinessCards";
 			productName = "Pods-SNSBusinessCards";
-			productReference = ECC6FB7075B3B3E6F039C0A8BA23F0AE /* Pods_SNSBusinessCards.framework */;
+			productReference = 4610FEBC9643A9D055A0D79BAC8EAD89 /* Pods_SNSBusinessCards.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E461DB2D021AB241923BAED0DACC4DC6 /* TextFieldEffects */ = {
+		3BE329A6FA4F57E5848D524326AF7554 /* TextFieldEffects */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9002CF94C458765F539CEAB01FF33577 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */;
+			buildConfigurationList = BE6A9F9DE5A901F1DF7CBB8FB7AF5326 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */;
 			buildPhases = (
-				D87A1CE66EC5543CF5227116DDEF8468 /* Sources */,
-				04847D86D33CBB511499E0A3FE340EE2 /* Frameworks */,
-				70F55FCA80718F8F350618FBB0DC457C /* Headers */,
+				F906B5F971215AC3616685724D69D257 /* Sources */,
+				BBB5308CA59A3FA6903B211AECE9EA6E /* Frameworks */,
+				7B50FA4406BD898FF03C1FC4333DBAA1 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -245,7 +570,42 @@
 			);
 			name = TextFieldEffects;
 			productName = TextFieldEffects;
-			productReference = 7E2B968C1EEF7E892CCABF10335F758B /* TextFieldEffects.framework */;
+			productReference = A3544DF05A3E475AF9F4D049D929B6DC /* TextFieldEffects.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		626D0A030458E6191AB5B1C389D17CB1 /* RAMAnimatedTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F9FB0720C616E7FC38CC70B21BF9C0E /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarController" */;
+			buildPhases = (
+				0118F65ED0DC1D1AC5D640B622FDDE79 /* Sources */,
+				A3FF119F81A01E1B1C371874B0453497 /* Frameworks */,
+				C4AEEF38E10A761A6D67A6699DB41B7A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RAMAnimatedTabBarController;
+			productName = RAMAnimatedTabBarController;
+			productReference = D49B75FDCA45D1745FAB3287CB7DDEC3 /* RAMAnimatedTabBarController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A8E1DFAA9703A5C068D915A4C272EA21 /* FontAwesomeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EF0251B435B1FD8A5D405A1E79A639 /* Build configuration list for PBXNativeTarget "FontAwesomeKit" */;
+			buildPhases = (
+				1C11690BF49CDCBB7017548784E319D7 /* Sources */,
+				8501462497975B6EFFE9E8FF266B725C /* Frameworks */,
+				8FF933365F7C3E1F06DEC61034BEA127 /* Headers */,
+				F22AB6CB1A0587A4E4A25F8446D0984F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontAwesomeKit;
+			productName = FontAwesomeKit;
+			productReference = 3678F7C472B86DB487FBB6FF09B0EAC5 /* FontAwesomeKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -265,58 +625,119 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CA0416CDEB4F9711202CCD1144F60C40 /* Products */;
+			productRefGroup = FE2F8A7877A31D2E38D4F3E78542CDBD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				098ABA856A68A4BA1B1EB2D120A2847B /* Pods-SNSBusinessCards */,
-				E461DB2D021AB241923BAED0DACC4DC6 /* TextFieldEffects */,
+				A8E1DFAA9703A5C068D915A4C272EA21 /* FontAwesomeKit */,
+				29631F1059DBACAD166424FA8151A25B /* Pods-SNSBusinessCards */,
+				626D0A030458E6191AB5B1C389D17CB1 /* RAMAnimatedTabBarController */,
+				3BE329A6FA4F57E5848D524326AF7554 /* TextFieldEffects */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-		B000A5F5E69B107DAEB0113E22B0A610 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXResourcesBuildPhase section */
+		F22AB6CB1A0587A4E4A25F8446D0984F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F1C338A321C91B916BE0AAA00E9D13A /* Pods-SNSBusinessCards-dummy.m in Sources */,
+				61FA9EF01CB62B6F8F33C42E50CAF536 /* FontAwesome.otf in Resources */,
+				1769170427A6B5C9688007764866EDDA /* foundation-icons.ttf in Resources */,
+				A6D1C9304CF49244EB5D99A69971A8EE /* ionicons.ttf in Resources */,
+				FDFB10982DFB0AE07FB9571456B05CC7 /* Material-Design-Iconic-Font.ttf in Resources */,
+				0281A099B6DF240CD72EE130618B1B0F /* octicons.ttf in Resources */,
+				6A72C8E44A0E2774C76D073F982E117F /* zocial-regular-webfont.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D87A1CE66EC5543CF5227116DDEF8468 /* Sources */ = {
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0118F65ED0DC1D1AC5D640B622FDDE79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5B895D79C7970E63DE997A85CE85D0B /* AkiraTextField.swift in Sources */,
-				06BC3362ED9ABE710BA744A003966A25 /* HoshiTextField.swift in Sources */,
-				B90580E0E43F27D28B246D26ABA42080 /* IsaoTextField.swift in Sources */,
-				5365E2A909E32AB51C0251EAE0E04A70 /* JiroTextField.swift in Sources */,
-				6C6939EF0CAC70D1FAF81E210F0D89DA /* KaedeTextField.swift in Sources */,
-				767A23A027F99BEDDE3E7E21F466B35B /* MadokaTextField.swift in Sources */,
-				076FACCED154272769F73E8CE4941932 /* MinoruTextField.swift in Sources */,
-				8CEE239EE83B904773D5EAB654B3863C /* TextFieldEffects-dummy.m in Sources */,
-				553CCA15C35AF3DDB9E8C07FA4BD2BD4 /* TextFieldEffects.swift in Sources */,
-				64693E2C905C9D73F96E2CD5AE80793E /* YokoTextField.swift in Sources */,
-				1EA14C38F4E33966AC014A6AE36822B9 /* YoshikoTextField.swift in Sources */,
+				639C4AECF710FD113F4CBCCBB3602DC6 /* RAMAnimatedTabBarController-dummy.m in Sources */,
+				F3D5C5CC4CD812699F9921AC90CFA2A3 /* RAMAnimatedTabBarController.swift in Sources */,
+				16C233CACC4EC8E127E2D7C3B583CB12 /* RAMBadge.swift in Sources */,
+				A7BC09314467DF874C03B88C326FC039 /* RAMBounceAnimation.swift in Sources */,
+				130A29BFC06CD3D6B89A164915039276 /* RAMFrameItemAnimation.swift in Sources */,
+				2A1B30AF73791C92C21A02EBA9B3EEB7 /* RAMFumeAnimation.swift in Sources */,
+				0664858BE3BEB63562A554CA51FA5208 /* RAMItemAnimationProtocol.swift in Sources */,
+				1910E3E78B66F32FE33C3200EF6C8B88 /* RAMRotationAnimation.swift in Sources */,
+				FA700B17895CF8819CD5E3DA04308999 /* RAMTransitionItemAnimations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C11690BF49CDCBB7017548784E319D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				113902E55762062A2D48B56D8DAA0532 /* FAKFontAwesome.m in Sources */,
+				4B7E574AEF9BAB8E643CCBA149E8A85F /* FAKFoundationIcons.m in Sources */,
+				37DA891DDA5E91349A6E7CEF0465CC51 /* FAKIcon.m in Sources */,
+				6B3C2778C40F244D98903E993A211EB5 /* FAKIonIcons.m in Sources */,
+				BB377AC3B7923B0182478FB34EAAC42D /* FAKMaterialIcons.m in Sources */,
+				5832280486E1376CBD13F70A8C6F02C6 /* FAKOcticons.m in Sources */,
+				D327632C06E3B012E8956FFC6A4219EB /* FAKZocial.m in Sources */,
+				C7DA2447575E683C18E8A452A886B85C /* FontAwesomeKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD0D5C645F28487869E5F076A4F3823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FF5315FCDBE4415DEB1F6730B9BF5B /* Pods-SNSBusinessCards-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F906B5F971215AC3616685724D69D257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E6FB4C3492D8DD24A24C4AD81BD51A /* AkiraTextField.swift in Sources */,
+				57E0CE5DA556E9A8483716C31D3843B2 /* HoshiTextField.swift in Sources */,
+				275893AE5F06D05536598EF74DC8E6D0 /* IsaoTextField.swift in Sources */,
+				52C3E135A4F8F37E9E48AB170202A48C /* JiroTextField.swift in Sources */,
+				52341315AD29A2716D4D91C66FD62217 /* KaedeTextField.swift in Sources */,
+				8513E85651B03831741DAFEED07E724A /* MadokaTextField.swift in Sources */,
+				43C289029D31E1097802878C9DABBDEA /* MinoruTextField.swift in Sources */,
+				B9847B8C3E705EC7EAF58C2BFCCB350A /* TextFieldEffects-dummy.m in Sources */,
+				594AFFA9CEB1776FA1C853281ADB3D0B /* TextFieldEffects.swift in Sources */,
+				BE1B2D29DB7A92DD4B3F561F4A479832 /* YokoTextField.swift in Sources */,
+				67B08EEBFAF69578EE180330B6ADE064 /* YoshikoTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		071BDAC9763B41C6D74A3D8C6A85C4CA /* PBXTargetDependency */ = {
+		6EA9EB8C714590A1799DD392A8DFB3B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FontAwesomeKit;
+			target = A8E1DFAA9703A5C068D915A4C272EA21 /* FontAwesomeKit */;
+			targetProxy = 1C28F947BA589710FCEA19A7FE28261C /* PBXContainerItemProxy */;
+		};
+		6F3382E7BE66AB46793A9EEBB0275BE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RAMAnimatedTabBarController;
+			target = 626D0A030458E6191AB5B1C389D17CB1 /* RAMAnimatedTabBarController */;
+			targetProxy = DF8FEEE895903A1C10AE84C14E6A735E /* PBXContainerItemProxy */;
+		};
+		73613B3A66B5BA75A4286818F95B93E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TextFieldEffects;
-			target = E461DB2D021AB241923BAED0DACC4DC6 /* TextFieldEffects */;
-			targetProxy = B0E3C2660AF81D24688F404B4B2F84E9 /* PBXContainerItemProxy */;
+			target = 3BE329A6FA4F57E5848D524326AF7554 /* TextFieldEffects */;
+			targetProxy = 0E212A79548AAC6265C4D2F45EAD3879 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4E7AB34870791131C690A3D762B4E727 /* Debug */ = {
+		3FB72244F4654D19CF111827E1B68935 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1B985645CADD42277D702523CAFDD1E /* TextFieldEffects.xcconfig */;
+			baseConfigurationReference = D7F7289291AE601FF2EFE6076CB2564C /* TextFieldEffects.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -349,43 +770,74 @@
 			};
 			name = Debug;
 		};
-		5CBC9607AF9D80CA1D6D5AF8DC0C6081 /* Release */ = {
+		54161ED3FC652A1A4125D0A0E0197EB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B022641335EDD0CDCEBC5E49540ECDA /* Pods-SNSBusinessCards.release.xcconfig */;
+			baseConfigurationReference = 81B32C5CF6D5E88E1721E18D5E90F254 /* RAMAnimatedTabBarController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SNSBusinessCards/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RAMAnimatedTabBarController/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SNSBusinessCards/Pods-SNSBusinessCards.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SNSBusinessCards;
+				MODULEMAP_FILE = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RAMAnimatedTabBarController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
+		};
+		897C54121A03461249DF5C5A6A128FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49FCF48EB5D2DF204737798FDBA820C7 /* FontAwesomeKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesomeKit/FontAwesomeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FontAwesomeKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FontAwesomeKit/FontAwesomeKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FontAwesomeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		97803B46811A9BDB5E70FA1303AFBFFE /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -436,7 +888,45 @@
 			};
 			name = Debug;
 		};
-		B642822ABF809822776756895B3CD794 /* Debug */ = {
+		9FA2EE2E1C014308468DC4B3B4637044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B022641335EDD0CDCEBC5E49540ECDA /* Pods-SNSBusinessCards.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SNSBusinessCards/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SNSBusinessCards/Pods-SNSBusinessCards.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SNSBusinessCards;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9FA5DD43B7DDAC0D1B484225ED485D4E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 67852B0A9354AF2479A039C7CBDCE2F4 /* Pods-SNSBusinessCards.debug.xcconfig */;
 			buildSettings = {
@@ -474,41 +964,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		B8A5FF9CB475CBB57DEF88D38098CF44 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1B985645CADD42277D702523CAFDD1E /* TextFieldEffects.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = TextFieldEffects;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -554,9 +1009,122 @@
 			};
 			name = Release;
 		};
+		D737D9FF4FDC09D554B2D006523161F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7F7289291AE601FF2EFE6076CB2564C /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E0E88733E53E2E7688DA0015B44EB856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81B32C5CF6D5E88E1721E18D5E90F254 /* RAMAnimatedTabBarController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RAMAnimatedTabBarController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RAMAnimatedTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EC1AE99970EAFE23526183C4C73835AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49FCF48EB5D2DF204737798FDBA820C7 /* FontAwesomeKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesomeKit/FontAwesomeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FontAwesomeKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FontAwesomeKit/FontAwesomeKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FontAwesomeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		04EF0251B435B1FD8A5D405A1E79A639 /* Build configuration list for PBXNativeTarget "FontAwesomeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				897C54121A03461249DF5C5A6A128FDC /* Debug */,
+				EC1AE99970EAFE23526183C4C73835AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -566,20 +1134,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		36C46E138D70DDD9D8FFEB9C8FCA090B /* Build configuration list for PBXNativeTarget "Pods-SNSBusinessCards" */ = {
+		5405065CBA0F749468BB7042C9535867 /* Build configuration list for PBXNativeTarget "Pods-SNSBusinessCards" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B642822ABF809822776756895B3CD794 /* Debug */,
-				5CBC9607AF9D80CA1D6D5AF8DC0C6081 /* Release */,
+				9FA5DD43B7DDAC0D1B484225ED485D4E /* Debug */,
+				9FA2EE2E1C014308468DC4B3B4637044 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9002CF94C458765F539CEAB01FF33577 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
+		7F9FB0720C616E7FC38CC70B21BF9C0E /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E7AB34870791131C690A3D762B4E727 /* Debug */,
-				B8A5FF9CB475CBB57DEF88D38098CF44 /* Release */,
+				54161ED3FC652A1A4125D0A0E0197EB6 /* Debug */,
+				E0E88733E53E2E7688DA0015B44EB856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE6A9F9DE5A901F1DF7CBB8FB7AF5326 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB72244F4654D19CF111827E1B68935 /* Debug */,
+				D737D9FF4FDC09D554B2D006523161F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
