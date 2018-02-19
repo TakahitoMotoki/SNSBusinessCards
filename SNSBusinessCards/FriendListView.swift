@@ -10,14 +10,15 @@ import Foundation
 import UIKit
 import FontAwesomeKit
 
-// MARK: My Colors Start
+// MARK: - My Colors Start
 let MY_PURPLE = UIColor(red: 200.0 / 255.0, green: 0.0 / 255.0, blue: 200.0 / 255.0, alpha: 1.0)
 let MY_YELLOW = UIColor(red: 255.0 / 255.0, green: 255.0 / 255.0, blue: 0.0 / 255.0, alpha: 0.9)
-// MARK: My Colors End
+// MARK: - My Colors End
 
 class FriendListView: UIView {
     var friendLabel: UILabel
     let addButton: UIButton
+    let searchBar: UISearchBar
     var tableView: UITableView
     let NATIVE_BOUND_SIZE = UIScreen.main.bounds.size
     
@@ -28,18 +29,19 @@ class FriendListView: UIView {
     required init(model: FriendListViewModel) {
         friendLabel = UILabel(frame: CGRect(x: NATIVE_BOUND_SIZE.width / 2 - 100, y: 18, width: 200, height: 44))
         addButton = UIButton()
+        searchBar = UISearchBar()
         tableView = UITableView(frame: CGRect(x: 0, y: 70, width: NATIVE_BOUND_SIZE.width , height: NATIVE_BOUND_SIZE.height - 100), style: .plain)
         super.init(frame: CGRect(x: 0, y: 0, width: 0, height: 0))
         
-        // MARK: friendLabel Start
+        // MARK: - friendLabel Start
         friendLabel.textAlignment = .center
         friendLabel.font = UIFont(name: "Gurmukhi MN", size: 22)
         friendLabel.text = "Friend: 100"
         friendLabel.textColor = MY_PURPLE
         self.addSubview(friendLabel)
-        // MARK: friendLabel End
+        // MARK: - friendLabel End
 
-        // MARK: addButton Start
+        // MARK: - addButton Start
         let buttonFontImage = FAKFontAwesome.userIcon(withSize: 32.0)
         buttonFontImage?.addAttribute(NSAttributedStringKey.foregroundColor.rawValue, value: UIColor.white)
         let buttonImage = buttonFontImage?.image(with: CGSize(width: 32.0, height: 32.0))
@@ -53,14 +55,25 @@ class FriendListView: UIView {
         addButton.topAnchor.constraint(equalTo: self.topAnchor, constant: 25.0).isActive = true
         addButton.widthAnchor.constraint(equalToConstant: 32.0).isActive = true
         addButton.heightAnchor.constraint(equalToConstant: 32.0).isActive = true
-        // MARK: addButton End
+        // MARK: - addButton End
         
-        // MARK: tableView Start
+        // MARK: - searchBar Start
+        searchBar.frame = CGRect(x: 0, y: 70, width: NATIVE_BOUND_SIZE.width, height: 44)
+        searchBar.searchBarStyle = .default
+        searchBar.backgroundColor = UIColor.white
+        searchBar.barTintColor = UIColor.white
+        searchBar.placeholder = "検索"
+        
+        tableView.tableHeaderView = searchBar
+        // MARK: - searchBar End
+        
+        // MARK: - tableView Start
         self.addSubview(tableView)
-        // MARK: tableView End
+        // MARK: - tableView End
         
-        // Backgrond Color
+        // MARK: - self Start
         self.backgroundColor = MY_YELLOW
+        // MARK: - self End
     }
 }
 
@@ -77,7 +90,7 @@ class FriendListViewCell: UITableViewCell {
         friendName = UILabel()
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         
-        // MARK: friendIcon Start
+        // MARK: - friendIcon Start
         friendIcon.layer.cornerRadius = 22
         // !---   Test Start   ---!
         let buttonFontImage = FAKFontAwesome.userIcon(withSize: 44.0)
@@ -92,9 +105,9 @@ class FriendListViewCell: UITableViewCell {
         friendIcon.heightAnchor.constraint(equalToConstant: 44.0).isActive = true
         friendIcon.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 10.0).isActive = true
         friendIcon.topAnchor.constraint(equalTo: self.topAnchor, constant: 6.0).isActive = true
-        // MARK: friendIcon End
+        // MARK: - friendIcon End
         
-        // MARK: friendName Start
+        // MARK: - friendName Start
         friendName = UILabel()
         friendName.textAlignment = .left
         friendName.font = UIFont(name: "Gurmukhi MN", size: 14)
@@ -107,6 +120,6 @@ class FriendListViewCell: UITableViewCell {
         friendName.heightAnchor.constraint(equalToConstant: 44.0).isActive = true
         friendName.leadingAnchor.constraint(equalTo: self.friendIcon.trailingAnchor, constant: 10.0).isActive = true
         friendName.topAnchor.constraint(equalTo: self.topAnchor, constant: 6.0).isActive = true
-        // MARK: friendName End
+        // MARK: - friendName End
     }
 }

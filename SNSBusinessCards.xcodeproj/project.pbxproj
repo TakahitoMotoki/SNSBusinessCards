@@ -14,6 +14,8 @@
 		CD34FD6D203AD26100B8076B /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD34FD6C203AD26100B8076B /* SettingViewController.swift */; };
 		CD34FD6F203AD26D00B8076B /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD34FD6E203AD26D00B8076B /* SettingViewModel.swift */; };
 		CD34FD71203AD27700B8076B /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD34FD70203AD27700B8076B /* SettingView.swift */; };
+		CD34FD73203AE94C00B8076B /* CreateFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD34FD72203AE94C00B8076B /* CreateFriendViewController.swift */; };
+		CD34FD75203AE95C00B8076B /* CreateFriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD34FD74203AE95C00B8076B /* CreateFriendView.swift */; };
 		CD565D5E203568E3004CD120 /* FriendListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD565D5D203568E3004CD120 /* FriendListView.swift */; };
 		CD565D60203568EF004CD120 /* FriendListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD565D5F203568EF004CD120 /* FriendListViewModel.swift */; };
 		CD6F00682034379B002DA6F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6F00672034379B002DA6F4 /* AppDelegate.swift */; };
@@ -35,6 +37,8 @@
 		CD34FD6C203AD26100B8076B /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		CD34FD6E203AD26D00B8076B /* SettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewModel.swift; sourceTree = "<group>"; };
 		CD34FD70203AD27700B8076B /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		CD34FD72203AE94C00B8076B /* CreateFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFriendViewController.swift; sourceTree = "<group>"; };
+		CD34FD74203AE95C00B8076B /* CreateFriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFriendView.swift; sourceTree = "<group>"; };
 		CD565D5D203568E3004CD120 /* FriendListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListView.swift; sourceTree = "<group>"; };
 		CD565D5F203568EF004CD120 /* FriendListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListViewModel.swift; sourceTree = "<group>"; };
 		CD6F00642034379B002DA6F4 /* SNSBusinessCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNSBusinessCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +106,8 @@
 				CD6F00692034379B002DA6F4 /* FriendListViewController.swift */,
 				CD565D5F203568EF004CD120 /* FriendListViewModel.swift */,
 				CD565D5D203568E3004CD120 /* FriendListView.swift */,
+				CD34FD72203AE94C00B8076B /* CreateFriendViewController.swift */,
+				CD34FD74203AE95C00B8076B /* CreateFriendView.swift */,
 				CD6F006B2034379B002DA6F4 /* SendViewController.swift */,
 				CD34FD68203AD24200B8076B /* SendViewModel.swift */,
 				CD34FD6A203AD25400B8076B /* SendView.swift */,
@@ -251,9 +257,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD34FD73203AE94C00B8076B /* CreateFriendViewController.swift in Sources */,
 				CD6F006C2034379B002DA6F4 /* SendViewController.swift in Sources */,
 				CD565D60203568EF004CD120 /* FriendListViewModel.swift in Sources */,
 				CD34FD6B203AD25400B8076B /* SendView.swift in Sources */,
+				CD34FD75203AE95C00B8076B /* CreateFriendView.swift in Sources */,
 				CD7C45D220343D5A0091CE61 /* FriendModel.xcdatamodeld in Sources */,
 				CD34FD67203ACC2100B8076B /* MainTabBarController.swift in Sources */,
 				CD34FD6D203AD26100B8076B /* SettingViewController.swift in Sources */,
