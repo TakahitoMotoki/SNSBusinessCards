@@ -20,12 +20,11 @@ class FriendListViewModel: NSObject, UITableViewDataSource {
     
     // MARK: DataSourceメソッド
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell(style: .default, reuseIdentifier: CELL_ID)
-        cell.textLabel?.text = "AA"
+        let cell = FriendListViewCell(style: .default, reuseIdentifier: CELL_ID)
         return cell
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 4
+        return 43
     }
 }

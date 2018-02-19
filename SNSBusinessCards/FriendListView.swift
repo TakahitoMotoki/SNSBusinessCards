@@ -10,6 +10,11 @@ import Foundation
 import UIKit
 import FontAwesomeKit
 
+// MARK: My Colors Start
+let MY_PURPLE = UIColor(red: 200.0 / 255.0, green: 0.0 / 255.0, blue: 200.0 / 255.0, alpha: 1.0)
+let MY_YELLOW = UIColor(red: 255.0 / 255.0, green: 255.0 / 255.0, blue: 0.0 / 255.0, alpha: 0.9)
+// MARK: My Colors End
+
 class FriendListView: UIView {
     var friendLabel: UILabel
     let addButton: UIButton
@@ -30,7 +35,7 @@ class FriendListView: UIView {
         friendLabel.textAlignment = .center
         friendLabel.font = UIFont(name: "Gurmukhi MN", size: 22)
         friendLabel.text = "Friend: 100"
-        friendLabel.textColor = UIColor(red: 200.0 / 255.0, green: 0.0 / 255.0, blue: 200.0 / 255.0, alpha: 1.0)
+        friendLabel.textColor = MY_PURPLE
         self.addSubview(friendLabel)
         // MARK: friendLabel End
 
@@ -55,6 +60,53 @@ class FriendListView: UIView {
         // MARK: tableView End
         
         // Backgrond Color
-        self.backgroundColor = UIColor(red: 255.0 / 255.0, green: 255.0 / 255.0, blue: 0.0 / 255.0, alpha: 0.9)
+        self.backgroundColor = MY_YELLOW
+    }
+}
+
+class FriendListViewCell: UITableViewCell {
+    var friendIcon: UIImageView
+    var friendName: UILabel
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+        friendIcon = UIImageView()
+        friendName = UILabel()
+        super.init(style: style, reuseIdentifier: reuseIdentifier)
+        
+        // MARK: friendIcon Start
+        friendIcon.layer.cornerRadius = 22
+        // !---   Test Start   ---!
+        let buttonFontImage = FAKFontAwesome.userIcon(withSize: 44.0)
+        buttonFontImage?.addAttribute(NSAttributedStringKey.foregroundColor.rawValue, value: UIColor.black)
+        let buttonImage = buttonFontImage?.image(with: CGSize(width: 44.0, height: 44.0))
+        // !---   Test End   ---!
+        friendIcon.image = buttonImage
+        friendIcon.translatesAutoresizingMaskIntoConstraints = false
+        self.addSubview(friendIcon)
+        
+        friendIcon.widthAnchor.constraint(equalToConstant: 44.0).isActive = true
+        friendIcon.heightAnchor.constraint(equalToConstant: 44.0).isActive = true
+        friendIcon.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 10.0).isActive = true
+        friendIcon.topAnchor.constraint(equalTo: self.topAnchor, constant: 6.0).isActive = true
+        // MARK: friendIcon End
+        
+        // MARK: friendName Start
+        friendName = UILabel()
+        friendName.textAlignment = .left
+        friendName.font = UIFont(name: "Gurmukhi MN", size: 14)
+        friendName.textColor = MY_PURPLE
+        friendName.text = "Test"
+        friendName.translatesAutoresizingMaskIntoConstraints = false
+        self.addSubview(friendName)
+        
+        friendName.widthAnchor.constraint(equalToConstant: 200.0).isActive = true
+        friendName.heightAnchor.constraint(equalToConstant: 44.0).isActive = true
+        friendName.leadingAnchor.constraint(equalTo: self.friendIcon.trailingAnchor, constant: 10.0).isActive = true
+        friendName.topAnchor.constraint(equalTo: self.topAnchor, constant: 6.0).isActive = true
+        // MARK: friendName End
     }
 }

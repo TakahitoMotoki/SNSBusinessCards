@@ -17,6 +17,8 @@ class MainTabBarController: UITabBarController {
         
         var viewControllers: [UIViewController] = []
         
+        self.tabBar.tintColor = MY_PURPLE
+        
         // MARK: FriendListViewController Start
         let friendBarFont = FAKFontAwesome.usersIcon(withSize: 30.0)
         let friendBarImage = friendBarFont?.image(with: CGSize(width: 30.0, height: 30.0))

@@ -20,6 +20,7 @@ class FriendListViewController: UIViewController, UITableViewDelegate {
         let friendListView = self.view as! FriendListView
         friendListView.tableView.delegate = self
         friendListView.tableView.dataSource = FRIEND_LIST
+        friendListView.tableView.rowHeight = 56.0
     }
 
     override func didReceiveMemoryWarning() {
