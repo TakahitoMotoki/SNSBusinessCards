@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController, UITableViewDelegate {
+class FriendListViewController: UIViewController, UITableViewDelegate {
     private let FRIEND_LIST = FriendListViewModel()
 
     override func loadView() {
@@ -18,7 +18,6 @@ class FirstViewController: UIViewController, UITableViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         let friendListView = self.view as! FriendListView
-        // friendListView.refreshControl.addTarget(self, action: Selector("tableUpdate"), for: .valueChanged)
         friendListView.tableView.delegate = self
         friendListView.tableView.dataSource = FRIEND_LIST
     }
@@ -27,4 +26,3 @@ class FirstViewController: UIViewController, UITableViewDelegate {
         super.didReceiveMemoryWarning()
     }
 }
-

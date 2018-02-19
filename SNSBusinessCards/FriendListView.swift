@@ -15,7 +15,6 @@ class FriendListView: UIView {
     let addButton: UIButton
     var tableView: UITableView
     let NATIVE_BOUND_SIZE = UIScreen.main.bounds.size
-    // let refreshControl: UIRefreshControl
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
