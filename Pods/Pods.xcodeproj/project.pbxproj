@@ -7,164 +7,336 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01BE10979DDDA1449072E5D710ED7596 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
-		0281A099B6DF240CD72EE130618B1B0F /* octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 749912B0E1DD72E625B064A3128C20E6 /* octicons.ttf */; };
-		0664858BE3BEB63562A554CA51FA5208 /* RAMItemAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8376C62EE8587347558490953681410B /* RAMItemAnimationProtocol.swift */; };
-		113902E55762062A2D48B56D8DAA0532 /* FAKFontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = C993B50BDA1DC5C87167C0E608BBBF4D /* FAKFontAwesome.m */; };
-		130A29BFC06CD3D6B89A164915039276 /* RAMFrameItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64C5974AB86435FA8C5DCD6FC09F627 /* RAMFrameItemAnimation.swift */; };
-		16C233CACC4EC8E127E2D7C3B583CB12 /* RAMBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEC2E731DA39C8F6255AE5213D0A662 /* RAMBadge.swift */; };
-		1769170427A6B5C9688007764866EDDA /* foundation-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7BBDBB0F93307DA115BFD9039731D55 /* foundation-icons.ttf */; };
-		1872CD2DA576F188DAFBE6CCA3EC4DCF /* FAKOcticons.h in Headers */ = {isa = PBXBuildFile; fileRef = AAF0E40281502AD98F46CCE70DA43C69 /* FAKOcticons.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1910E3E78B66F32FE33C3200EF6C8B88 /* RAMRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD097D7C1A47E96023EE1DC2CBA54B3 /* RAMRotationAnimation.swift */; };
-		2166C0EC39F6BB2B691B380B539FE8AD /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C55C580E1FC5B6E9F442FE42A9553FEA /* CoreText.framework */; };
-		275893AE5F06D05536598EF74DC8E6D0 /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF7E3428AF5DD695B255B1FB7293138 /* IsaoTextField.swift */; };
-		2A1B30AF73791C92C21A02EBA9B3EEB7 /* RAMFumeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E430E85E677AB4F221BBCDFB3A213 /* RAMFumeAnimation.swift */; };
-		32D98051B36334AE938F6B35ACF33025 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
-		332E15E9E986025C0150030E720D976A /* FAKZocial.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B5D5F0F7845888C539A94585BDDDDF /* FAKZocial.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		37DA891DDA5E91349A6E7CEF0465CC51 /* FAKIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2A903B35F7EACD5C4A107B26E748 /* FAKIcon.m */; };
-		3964A2B00BB8619003961BD7D3BD1AF1 /* FAKIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = E6B51E443C281C65EB849E2D3C1029C0 /* FAKIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43C289029D31E1097802878C9DABBDEA /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38539EEE44711B036EFDA10CD20099F1 /* MinoruTextField.swift */; };
-		4B7E574AEF9BAB8E643CCBA149E8A85F /* FAKFoundationIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 3557E1006B1A6D667CF4F329C13FC28F /* FAKFoundationIcons.m */; };
-		5093F84F27DF70B22CA692D3485AF2DB /* FAKFontAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ABF99FE2667EA486D4EBA97902D6D43 /* FAKFontAwesome.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52341315AD29A2716D4D91C66FD62217 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5A6A3E336D98498B47768E689EF492 /* KaedeTextField.swift */; };
-		52C3E135A4F8F37E9E48AB170202A48C /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A7ED5874B53718752A3A452329670 /* JiroTextField.swift */; };
-		57E0CE5DA556E9A8483716C31D3843B2 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C3371D45C4F2FA4B9805E7FAB07403 /* HoshiTextField.swift */; };
-		5832280486E1376CBD13F70A8C6F02C6 /* FAKOcticons.m in Sources */ = {isa = PBXBuildFile; fileRef = 551625BDA53EB0E63CE3C1E012A3E236 /* FAKOcticons.m */; };
-		587B4579C6B7641EF8076185B9AB0035 /* Pods-SNSBusinessCards-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79021F994F2CCB56A633D68263A5684A /* Pods-SNSBusinessCards-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		594AFFA9CEB1776FA1C853281ADB3D0B /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D1B330E7012800E3B2F4BDA15FD376 /* TextFieldEffects.swift */; };
-		61FA9EF01CB62B6F8F33C42E50CAF536 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9EA06482471B9953000C46109481775E /* FontAwesome.otf */; };
-		639C4AECF710FD113F4CBCCBB3602DC6 /* RAMAnimatedTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE54FFE3B8B7261228B3C2871CBA72CF /* RAMAnimatedTabBarController-dummy.m */; };
-		67B08EEBFAF69578EE180330B6ADE064 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533543BEF7565733E20AE7CBFCE1AE0C /* YoshikoTextField.swift */; };
-		6A72C8E44A0E2774C76D073F982E117F /* zocial-regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B880161E0A52B3B364206840437D117D /* zocial-regular-webfont.ttf */; };
-		6B3C2778C40F244D98903E993A211EB5 /* FAKIonIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = EA176DB3839AA16A0823CBFD51D86CEA /* FAKIonIcons.m */; };
-		70644D2FAACDCB954D268086F220F534 /* FAKFoundationIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = A21DC9E974082CEC509AE322614FADDE /* FAKFoundationIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8267189738A27E9FB0B3B61F0B2C84CA /* FAKMaterialIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = B565A3A0A7E483FFD08BFCBE8B27F358 /* FAKMaterialIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8513E85651B03831741DAFEED07E724A /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78485EEAA10C1C44850FA671A9DAB3AF /* MadokaTextField.swift */; };
-		8B7FA4ECCF190B7E0D291D24B94F3F56 /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 055D827A4E0928F13F0ED4F2121A40C9 /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91FF5315FCDBE4415DEB1F6730B9BF5B /* Pods-SNSBusinessCards-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F3F1FFD63B6805A530F129740BC7C6 /* Pods-SNSBusinessCards-dummy.m */; };
-		93FC15C234BF17B0046EAA4857BA943B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
-		9725563C2AEE1687840A7F5E61719B20 /* RAMAnimatedTabBarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B606B2F760DB3BE193B4F8ED4BA02377 /* RAMAnimatedTabBarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99D62A3C6928E8C7BD61E2C98E5A360F /* FontAwesomeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 304A00725BEAC3AB3AC66F230D1695D5 /* FontAwesomeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9BF8930E69FAFBCFCA70563E4775913F /* FontAwesomeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F5CC72B7CFCA0C8C9FD1F7397A9B8E57 /* FontAwesomeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A6D1C9304CF49244EB5D99A69971A8EE /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB767A92D62014A2A0912FAC38D5C15E /* ionicons.ttf */; };
-		A7BC09314467DF874C03B88C326FC039 /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D09C99B4D6C48E45227ED9820F1353 /* RAMBounceAnimation.swift */; };
-		B9847B8C3E705EC7EAF58C2BFCCB350A /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50ACB9D24A45153268D7E7291DEBADA9 /* TextFieldEffects-dummy.m */; };
-		B98B26D76E50DE44887EDA3096028C46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
-		BB377AC3B7923B0182478FB34EAAC42D /* FAKMaterialIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = F7138C2DA0E36040D45175A36C37226D /* FAKMaterialIcons.m */; };
-		BE1B2D29DB7A92DD4B3F561F4A479832 /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20461B169EE8C91100FB57E54A6AC598 /* YokoTextField.swift */; };
-		C7DA2447575E683C18E8A452A886B85C /* FontAwesomeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C63E0A34DE669E295AD7EB9C78C783FB /* FontAwesomeKit-dummy.m */; };
-		D26832C96E013704F116A04D12D9B10D /* FAKIonIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = 8589542D4E4D3B62F0F14D1595D3928E /* FAKIonIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D327632C06E3B012E8956FFC6A4219EB /* FAKZocial.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B51E2BCF1F660033AFBB98719D3D9 /* FAKZocial.m */; };
-		D4E6FB4C3492D8DD24A24C4AD81BD51A /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C804B2243CEE6827269060D13AB92DF3 /* AkiraTextField.swift */; };
-		F3D5C5CC4CD812699F9921AC90CFA2A3 /* RAMAnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F744D5B65AA9460525E1A395E35BBC0A /* RAMAnimatedTabBarController.swift */; };
-		FA700B17895CF8819CD5E3DA04308999 /* RAMTransitionItemAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55C43097DD8A3CA0C0DD3A07437002D /* RAMTransitionItemAnimations.swift */; };
-		FAA3DAE967FF67C21B6F3F730A9EEB59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BE1AF8CEE8818CBCFD0010AE8BEE51 /* UIKit.framework */; };
-		FDFB10982DFB0AE07FB9571456B05CC7 /* Material-Design-Iconic-Font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2ECEB9DDF892E9B96693C62D245215F6 /* Material-Design-Iconic-Font.ttf */; };
+		01E6F89D906C26E12FFB26B3C84122CD /* NCMBReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F7BBFBB23D48B4343413EEB25EC0D2C /* NCMBReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0281A099B6DF240CD72EE130618B1B0F /* octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49BD183A2D7414E5F1F998B0FD27DA30 /* octicons.ttf */; };
+		03F55A66F1B76B885BFE25D961E45759 /* NCMBDateFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBFA11DA82413668C73BC671613B29C /* NCMBDateFormat.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		047AB7B6A274E23725D4A836E2AE3672 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C34160D18B0FC87A892225536A56F7E /* KaedeTextField.swift */; };
+		04DCC6FBD9B27C31BD3FA3A608EE2B0A /* NCMBURLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 36850092A78F44EBA9FD9D70B97DA4C6 /* NCMBURLSession.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0960F8356D44DFDFC0A091D8C928264D /* NCMBGeoPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 49EF0CE0B2C3D2D4687625D0D206AF49 /* NCMBGeoPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AD21DC1786FB48A569ABC3E00832D10 /* NCMBRole.h in Headers */ = {isa = PBXBuildFile; fileRef = 27B892C03DB1D0630813E6A3C587D8D5 /* NCMBRole.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CC1A0D5DCCABA65D7A7DD3301B25253 /* NCMBObject+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6D2028064CB13CE6904B4E18C4076 /* NCMBObject+Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F41FD3C9349ED3CFAC454FC009ADB13 /* NCMBRelation+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = EEA80B26B326E42E38E55590487ACF82 /* NCMBRelation+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		112D5606DAA5470E7C6053FE3ED23300 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18278F207C1C0B09D281571E6E714B1 /* HoshiTextField.swift */; };
+		113902E55762062A2D48B56D8DAA0532 /* FAKFontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D53DE7A76814705A5EF18F6D79A250D /* FAKFontAwesome.m */; };
+		13EC3F7CC34FA7A595724F0B5A619218 /* NSDataBase64Encode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A72DAC8AE9F9AD3B7E55DE8554566D1 /* NSDataBase64Encode.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		142FC0D27D2BFA015312FDC05CF84D83 /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A679FB27F2863F230D7F64E0487F94 /* RAMBounceAnimation.swift */; };
+		163289DC941E999ED33E11F947796272 /* NCMBUser.m in Sources */ = {isa = PBXBuildFile; fileRef = E33FA2D750B2F9F28FE9F43575E64FBF /* NCMBUser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1769170427A6B5C9688007764866EDDA /* foundation-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892F6D06CF647049886F8BC8C76EAC88 /* foundation-icons.ttf */; };
+		1872CD2DA576F188DAFBE6CCA3EC4DCF /* FAKOcticons.h in Headers */ = {isa = PBXBuildFile; fileRef = AC240D37D23516FC89EAE04568D04C99 /* FAKOcticons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		194A9C5885BED1684748BFD8C2E4B99D /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84280388041E5BF27052D3FF2F6DA03D /* TextFieldEffects.swift */; };
+		1C00CEEA58DC69F70306EB699B985C30 /* NCMBAddOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AE40DD1DD403290E538650F8A4781B9E /* NCMBAddOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1D91DEE411B797AA529F7947AA83709C /* NCMBRemoveOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 348A47D78CF59E447F3A12EE6C1FE306 /* NCMBRemoveOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2166C0EC39F6BB2B691B380B539FE8AD /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3734509F777950D031D63009A2E395C /* CoreText.framework */; };
+		231F5BA5B933988EC55FE503E152A1BD /* RAMFumeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF35106F73EF4A768C0AF1BC04F513B /* RAMFumeAnimation.swift */; };
+		2859B97332840C5C469E8E36B8701578 /* NCMBQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 6192327FFE5AC1B11B0439F237E5712D /* NCMBQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A8976C074617605736D0E4A766404BC /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A9BECC9C0DD9566DA1F109ACEADE61 /* TextFieldEffects-dummy.m */; };
+		332E15E9E986025C0150030E720D976A /* FAKZocial.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B16C5B9B259F0A642EC40EFFAF918D5 /* FAKZocial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3376B458232ECFCED5002B98ECD083E7 /* NCMBUser+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = BA28DA215C5698E8E42F46227F3BC759 /* NCMBUser+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37DA891DDA5E91349A6E7CEF0465CC51 /* FAKIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0F00C943E16384C3A46D6AAEBAA015 /* FAKIcon.m */; };
+		38A9A1343CFF40100983CFADC724F304 /* NCMBQuery+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A9BBA26674AD8AE60C964AD2D0E662CE /* NCMBQuery+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3903E2E106D9CF51ECE71DD24F9C8872 /* NCMBQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = E5276FE4987B665D6892A56E5AA726E6 /* NCMBQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3964A2B00BB8619003961BD7D3BD1AF1 /* FAKIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 7294090865693A2AE5B4F39957F776CE /* FAKIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4520F5469BD4F6BD6F16ED1293A694D8 /* NCMBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FC59DC116425FEE4EC1724DECCBE40F3 /* NCMBObject.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		46C79256045B440DCD399B8A454FEA73 /* NCMBACL.h in Headers */ = {isa = PBXBuildFile; fileRef = B27D779BE1D927B7CA4800AEFBDD9E96 /* NCMBACL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4747AAEBD6545867DD314A0237805A2F /* RAMAnimatedTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A87EE2E3D4D72463F848DE04C17CE88 /* RAMAnimatedTabBarController-dummy.m */; };
+		477158E1EDBB1E8482F4F8E13DBDCF72 /* NCMB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 150DDE30FF3182B33544121C40E8E778 /* NCMB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47B93EA336FE53B8BC62173C4B527525 /* NCMBSetOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA35229B0B2390E5DDE547FFDC5AAAC /* NCMBSetOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		48C1546EE63E0700B5F3EFCEBFD4C12A /* NCMBObject.h in Headers */ = {isa = PBXBuildFile; fileRef = BCEB45F6335AEDAD9203825E9377FFDD /* NCMBObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4904C82AA1B3E8EF76DCA0839AACCB0F /* NCMBScript.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE888F1C3EBD0A9C4879DDA6A4EA060 /* NCMBScript.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4A0178E0489396E62423C37FBAAAF37D /* RAMItemAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5684F355C7543E85C1C206EBBE521B /* RAMItemAnimationProtocol.swift */; };
+		4B7E574AEF9BAB8E643CCBA149E8A85F /* FAKFoundationIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 58FA4103CD04AE291EC29F8931F9C53A /* FAKFoundationIcons.m */; };
+		50659BE4953FE9DAB3AF4CBEFCFDB11B /* NCMBRelationOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3698CB43CB90582A85AC011A2D89E9 /* NCMBRelationOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5093F84F27DF70B22CA692D3485AF2DB /* FAKFontAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA6903641B9B37D435A12DC93D3C3C /* FAKFontAwesome.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		558D7E301E80546D923F4CBF27C1C444 /* NCMBIncrementOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E91B69FBCF43D9B90B6995ADA7D926D0 /* NCMBIncrementOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		568E15627786D3F071042C6229CBA483 /* NCMBSetOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B58AA03C967504BF0B0A15364DD4F5B /* NCMBSetOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5832280486E1376CBD13F70A8C6F02C6 /* FAKOcticons.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1673D847B2B3FFF690873F2040A800 /* FAKOcticons.m */; };
+		5936C5EFBF40CF4B272CE21DB13EFD4C /* NCMBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 063C27B7477BF956876B685D9DE981B0 /* NCMBRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5C6BF7ACA8CAFA870243648C4D135FEF /* RAMRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A55BA207666CC39FD73BAA0C324DB6B /* RAMRotationAnimation.swift */; };
+		5D085CDD45F38F587A8D8996FC6C56FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4123E9C8D3E960B53B8951881808A7D /* Foundation.framework */; };
+		61429DACCE41B6118D4695EE0CFFAEA2 /* NCMBInstallation.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA0C410433FDD7E2A2D24305F3C38A6 /* NCMBInstallation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		61FA9EF01CB62B6F8F33C42E50CAF536 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = E8D42E780A232015CCD9E83793E644DE /* FontAwesome.otf */; };
+		620B1D9003150213E9BEA802DC433B68 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5F04CCB096CAB4C9894716ADE0F69A /* YoshikoTextField.swift */; };
+		67330FB7DE571AB7B7A56F084F7C5EAC /* NCMBError.h in Headers */ = {isa = PBXBuildFile; fileRef = 51E7A0CF4249169EB84F93010145F957 /* NCMBError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A4C1C100BC3CDA3B57D67E1406E05A9 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF36AB1735AC850F24A2DA0403F841A /* JiroTextField.swift */; };
+		6A72C8E44A0E2774C76D073F982E117F /* zocial-regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6B4FBB56E6D83F3F4A8D90013635D4D /* zocial-regular-webfont.ttf */; };
+		6B3C2778C40F244D98903E993A211EB5 /* FAKIonIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 69090A1E6CA27E19DF362F29312FD93A /* FAKIonIcons.m */; };
+		6C242D4FF6586055E29D9A24CEF8D679 /* NCMBRelation.m in Sources */ = {isa = PBXBuildFile; fileRef = F34108416D00F2EF22C942AE4F5CBECA /* NCMBRelation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6D74D6AE5914578CCC0A8DC4994FFE68 /* NCMBDeleteOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E34096F7FCE4F1AB33C62609AC60CA1 /* NCMBDeleteOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ECEA1038883806E145E7DCD5D02CC24 /* NCMBAnonymousUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A01B31FA86746E160FA65733E77D466B /* NCMBAnonymousUtils.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6ED11884F22ED63874E7303A1BA96F0B /* NCMBAddUniqueOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = DE2F17711595263CE24630F223D893D0 /* NCMBAddUniqueOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70644D2FAACDCB954D268086F220F534 /* FAKFoundationIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = 171AC89616AE1612B963F9B8739E5893 /* FAKFoundationIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70D72DCD2FA3AB8B875B64BC0DA30C3A /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7E05914FCC725FB91AD12863789264 /* IsaoTextField.swift */; };
+		736BDA866E999B10F20FC59A1A0D2527 /* SubClassHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF8A8EA91087E69985D48C574F7A984 /* SubClassHandler.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7384AB611F10D78C88EA41ED92D08D99 /* NCMBGeoPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A92298BB64BE51ECE4A6CF39790E6BF /* NCMBGeoPoint.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		73C681C37B82BD65FEA0E4E7353369C7 /* NCMBRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 8796AB6F34B9E73C317CDC79591ACF6B /* NCMBRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		771F219C7BC92100CD54E670109CD5F6 /* NCMBCloseImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA50141A22E947E06F071475D368C6F /* NCMBCloseImageView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		783F1AADEF0E9A74D126C837505D7666 /* NCMBReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1CA6F823BA24E5BD234984B2E039E2 /* NCMBReachability.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7958920401E7289C57B9EA6F9F3CD4F4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 251341B08AC9197D6206C5DDAF59DA6C /* SystemConfiguration.framework */; };
+		7CCD5B19B1543E89ADE3B97896D71254 /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE98FE3549AAB0A637618EE245803B /* AkiraTextField.swift */; };
+		7D23E46ED69E72257A3CBBBF822C83DB /* NCMBRelationOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8774409F89FB763D8539A478A0AC13E1 /* NCMBRelationOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F1D460E3549B997C77C233442ACBF79 /* NSDataBase64Encode.h in Headers */ = {isa = PBXBuildFile; fileRef = D864EF1B8B30962334D23E81B0645605 /* NSDataBase64Encode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814F33E2B15BF406FAFACD8D9F8B1D2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4123E9C8D3E960B53B8951881808A7D /* Foundation.framework */; };
+		8267189738A27E9FB0B3B61F0B2C84CA /* FAKMaterialIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = 03B37DF5E823A37884B1F0D4B0C709FF /* FAKMaterialIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		859521129AFF9A2CEA525129DD19D563 /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FB5C727611BF1DA0FA754EDAF498C9 /* MadokaTextField.swift */; };
+		87C947CF3B3F514D133B19A1411E07E7 /* NCMBFile.h in Headers */ = {isa = PBXBuildFile; fileRef = A5108BF3671F4D93675E5C68A5A86FCF /* NCMBFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F26A8E3DF2D46505846EE66D08BB7CE /* NCMBDeleteOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B317E5C2E38744F840A3B061964D929 /* NCMBDeleteOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		938D935663C0EBB7C19BA6E739F9F5C9 /* NCMBFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 133712096A4480F5FF7A6D9037A57656 /* NCMBFile.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9399F21B18F6C63069BB52D584BAA462 /* NCMBACL.m in Sources */ = {isa = PBXBuildFile; fileRef = A3902AE94D0C7BE4236975DE3BBEFCC9 /* NCMBACL.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9677C3BFCAF4C5327015A6E4041AEED8 /* NCMBAddUniqueOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9F5AAE04D9C9A901AE4AB4AFA2B803 /* NCMBAddUniqueOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		96F8DB29728F1F5E2BB3F9B1B52C7140 /* NCMBConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE879BEA49C72A22A273102301FC48E /* NCMBConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98BFEE168FB76FD66D3076A7604DC550 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34EB5B41928EE4385747800CF7BAC911 /* MobileCoreServices.framework */; };
+		993F399B0D5211CD8B4E46B0568AFD6D /* NCMBUser.h in Headers */ = {isa = PBXBuildFile; fileRef = C0CC092371E9CF743C2F4BDDCDE8DD18 /* NCMBUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99D62A3C6928E8C7BD61E2C98E5A360F /* FontAwesomeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B6172D51DBDD163C4FEC84B312A08A /* FontAwesomeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A7272B15F6B81A1FEC1E81F2A9169DA /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC4EF65A0C915BF6E7C5D25B3C7FC5BF /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BF8930E69FAFBCFCA70563E4775913F /* FontAwesomeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AB5383861FB5882D894E7477C916790 /* FontAwesomeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E26F2E8DB237BD1F39D4D55CCC78599 /* NCMBInstallation.h in Headers */ = {isa = PBXBuildFile; fileRef = D9BF875706D91BA44701D7D406D47809 /* NCMBInstallation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1D008A25471566FFA4251DACBF0146A /* NCMBScriptService.h in Headers */ = {isa = PBXBuildFile; fileRef = FE7AE22F14DDE3D4116CADEC6BD1A299 /* NCMBScriptService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3AE12C8E86BD923BBD4587F655FC0BA /* NCMBPush.h in Headers */ = {isa = PBXBuildFile; fileRef = AB9F27B460CFBEE3524DB5E374FA3147 /* NCMBPush.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A52FA1C4B627FD0C18F98F9A8C9C5C5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4123E9C8D3E960B53B8951881808A7D /* Foundation.framework */; };
+		A6612BB1A830DFBF4F28C33E42B4023D /* RAMFrameItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D13D39C62128EDA01DF39D83FEC85E /* RAMFrameItemAnimation.swift */; };
+		A6689020E1BD51358E6780B1505FDA50 /* NCMBError.m in Sources */ = {isa = PBXBuildFile; fileRef = 5796AD80F18A5E44A9EE3FFF9C0200E5 /* NCMBError.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A6D1C9304CF49244EB5D99A69971A8EE /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B7C5F5B4B1216F8185007B0D11DCD37 /* ionicons.ttf */; };
+		AB735F7CBD92400000981D97E154819D /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357496A66202CD05FEA3EA0D6EE1BCB7 /* YokoTextField.swift */; };
+		B3CE9A2A40AE91B0D39D1281F2F6E930 /* Pods-SNSBusinessCards-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79021F994F2CCB56A633D68263A5684A /* Pods-SNSBusinessCards-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B469F5E257EFB98D358B72CE0CA459A2 /* NCMBRole.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F00D842AAB97AB8C625E5236C326B9E /* NCMBRole.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B49247130B057284F1D321FE0CDCCC1A /* NCMB.m in Sources */ = {isa = PBXBuildFile; fileRef = 0251FB1878CE9E6355B277D40946492E /* NCMB.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B8F613743A15EF8CC206DC20D96BE90E /* NCMB.h in Headers */ = {isa = PBXBuildFile; fileRef = D986F19785D2A162459D72C2AE7BA23C /* NCMB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B98B26D76E50DE44887EDA3096028C46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4123E9C8D3E960B53B8951881808A7D /* Foundation.framework */; };
+		B9970DE19ABA09FFCDB5BE59D0BDE2F4 /* NCMBScript.h in Headers */ = {isa = PBXBuildFile; fileRef = D5ED8E0B58D32F8CF181EAF659122C0F /* NCMBScript.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9A1B08384FD13331E932ADDA6B8C2FB /* RAMTransitionItemAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70E4E7B845995A3C4815C03BF5CF234 /* RAMTransitionItemAnimations.swift */; };
+		BA3E3A52D273C9C4118A7F066E3955E8 /* NCMBAddOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = F4B345C9E9B6E532E7F7E458C9D70FB0 /* NCMBAddOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB377AC3B7923B0182478FB34EAAC42D /* FAKMaterialIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 930CCA7ADC2B2A422BCF84FBA9FE5468 /* FAKMaterialIcons.m */; };
+		BD8E0C10457F1E55E1A078FAEC90230D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4123E9C8D3E960B53B8951881808A7D /* Foundation.framework */; };
+		BE3A4F7EF819434E57E597F3BA1D5014 /* Pods-SNSBusinessCards-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F3F1FFD63B6805A530F129740BC7C6 /* Pods-SNSBusinessCards-dummy.m */; };
+		C68BC568ECC6AF7BFE42C53C0FA758F0 /* NCMBRichPushView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5977B0AD4D73FCDAE16E7012991FA7 /* NCMBRichPushView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7DA2447575E683C18E8A452A886B85C /* FontAwesomeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E59F6B714497C10FB0A6A90200F4C327 /* FontAwesomeKit-dummy.m */; };
+		C86013B1823BA874D74482E39CD0125B /* NCMBScriptService.m in Sources */ = {isa = PBXBuildFile; fileRef = 804C70D90C7DAAEE048B26EEA28627B6 /* NCMBScriptService.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CF4DCA1132594DE49BE1499E971DE9E6 /* NCMBSubclassing.h in Headers */ = {isa = PBXBuildFile; fileRef = 433239FA4E77D2A4A2D91BCEC5027B9D /* NCMBSubclassing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0AFFD17203C216F7FE5A3B7C0F36A51 /* NCMBAnonymousUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B824F7CBC5EB8BA501CC92F614DC4260 /* NCMBAnonymousUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0B0ECDF0487DD118611AB58FCFD8333 /* RAMAnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF49E672C33378C8C16C531CF6DD7EAD /* RAMAnimatedTabBarController.swift */; };
+		D1FD3FEE20EBE81BCABFEDC4D90B177F /* NCMBRichPushView.m in Sources */ = {isa = PBXBuildFile; fileRef = D35E65583DED38A232DDDCE191BC6013 /* NCMBRichPushView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D26832C96E013704F116A04D12D9B10D /* FAKIonIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = DF870CD1579501E9617BF1CD51D2860E /* FAKIonIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2D1BEDBC632B48D5F9FE99BDAB05022 /* NCMBDateFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 40154F109D9CC9D06DB44EE0738B5BB2 /* NCMBDateFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D327632C06E3B012E8956FFC6A4219EB /* FAKZocial.m in Sources */ = {isa = PBXBuildFile; fileRef = FF651A6BB1EB8455EDE145448F41CD43 /* FAKZocial.m */; };
+		D388A0F9B42B452E9C3608AEF73379D7 /* NCMB_umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EA2F1CFDFA33A664F5BEE7DB26D1B16 /* NCMB_umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D687A0D4AE287B5232E0D03BDEF606DD /* NCMBIncrementOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECC015979A0F03B8FD315E553AAF237 /* NCMBIncrementOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D9084AD86F485C102AFFF36F7275F873 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD443D47DE1E61FC73D01BCD277E3B4 /* UIKit.framework */; };
+		DA95B114A678AD527E06F972D7B41004 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8F6BC099A66560B930E92187C1286E8 /* AudioToolbox.framework */; };
+		DB67CBBD76DD779B15EE65AD2C972AAB /* NCMBAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 7502141FF7A8BABE8ECC58289E329CA3 /* NCMBAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEF3B2B84E66C49C70C4873BE5C31CDB /* RAMBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3F8348A2658A0415F5D27D4F5F63C8 /* RAMBadge.swift */; };
+		DF3F196D29C2CB7C3B3F52C0A1D70BD8 /* NCMBRemoveOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 66182B3CBF575C821CC53A0B701AD98D /* NCMBRemoveOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E5E76CBF7683CE2E5273D5668FB4CF04 /* RAMAnimatedTabBarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5629CCB101E7FB94DA5B14740268904E /* RAMAnimatedTabBarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9AD7EE2AD3C96C08F6F0040DDC767FA /* NCMBCloseImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F82C03A9376CD41D64973F5194337B6 /* NCMBCloseImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC3AA70E889C164C8AFF45BD9396C42F /* NCMBPush.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F5F3F5A6A58C035DCF473D168D2D97 /* NCMBPush.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		ED526AE8662E4B8505FFE7D75A413B97 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1FE6C3EF7A4DF0D38DD94B58BBAC0A /* MinoruTextField.swift */; };
+		EEA0822E3167202EDF608DE6F404AE95 /* NCMBURLSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AA78132F030A836A98F8895D70568C5 /* NCMBURLSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2E3F4563E3F63A00B3C56AD3CE52661 /* NCMBRelation.h in Headers */ = {isa = PBXBuildFile; fileRef = AD743D284F02222431A22C46ECFD3900 /* NCMBRelation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5CBD1B3482A17D151209E504C3222EB /* NCMBObject+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 90EB63A8F1C189823AF034829E9C8E07 /* NCMBObject+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F64EBD2AD2390EBD24ECABADE73EF702 /* NCMB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9B49C1F3B8FB5503A9BD31C95B0BE2 /* NCMB-dummy.m */; };
+		F8461CFABE3044D91CB2B4A681300A13 /* NCMBAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E11CD0F7076CBD5BFE7BFE2AA626BF /* NCMBAnalytics.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FAA3DAE967FF67C21B6F3F730A9EEB59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD443D47DE1E61FC73D01BCD277E3B4 /* UIKit.framework */; };
+		FDFB10982DFB0AE07FB9571456B05CC7 /* Material-Design-Iconic-Font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD89F8A85AA982E7C76FCD37E61DDD8F /* Material-Design-Iconic-Font.ttf */; };
+		FE258945D8EC4D7487139CBDCA6E327F /* SubClassHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 16B1849D65954FDF8EDD3627D6479603 /* SubClassHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0E212A79548AAC6265C4D2F45EAD3879 /* PBXContainerItemProxy */ = {
+		10C3E719E4AA9E7896E0F65CC4DB4F07 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3BE329A6FA4F57E5848D524326AF7554;
-			remoteInfo = TextFieldEffects;
+			remoteGlobalIDString = 70150FD598FAA13FDC9795CCE8F76926;
+			remoteInfo = NCMB;
 		};
-		1C28F947BA589710FCEA19A7FE28261C /* PBXContainerItemProxy */ = {
+		41730AB0953F11CB58139E025480662D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A8E1DFAA9703A5C068D915A4C272EA21;
 			remoteInfo = FontAwesomeKit;
 		};
-		DF8FEEE895903A1C10AE84C14E6A735E /* PBXContainerItemProxy */ = {
+		4F4481F94A267FAECE8588FBEDA64CD3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 626D0A030458E6191AB5B1C389D17CB1;
+			remoteGlobalIDString = 4EA887B9D9A48B6C7A221328AB78544E;
 			remoteInfo = RAMAnimatedTabBarController;
+		};
+		D4293ABB5B2C06007449D0E10840F56D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09A0304BAC0D61017A96F6A006910421;
+			remoteInfo = TextFieldEffects;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		055D827A4E0928F13F0ED4F2121A40C9 /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
+		0251FB1878CE9E6355B277D40946492E /* NCMB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMB.m; path = NCMB/NCMB.m; sourceTree = "<group>"; };
+		03B37DF5E823A37884B1F0D4B0C709FF /* FAKMaterialIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKMaterialIcons.h; path = FontAwesomeKit/FAKMaterialIcons.h; sourceTree = "<group>"; };
+		063C27B7477BF956876B685D9DE981B0 /* NCMBRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRequest.m; path = NCMB/NCMBRequest/NCMBRequest.m; sourceTree = "<group>"; };
+		0B3698CB43CB90582A85AC011A2D89E9 /* NCMBRelationOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRelationOperation.m; path = NCMB/Operations/NCMBRelationOperation.m; sourceTree = "<group>"; };
 		0C9947732EEC361C16AE0C2C181670D4 /* Pods-SNSBusinessCards-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SNSBusinessCards-frameworks.sh"; sourceTree = "<group>"; };
-		0F1E520192DCB4BB3673359F07C82729 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		12D09C99B4D6C48E45227ED9820F1353 /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMBounceAnimation.swift; path = RAMAnimatedTabBarController/Animations/BounceAnimation/RAMBounceAnimation.swift; sourceTree = "<group>"; };
-		1448E368A495A0BB83DC05C2984E4707 /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
-		15B5D5F0F7845888C539A94585BDDDDF /* FAKZocial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKZocial.h; path = FontAwesomeKit/FAKZocial.h; sourceTree = "<group>"; };
-		20461B169EE8C91100FB57E54A6AC598 /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
-		27BE1AF8CEE8818CBCFD0010AE8BEE51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		2ECEB9DDF892E9B96693C62D245215F6 /* Material-Design-Iconic-Font.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Material-Design-Iconic-Font.ttf"; path = "FontAwesomeKit/Material-Design-Iconic-Font.ttf"; sourceTree = "<group>"; };
-		304A00725BEAC3AB3AC66F230D1695D5 /* FontAwesomeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeKit-umbrella.h"; sourceTree = "<group>"; };
-		350F0077E66B21BDED69168EBF262399 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3557E1006B1A6D667CF4F329C13FC28F /* FAKFoundationIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKFoundationIcons.m; path = FontAwesomeKit/FAKFoundationIcons.m; sourceTree = "<group>"; };
-		3678F7C472B86DB487FBB6FF09B0EAC5 /* FontAwesomeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FontAwesomeKit.framework; path = FontAwesomeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		38539EEE44711B036EFDA10CD20099F1 /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
+		133712096A4480F5FF7A6D9037A57656 /* NCMBFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBFile.m; path = NCMB/NCMBFile.m; sourceTree = "<group>"; };
+		150DDE30FF3182B33544121C40E8E778 /* NCMB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NCMB-umbrella.h"; sourceTree = "<group>"; };
+		16B1849D65954FDF8EDD3627D6479603 /* SubClassHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SubClassHandler.h; path = NCMB/SubClassHandler/SubClassHandler.h; sourceTree = "<group>"; };
+		16D13D39C62128EDA01DF39D83FEC85E /* RAMFrameItemAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMFrameItemAnimation.swift; path = RAMAnimatedTabBarController/Animations/FrameAnimation/RAMFrameItemAnimation.swift; sourceTree = "<group>"; };
+		171AC89616AE1612B963F9B8739E5893 /* FAKFoundationIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKFoundationIcons.h; path = FontAwesomeKit/FAKFoundationIcons.h; sourceTree = "<group>"; };
+		1B0C472412D7F6F900A1D95054F286E9 /* TextFieldEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.xcconfig; sourceTree = "<group>"; };
+		1CF8A8EA91087E69985D48C574F7A984 /* SubClassHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SubClassHandler.m; path = NCMB/SubClassHandler/SubClassHandler.m; sourceTree = "<group>"; };
+		1E34096F7FCE4F1AB33C62609AC60CA1 /* NCMBDeleteOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBDeleteOperation.h; path = NCMB/Operations/NCMBDeleteOperation.h; sourceTree = "<group>"; };
+		1F1CA6F823BA24E5BD234984B2E039E2 /* NCMBReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBReachability.m; path = NCMB/NCMBReachability/NCMBReachability.m; sourceTree = "<group>"; };
+		1F7BBFBB23D48B4343413EEB25EC0D2C /* NCMBReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBReachability.h; path = NCMB/NCMBReachability/NCMBReachability.h; sourceTree = "<group>"; };
+		22CF845658AF5E0C6A4348F358401E94 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		251341B08AC9197D6206C5DDAF59DA6C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		27B892C03DB1D0630813E6A3C587D8D5 /* NCMBRole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRole.h; path = NCMB/NCMBRole.h; sourceTree = "<group>"; };
+		27BE98FE3549AAB0A637618EE245803B /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
+		2A1673D847B2B3FFF690873F2040A800 /* FAKOcticons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKOcticons.m; path = FontAwesomeKit/FAKOcticons.m; sourceTree = "<group>"; };
+		2B5684F355C7543E85C1C206EBBE521B /* RAMItemAnimationProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMItemAnimationProtocol.swift; path = RAMAnimatedTabBarController/RAMItemAnimationProtocol.swift; sourceTree = "<group>"; };
+		2EF35106F73EF4A768C0AF1BC04F513B /* RAMFumeAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMFumeAnimation.swift; path = RAMAnimatedTabBarController/Animations/FumeAnimation/RAMFumeAnimation.swift; sourceTree = "<group>"; };
+		2F3F8348A2658A0415F5D27D4F5F63C8 /* RAMBadge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMBadge.swift; path = RAMAnimatedTabBarController/RAMBadge/RAMBadge.swift; sourceTree = "<group>"; };
+		2F82C03A9376CD41D64973F5194337B6 /* NCMBCloseImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBCloseImageView.h; path = NCMB/NCMBRichPush/NCMBCloseImageView.h; sourceTree = "<group>"; };
+		2FA35229B0B2390E5DDE547FFDC5AAAC /* NCMBSetOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBSetOperation.m; path = NCMB/Operations/NCMBSetOperation.m; sourceTree = "<group>"; };
+		348A47D78CF59E447F3A12EE6C1FE306 /* NCMBRemoveOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRemoveOperation.h; path = NCMB/Operations/NCMBRemoveOperation.h; sourceTree = "<group>"; };
+		34EB5B41928EE4385747800CF7BAC911 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		357496A66202CD05FEA3EA0D6EE1BCB7 /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
+		36850092A78F44EBA9FD9D70B97DA4C6 /* NCMBURLSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBURLSession.m; path = NCMB/NCMBURLSession/NCMBURLSession.m; sourceTree = "<group>"; };
+		3AA78132F030A836A98F8895D70568C5 /* NCMBURLSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBURLSession.h; path = NCMB/NCMBURLSession/NCMBURLSession.h; sourceTree = "<group>"; };
+		3AB5383861FB5882D894E7477C916790 /* FontAwesomeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FontAwesomeKit.h; path = FontAwesomeKit/FontAwesomeKit.h; sourceTree = "<group>"; };
+		3C5A876FE7A31495145FE45372CA263D /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TextFieldEffects.framework; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40154F109D9CC9D06DB44EE0738B5BB2 /* NCMBDateFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBDateFormat.h; path = NCMB/NCMBDateFormat.h; sourceTree = "<group>"; };
 		40C6E8BF051A276E21405F4D1853475E /* Pods-SNSBusinessCards.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SNSBusinessCards.modulemap"; sourceTree = "<group>"; };
-		438C33F09E63AD854B88B81B11DA2502 /* FontAwesomeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FontAwesomeKit.modulemap; sourceTree = "<group>"; };
-		4610FEBC9643A9D055A0D79BAC8EAD89 /* Pods_SNSBusinessCards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SNSBusinessCards.framework; path = "Pods-SNSBusinessCards.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		433239FA4E77D2A4A2D91BCEC5027B9D /* NCMBSubclassing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBSubclassing.h; path = NCMB/NCMBSubclassing.h; sourceTree = "<group>"; };
+		4434C9110C1DCADAE9C417C7C0123713 /* FontAwesomeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FontAwesomeKit.framework; path = FontAwesomeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E11CD0F7076CBD5BFE7BFE2AA626BF /* NCMBAnalytics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAnalytics.m; path = NCMB/NCMBAnalytics.m; sourceTree = "<group>"; };
 		48F3F1FFD63B6805A530F129740BC7C6 /* Pods-SNSBusinessCards-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SNSBusinessCards-dummy.m"; sourceTree = "<group>"; };
-		49FCF48EB5D2DF204737798FDBA820C7 /* FontAwesomeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesomeKit.xcconfig; sourceTree = "<group>"; };
-		4D8B51E2BCF1F660033AFBB98719D3D9 /* FAKZocial.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKZocial.m; path = FontAwesomeKit/FAKZocial.m; sourceTree = "<group>"; };
-		50ACB9D24A45153268D7E7291DEBADA9 /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
-		533543BEF7565733E20AE7CBFCE1AE0C /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
-		551625BDA53EB0E63CE3C1E012A3E236 /* FAKOcticons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKOcticons.m; path = FontAwesomeKit/FAKOcticons.m; sourceTree = "<group>"; };
-		5ABF99FE2667EA486D4EBA97902D6D43 /* FAKFontAwesome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKFontAwesome.h; path = FontAwesomeKit/FAKFontAwesome.h; sourceTree = "<group>"; };
-		5BF7E3428AF5DD695B255B1FB7293138 /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
-		5C6BA63DD9A17FE7695B4D680D2725E5 /* RAMAnimatedTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RAMAnimatedTabBarController.modulemap; sourceTree = "<group>"; };
-		5CD097D7C1A47E96023EE1DC2CBA54B3 /* RAMRotationAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMRotationAnimation.swift; path = RAMAnimatedTabBarController/Animations/RotationAnimation/RAMRotationAnimation.swift; sourceTree = "<group>"; };
-		63C3371D45C4F2FA4B9805E7FAB07403 /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
-		669A6F42AF7C023DD46AC8BAA70B64AD /* FontAwesomeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeKit-prefix.pch"; sourceTree = "<group>"; };
+		49BD183A2D7414E5F1F998B0FD27DA30 /* octicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = octicons.ttf; path = FontAwesomeKit/octicons.ttf; sourceTree = "<group>"; };
+		49EF0CE0B2C3D2D4687625D0D206AF49 /* NCMBGeoPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBGeoPoint.h; path = NCMB/NCMBGeoPoint.h; sourceTree = "<group>"; };
+		4A55BA207666CC39FD73BAA0C324DB6B /* RAMRotationAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMRotationAnimation.swift; path = RAMAnimatedTabBarController/Animations/RotationAnimation/RAMRotationAnimation.swift; sourceTree = "<group>"; };
+		4B16C5B9B259F0A642EC40EFFAF918D5 /* FAKZocial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKZocial.h; path = FontAwesomeKit/FAKZocial.h; sourceTree = "<group>"; };
+		4B7C5F5B4B1216F8185007B0D11DCD37 /* ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = ionicons.ttf; path = FontAwesomeKit/ionicons.ttf; sourceTree = "<group>"; };
+		4BBFA11DA82413668C73BC671613B29C /* NCMBDateFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBDateFormat.m; path = NCMB/NCMBDateFormat.m; sourceTree = "<group>"; };
+		4BD443D47DE1E61FC73D01BCD277E3B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4EA50141A22E947E06F071475D368C6F /* NCMBCloseImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBCloseImageView.m; path = NCMB/NCMBRichPush/NCMBCloseImageView.m; sourceTree = "<group>"; };
+		51E7A0CF4249169EB84F93010145F957 /* NCMBError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBError.h; path = NCMB/NCMBError.h; sourceTree = "<group>"; };
+		5629CCB101E7FB94DA5B14740268904E /* RAMAnimatedTabBarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAMAnimatedTabBarController-umbrella.h"; sourceTree = "<group>"; };
+		5796AD80F18A5E44A9EE3FFF9C0200E5 /* NCMBError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBError.m; path = NCMB/NCMBError.m; sourceTree = "<group>"; };
+		58FA4103CD04AE291EC29F8931F9C53A /* FAKFoundationIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKFoundationIcons.m; path = FontAwesomeKit/FAKFoundationIcons.m; sourceTree = "<group>"; };
+		5CF36AB1735AC850F24A2DA0403F841A /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
+		5D53DE7A76814705A5EF18F6D79A250D /* FAKFontAwesome.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKFontAwesome.m; path = FontAwesomeKit/FAKFontAwesome.m; sourceTree = "<group>"; };
+		5ECC015979A0F03B8FD315E553AAF237 /* NCMBIncrementOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBIncrementOperation.m; path = NCMB/Operations/NCMBIncrementOperation.m; sourceTree = "<group>"; };
+		6192327FFE5AC1B11B0439F237E5712D /* NCMBQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBQuery.h; path = NCMB/NCMBQuery.h; sourceTree = "<group>"; };
+		66182B3CBF575C821CC53A0B701AD98D /* NCMBRemoveOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRemoveOperation.m; path = NCMB/Operations/NCMBRemoveOperation.m; sourceTree = "<group>"; };
 		67852B0A9354AF2479A039C7CBDCE2F4 /* Pods-SNSBusinessCards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNSBusinessCards.debug.xcconfig"; sourceTree = "<group>"; };
-		6E5A6A3E336D98498B47768E689EF492 /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
-		749912B0E1DD72E625B064A3128C20E6 /* octicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = octicons.ttf; path = FontAwesomeKit/octicons.ttf; sourceTree = "<group>"; };
-		78485EEAA10C1C44850FA671A9DAB3AF /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
+		6808644633C601DDB99B1D5B5FE805F5 /* FontAwesomeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FontAwesomeKit.modulemap; sourceTree = "<group>"; };
+		69090A1E6CA27E19DF362F29312FD93A /* FAKIonIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKIonIcons.m; path = FontAwesomeKit/FAKIonIcons.m; sourceTree = "<group>"; };
+		69CD43150A5FA5B4DDACEB325577125C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B58AA03C967504BF0B0A15364DD4F5B /* NCMBSetOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBSetOperation.h; path = NCMB/Operations/NCMBSetOperation.h; sourceTree = "<group>"; };
+		6F5977B0AD4D73FCDAE16E7012991FA7 /* NCMBRichPushView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRichPushView.h; path = NCMB/NCMBRichPush/NCMBRichPushView.h; sourceTree = "<group>"; };
+		7294090865693A2AE5B4F39957F776CE /* FAKIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKIcon.h; path = FontAwesomeKit/FAKIcon.h; sourceTree = "<group>"; };
+		73FB5C727611BF1DA0FA754EDAF498C9 /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
+		7502141FF7A8BABE8ECC58289E329CA3 /* NCMBAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAnalytics.h; path = NCMB/NCMBAnalytics.h; sourceTree = "<group>"; };
+		76BE426D544F5D6B11ACAA8E1A256EB5 /* RAMAnimatedTabBarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RAMAnimatedTabBarController.xcconfig; sourceTree = "<group>"; };
 		79021F994F2CCB56A633D68263A5684A /* Pods-SNSBusinessCards-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SNSBusinessCards-umbrella.h"; sourceTree = "<group>"; };
-		81B32C5CF6D5E88E1721E18D5E90F254 /* RAMAnimatedTabBarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RAMAnimatedTabBarController.xcconfig; sourceTree = "<group>"; };
-		8376C62EE8587347558490953681410B /* RAMItemAnimationProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMItemAnimationProtocol.swift; path = RAMAnimatedTabBarController/RAMItemAnimationProtocol.swift; sourceTree = "<group>"; };
-		8589542D4E4D3B62F0F14D1595D3928E /* FAKIonIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKIonIcons.h; path = FontAwesomeKit/FAKIonIcons.h; sourceTree = "<group>"; };
+		7A056242014FDF0B99531CB9C4B579AA /* NCMB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = NCMB.modulemap; sourceTree = "<group>"; };
+		7A72DAC8AE9F9AD3B7E55DE8554566D1 /* NSDataBase64Encode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NSDataBase64Encode.m; path = NCMB/NSDataBase64Encode/NSDataBase64Encode.m; sourceTree = "<group>"; };
+		7B317E5C2E38744F840A3B061964D929 /* NCMBDeleteOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBDeleteOperation.m; path = NCMB/Operations/NCMBDeleteOperation.m; sourceTree = "<group>"; };
+		7B5F04CCB096CAB4C9894716ADE0F69A /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
+		7EA2F1CFDFA33A664F5BEE7DB26D1B16 /* NCMB_umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMB_umbrella.h; path = NCMB/NCMB_umbrella.h; sourceTree = "<group>"; };
+		7F00D842AAB97AB8C625E5236C326B9E /* NCMBRole.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRole.m; path = NCMB/NCMBRole.m; sourceTree = "<group>"; };
+		804C70D90C7DAAEE048B26EEA28627B6 /* NCMBScriptService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBScriptService.m; path = NCMB/NCMBScriptService/NCMBScriptService.m; sourceTree = "<group>"; };
+		84280388041E5BF27052D3FF2F6DA03D /* TextFieldEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldEffects.swift; sourceTree = "<group>"; };
+		85AF5A43807045DED6B8447B28BDE7CE /* NCMB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NCMB.xcconfig; sourceTree = "<group>"; };
+		8774409F89FB763D8539A478A0AC13E1 /* NCMBRelationOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRelationOperation.h; path = NCMB/Operations/NCMBRelationOperation.h; sourceTree = "<group>"; };
+		8796AB6F34B9E73C317CDC79591ACF6B /* NCMBRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRequest.h; path = NCMB/NCMBRequest/NCMBRequest.h; sourceTree = "<group>"; };
+		892F6D06CF647049886F8BC8C76EAC88 /* foundation-icons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "foundation-icons.ttf"; path = "FontAwesomeKit/foundation-icons.ttf"; sourceTree = "<group>"; };
+		8A15041020DB7F5E9B99714C528910A5 /* FontAwesomeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeKit-prefix.pch"; sourceTree = "<group>"; };
+		8AE879BEA49C72A22A273102301FC48E /* NCMBConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBConstants.h; path = NCMB/NCMBConstants.h; sourceTree = "<group>"; };
+		8B30C9038B9A0585FEB357BD778B014B /* RAMAnimatedTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAMAnimatedTabBarController-prefix.pch"; sourceTree = "<group>"; };
+		90822EAA37A342DA4785C55401F05FE1 /* FontAwesomeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesomeKit.xcconfig; sourceTree = "<group>"; };
+		90EB63A8F1C189823AF034829E9C8E07 /* NCMBObject+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBObject+Private.h"; path = "NCMB/PrivateHeaders/NCMBObject+Private.h"; sourceTree = "<group>"; };
+		91B6172D51DBDD163C4FEC84B312A08A /* FontAwesomeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeKit-umbrella.h"; sourceTree = "<group>"; };
+		930CCA7ADC2B2A422BCF84FBA9FE5468 /* FAKMaterialIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKMaterialIcons.m; path = FontAwesomeKit/FAKMaterialIcons.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		958A7ED5874B53718752A3A452329670 /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
-		96D1B330E7012800E3B2F4BDA15FD376 /* TextFieldEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldEffects.swift; sourceTree = "<group>"; };
-		9AEE2A903B35F7EACD5C4A107B26E748 /* FAKIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKIcon.m; path = FontAwesomeKit/FAKIcon.m; sourceTree = "<group>"; };
+		9A87EE2E3D4D72463F848DE04C17CE88 /* RAMAnimatedTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RAMAnimatedTabBarController-dummy.m"; sourceTree = "<group>"; };
+		9A92298BB64BE51ECE4A6CF39790E6BF /* NCMBGeoPoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBGeoPoint.m; path = NCMB/NCMBGeoPoint.m; sourceTree = "<group>"; };
 		9B022641335EDD0CDCEBC5E49540ECDA /* Pods-SNSBusinessCards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNSBusinessCards.release.xcconfig"; sourceTree = "<group>"; };
-		9EA06482471B9953000C46109481775E /* FontAwesome.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.otf; path = FontAwesomeKit/FontAwesome.otf; sourceTree = "<group>"; };
-		A21DC9E974082CEC509AE322614FADDE /* FAKFoundationIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKFoundationIcons.h; path = FontAwesomeKit/FAKFoundationIcons.h; sourceTree = "<group>"; };
-		A3544DF05A3E475AF9F4D049D929B6DC /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TextFieldEffects.framework; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4257E5C8426805D78CF48B66A982D6A /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
-		A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		AAF0E40281502AD98F46CCE70DA43C69 /* FAKOcticons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKOcticons.h; path = FontAwesomeKit/FAKOcticons.h; sourceTree = "<group>"; };
-		B55C43097DD8A3CA0C0DD3A07437002D /* RAMTransitionItemAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMTransitionItemAnimations.swift; path = RAMAnimatedTabBarController/Animations/TransitionAniamtions/RAMTransitionItemAnimations.swift; sourceTree = "<group>"; };
-		B565A3A0A7E483FFD08BFCBE8B27F358 /* FAKMaterialIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKMaterialIcons.h; path = FontAwesomeKit/FAKMaterialIcons.h; sourceTree = "<group>"; };
-		B606B2F760DB3BE193B4F8ED4BA02377 /* RAMAnimatedTabBarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAMAnimatedTabBarController-umbrella.h"; sourceTree = "<group>"; };
-		B880161E0A52B3B364206840437D117D /* zocial-regular-webfont.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "zocial-regular-webfont.ttf"; path = "FontAwesomeKit/zocial-regular-webfont.ttf"; sourceTree = "<group>"; };
-		C55C580E1FC5B6E9F442FE42A9553FEA /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
-		C63E0A34DE669E295AD7EB9C78C783FB /* FontAwesomeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesomeKit-dummy.m"; sourceTree = "<group>"; };
-		C804B2243CEE6827269060D13AB92DF3 /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
-		C993B50BDA1DC5C87167C0E608BBBF4D /* FAKFontAwesome.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKFontAwesome.m; path = FontAwesomeKit/FAKFontAwesome.m; sourceTree = "<group>"; };
-		CBC07F1A99302E00AAAD9833E110DF44 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C34160D18B0FC87A892225536A56F7E /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
+		A01B31FA86746E160FA65733E77D466B /* NCMBAnonymousUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAnonymousUtils.m; path = NCMB/NCMBAnonymousUtils.m; sourceTree = "<group>"; };
+		A3902AE94D0C7BE4236975DE3BBEFCC9 /* NCMBACL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBACL.m; path = NCMB/NCMBACL.m; sourceTree = "<group>"; };
+		A5108BF3671F4D93675E5C68A5A86FCF /* NCMBFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBFile.h; path = NCMB/NCMBFile.h; sourceTree = "<group>"; };
+		A9BBA26674AD8AE60C964AD2D0E662CE /* NCMBQuery+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBQuery+Private.h"; path = "NCMB/PrivateHeaders/NCMBQuery+Private.h"; sourceTree = "<group>"; };
+		A9F5F3F5A6A58C035DCF473D168D2D97 /* NCMBPush.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBPush.m; path = NCMB/NCMBPush.m; sourceTree = "<group>"; };
+		AA9F5AAE04D9C9A901AE4AB4AFA2B803 /* NCMBAddUniqueOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAddUniqueOperation.m; path = NCMB/Operations/NCMBAddUniqueOperation.m; sourceTree = "<group>"; };
+		AB9B49C1F3B8FB5503A9BD31C95B0BE2 /* NCMB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NCMB-dummy.m"; sourceTree = "<group>"; };
+		AB9F27B460CFBEE3524DB5E374FA3147 /* NCMBPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBPush.h; path = NCMB/NCMBPush.h; sourceTree = "<group>"; };
+		AC240D37D23516FC89EAE04568D04C99 /* FAKOcticons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKOcticons.h; path = FontAwesomeKit/FAKOcticons.h; sourceTree = "<group>"; };
+		AD743D284F02222431A22C46ECFD3900 /* NCMBRelation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRelation.h; path = NCMB/NCMBRelation.h; sourceTree = "<group>"; };
+		ADA0C410433FDD7E2A2D24305F3C38A6 /* NCMBInstallation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBInstallation.m; path = NCMB/NCMBInstallation.m; sourceTree = "<group>"; };
+		AE40DD1DD403290E538650F8A4781B9E /* NCMBAddOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAddOperation.m; path = NCMB/Operations/NCMBAddOperation.m; sourceTree = "<group>"; };
+		B27D779BE1D927B7CA4800AEFBDD9E96 /* NCMBACL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBACL.h; path = NCMB/NCMBACL.h; sourceTree = "<group>"; };
+		B824F7CBC5EB8BA501CC92F614DC4260 /* NCMBAnonymousUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAnonymousUtils.h; path = NCMB/NCMBAnonymousUtils.h; sourceTree = "<group>"; };
+		BA28DA215C5698E8E42F46227F3BC759 /* NCMBUser+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBUser+Private.h"; path = "NCMB/PrivateHeaders/NCMBUser+Private.h"; sourceTree = "<group>"; };
+		BA58391466C71BB223F0E4D284D5D050 /* RAMAnimatedTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RAMAnimatedTabBarController.modulemap; sourceTree = "<group>"; };
+		BCEB45F6335AEDAD9203825E9377FFDD /* NCMBObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBObject.h; path = NCMB/NCMBObject.h; sourceTree = "<group>"; };
+		BFA5D5D501D8A9DF184858629F558E03 /* RAMAnimatedTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RAMAnimatedTabBarController.framework; path = RAMAnimatedTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0CC092371E9CF743C2F4BDDCDE8DD18 /* NCMBUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBUser.h; path = NCMB/NCMBUser.h; sourceTree = "<group>"; };
+		C8D867CB1D88D481BACAFB63035F3F70 /* Pods_SNSBusinessCards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SNSBusinessCards.framework; path = "Pods-SNSBusinessCards.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8F6BC099A66560B930E92187C1286E8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		CBD6D2028064CB13CE6904B4E18C4076 /* NCMBObject+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBObject+Subclass.h"; path = "NCMB/NCMBObject+Subclass.h"; sourceTree = "<group>"; };
 		D1536DE41DC7D7F23A7A5BF93C7CC0D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D49B75FDCA45D1745FAB3287CB7DDEC3 /* RAMAnimatedTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RAMAnimatedTabBarController.framework; path = RAMAnimatedTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A679FB27F2863F230D7F64E0487F94 /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMBounceAnimation.swift; path = RAMAnimatedTabBarController/Animations/BounceAnimation/RAMBounceAnimation.swift; sourceTree = "<group>"; };
+		D35E65583DED38A232DDDCE191BC6013 /* NCMBRichPushView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRichPushView.m; path = NCMB/NCMBRichPush/NCMBRichPushView.m; sourceTree = "<group>"; };
+		D3734509F777950D031D63009A2E395C /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		D3853F6ED2ADFD0D8A18AA9A222A74E6 /* NCMB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NCMB-prefix.pch"; sourceTree = "<group>"; };
+		D5ED8E0B58D32F8CF181EAF659122C0F /* NCMBScript.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBScript.h; path = NCMB/NCMBScript.h; sourceTree = "<group>"; };
 		D723CB096F87F316BBCCB76033F7A15C /* Pods-SNSBusinessCards-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SNSBusinessCards-resources.sh"; sourceTree = "<group>"; };
-		D7BBDBB0F93307DA115BFD9039731D55 /* foundation-icons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "foundation-icons.ttf"; path = "FontAwesomeKit/foundation-icons.ttf"; sourceTree = "<group>"; };
-		D7F7289291AE601FF2EFE6076CB2564C /* TextFieldEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.xcconfig; sourceTree = "<group>"; };
-		DE54FFE3B8B7261228B3C2871CBA72CF /* RAMAnimatedTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RAMAnimatedTabBarController-dummy.m"; sourceTree = "<group>"; };
-		DECEDA2A5B9C60CE11F32A25947BEFD0 /* RAMAnimatedTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAMAnimatedTabBarController-prefix.pch"; sourceTree = "<group>"; };
-		E64C5974AB86435FA8C5DCD6FC09F627 /* RAMFrameItemAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMFrameItemAnimation.swift; path = RAMAnimatedTabBarController/Animations/FrameAnimation/RAMFrameItemAnimation.swift; sourceTree = "<group>"; };
-		E6B51E443C281C65EB849E2D3C1029C0 /* FAKIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKIcon.h; path = FontAwesomeKit/FAKIcon.h; sourceTree = "<group>"; };
-		EA176DB3839AA16A0823CBFD51D86CEA /* FAKIonIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKIonIcons.m; path = FontAwesomeKit/FAKIonIcons.m; sourceTree = "<group>"; };
+		D864EF1B8B30962334D23E81B0645605 /* NSDataBase64Encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSDataBase64Encode.h; path = NCMB/NSDataBase64Encode/NSDataBase64Encode.h; sourceTree = "<group>"; };
+		D986F19785D2A162459D72C2AE7BA23C /* NCMB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMB.h; path = NCMB/NCMB.h; sourceTree = "<group>"; };
+		D9BF875706D91BA44701D7D406D47809 /* NCMBInstallation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBInstallation.h; path = NCMB/NCMBInstallation.h; sourceTree = "<group>"; };
+		DB1FE6C3EF7A4DF0D38DD94B58BBAC0A /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
+		DD89F8A85AA982E7C76FCD37E61DDD8F /* Material-Design-Iconic-Font.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Material-Design-Iconic-Font.ttf"; path = "FontAwesomeKit/Material-Design-Iconic-Font.ttf"; sourceTree = "<group>"; };
+		DD8DCBB70BA060B91132890B0D15BF80 /* NCMB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NCMB.framework; path = NCMB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE2F17711595263CE24630F223D893D0 /* NCMBAddUniqueOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAddUniqueOperation.h; path = NCMB/Operations/NCMBAddUniqueOperation.h; sourceTree = "<group>"; };
+		DF74B8AD8E712B5709CFF34F2D5CFDFC /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
+		DF870CD1579501E9617BF1CD51D2860E /* FAKIonIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKIonIcons.h; path = FontAwesomeKit/FAKIonIcons.h; sourceTree = "<group>"; };
+		DFE888F1C3EBD0A9C4879DDA6A4EA060 /* NCMBScript.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBScript.m; path = NCMB/NCMBScript.m; sourceTree = "<group>"; };
+		E33FA2D750B2F9F28FE9F43575E64FBF /* NCMBUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBUser.m; path = NCMB/NCMBUser.m; sourceTree = "<group>"; };
+		E5276FE4987B665D6892A56E5AA726E6 /* NCMBQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBQuery.m; path = NCMB/NCMBQuery.m; sourceTree = "<group>"; };
+		E59F6B714497C10FB0A6A90200F4C327 /* FontAwesomeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesomeKit-dummy.m"; sourceTree = "<group>"; };
+		E6B4FBB56E6D83F3F4A8D90013635D4D /* zocial-regular-webfont.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "zocial-regular-webfont.ttf"; path = "FontAwesomeKit/zocial-regular-webfont.ttf"; sourceTree = "<group>"; };
+		E70E4E7B845995A3C4815C03BF5CF234 /* RAMTransitionItemAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMTransitionItemAnimations.swift; path = RAMAnimatedTabBarController/Animations/TransitionAniamtions/RAMTransitionItemAnimations.swift; sourceTree = "<group>"; };
+		E8D42E780A232015CCD9E83793E644DE /* FontAwesome.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.otf; path = FontAwesomeKit/FontAwesome.otf; sourceTree = "<group>"; };
+		E91B69FBCF43D9B90B6995ADA7D926D0 /* NCMBIncrementOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBIncrementOperation.h; path = NCMB/Operations/NCMBIncrementOperation.h; sourceTree = "<group>"; };
+		E927D7B34B586D31C371816BCD1B968B /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
 		ECA20E65782FB9F5141F0736FF479C94 /* Pods-SNSBusinessCards-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SNSBusinessCards-acknowledgements.plist"; sourceTree = "<group>"; };
-		EEEC2E731DA39C8F6255AE5213D0A662 /* RAMBadge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMBadge.swift; path = RAMAnimatedTabBarController/RAMBadge/RAMBadge.swift; sourceTree = "<group>"; };
-		F42E430E85E677AB4F221BBCDFB3A213 /* RAMFumeAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMFumeAnimation.swift; path = RAMAnimatedTabBarController/Animations/FumeAnimation/RAMFumeAnimation.swift; sourceTree = "<group>"; };
-		F5CC72B7CFCA0C8C9FD1F7397A9B8E57 /* FontAwesomeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FontAwesomeKit.h; path = FontAwesomeKit/FontAwesomeKit.h; sourceTree = "<group>"; };
-		F7138C2DA0E36040D45175A36C37226D /* FAKMaterialIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKMaterialIcons.m; path = FontAwesomeKit/FAKMaterialIcons.m; sourceTree = "<group>"; };
-		F744D5B65AA9460525E1A395E35BBC0A /* RAMAnimatedTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMAnimatedTabBarController.swift; path = RAMAnimatedTabBarController/RAMAnimatedTabBarController.swift; sourceTree = "<group>"; };
-		FB767A92D62014A2A0912FAC38D5C15E /* ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = ionicons.ttf; path = FontAwesomeKit/ionicons.ttf; sourceTree = "<group>"; };
+		EE0F00C943E16384C3A46D6AAEBAA015 /* FAKIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKIcon.m; path = FontAwesomeKit/FAKIcon.m; sourceTree = "<group>"; };
+		EEA80B26B326E42E38E55590487ACF82 /* NCMBRelation+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBRelation+Private.h"; path = "NCMB/PrivateHeaders/NCMBRelation+Private.h"; sourceTree = "<group>"; };
+		EF49E672C33378C8C16C531CF6DD7EAD /* RAMAnimatedTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMAnimatedTabBarController.swift; path = RAMAnimatedTabBarController/RAMAnimatedTabBarController.swift; sourceTree = "<group>"; };
+		EF7E05914FCC725FB91AD12863789264 /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
+		F0A9BECC9C0DD9566DA1F109ACEADE61 /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
+		F18278F207C1C0B09D281571E6E714B1 /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
+		F34108416D00F2EF22C942AE4F5CBECA /* NCMBRelation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRelation.m; path = NCMB/NCMBRelation.m; sourceTree = "<group>"; };
+		F4123E9C8D3E960B53B8951881808A7D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F4B345C9E9B6E532E7F7E458C9D70FB0 /* NCMBAddOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAddOperation.h; path = NCMB/Operations/NCMBAddOperation.h; sourceTree = "<group>"; };
+		FC40C494DC7FE30BADD84B743E0AD8CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC4EF65A0C915BF6E7C5D25B3C7FC5BF /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
+		FC59DC116425FEE4EC1724DECCBE40F3 /* NCMBObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBObject.m; path = NCMB/NCMBObject.m; sourceTree = "<group>"; };
+		FE0CCAE8CF11E90A6D5D1230C31366C2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE635BE5B0B1E1FE3F1658DEFBC3B801 /* Pods-SNSBusinessCards-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SNSBusinessCards-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FE7AE22F14DDE3D4116CADEC6BD1A299 /* NCMBScriptService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBScriptService.h; path = NCMB/NCMBScriptService/NCMBScriptService.h; sourceTree = "<group>"; };
+		FF651A6BB1EB8455EDE145448F41CD43 /* FAKZocial.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKZocial.m; path = FontAwesomeKit/FAKZocial.m; sourceTree = "<group>"; };
+		FFFA6903641B9B37D435A12DC93D3C3C /* FAKFontAwesome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKFontAwesome.h; path = FontAwesomeKit/FAKFontAwesome.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		057CD7914101CBC7EC0DCA4FB77E4F12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD8E0C10457F1E55E1A078FAEC90230D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8501462497975B6EFFE9E8FF266B725C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -175,39 +347,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A3FF119F81A01E1B1C371874B0453497 /* Frameworks */ = {
+		BE35B12F09BD672D38719678B8513BF3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93FC15C234BF17B0046EAA4857BA943B /* Foundation.framework in Frameworks */,
+				5D085CDD45F38F587A8D8996FC6C56FB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B1F6B0D3C2407A27F0F57D5C76E8C9BD /* Frameworks */ = {
+		C5D0646E48EB88858768A02CF0FA6375 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01BE10979DDDA1449072E5D710ED7596 /* Foundation.framework in Frameworks */,
+				814F33E2B15BF406FAFACD8D9F8B1D2E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BBB5308CA59A3FA6903B211AECE9EA6E /* Frameworks */ = {
+		CCC5E1638FDCC346405589E10398A312 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32D98051B36334AE938F6B35ACF33025 /* Foundation.framework in Frameworks */,
+				DA95B114A678AD527E06F972D7B41004 /* AudioToolbox.framework in Frameworks */,
+				A52FA1C4B627FD0C18F98F9A8C9C5C5C /* Foundation.framework in Frameworks */,
+				98BFEE168FB76FD66D3076A7604DC550 /* MobileCoreServices.framework in Frameworks */,
+				7958920401E7289C57B9EA6F9F3CD4F4 /* SystemConfiguration.framework in Frameworks */,
+				D9084AD86F485C102AFFF36F7275F873 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0937A99829984D8C4B44C1670A6EDB3E /* Resources */ = {
+		0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				749912B0E1DD72E625B064A3128C20E6 /* octicons.ttf */,
+				83BF8374D3C0C6368A96926CD7F43A6B /* iOS */,
 			);
-			name = Resources;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		10690183D226E2B51F4D6D7E4CAC8E04 /* Targets Support Files */ = {
@@ -218,57 +394,33 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+		15A5C93DC26142C4BAE63B5AD365EAA1 /* IonIcons */ = {
 			isa = PBXGroup;
 			children = (
-				FF1CA95E532A8F990E19506982FA04EE /* iOS */,
+				DF870CD1579501E9617BF1CD51D2860E /* FAKIonIcons.h */,
+				69090A1E6CA27E19DF362F29312FD93A /* FAKIonIcons.m */,
+				FBBF209529F55B3DA5D9501E528A08BC /* Resources */,
 			);
-			name = Frameworks;
+			name = IonIcons;
 			sourceTree = "<group>";
 		};
-		1D823D7B8FB8FFCC74D05100054BA686 /* FoundationIcons */ = {
+		1E563716B50EB98A19837C898C692F26 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A21DC9E974082CEC509AE322614FADDE /* FAKFoundationIcons.h */,
-				3557E1006B1A6D667CF4F329C13FC28F /* FAKFoundationIcons.m */,
-				2BBE5C388060C5A7148DD15AA618860C /* Resources */,
+				F3899F8515056E60395F526C59A603A9 /* FontAwesomeKit */,
+				E897A8D2761A957A8E18CD1F4908AF03 /* NCMB */,
+				69DA165C6E771987AE52DFE2ABE44C50 /* RAMAnimatedTabBarController */,
+				BC188AE187403F3802BE215763C39021 /* TextFieldEffects */,
 			);
-			name = FoundationIcons;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		235D1932C6C10220BD4B53437F52D8F2 /* RAMAnimatedTabBarController */ = {
+		225508EB8FE7A72F26902B000F9A9C23 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F744D5B65AA9460525E1A395E35BBC0A /* RAMAnimatedTabBarController.swift */,
-				EEEC2E731DA39C8F6255AE5213D0A662 /* RAMBadge.swift */,
-				12D09C99B4D6C48E45227ED9820F1353 /* RAMBounceAnimation.swift */,
-				E64C5974AB86435FA8C5DCD6FC09F627 /* RAMFrameItemAnimation.swift */,
-				F42E430E85E677AB4F221BBCDFB3A213 /* RAMFumeAnimation.swift */,
-				8376C62EE8587347558490953681410B /* RAMItemAnimationProtocol.swift */,
-				5CD097D7C1A47E96023EE1DC2CBA54B3 /* RAMRotationAnimation.swift */,
-				B55C43097DD8A3CA0C0DD3A07437002D /* RAMTransitionItemAnimations.swift */,
-				76EE1E2A0B264BE73BE0BB1532E3A66F /* Support Files */,
-			);
-			name = RAMAnimatedTabBarController;
-			path = RAMAnimatedTabBarController;
-			sourceTree = "<group>";
-		};
-		2BBE5C388060C5A7148DD15AA618860C /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				D7BBDBB0F93307DA115BFD9039731D55 /* foundation-icons.ttf */,
+				DD89F8A85AA982E7C76FCD37E61DDD8F /* Material-Design-Iconic-Font.ttf */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		2EF55D8063FD78C5D806D461256B3029 /* Octicons */ = {
-			isa = PBXGroup;
-			children = (
-				AAF0E40281502AD98F46CCE70DA43C69 /* FAKOcticons.h */,
-				551625BDA53EB0E63CE3C1E012A3E236 /* FAKOcticons.m */,
-				0937A99829984D8C4B44C1670A6EDB3E /* Resources */,
-			);
-			name = Octicons;
 			sourceTree = "<group>";
 		};
 		429633E15DE7C72B0ACD9968E8F3256F /* Pods-SNSBusinessCards */ = {
@@ -289,32 +441,69 @@
 			path = "Target Support Files/Pods-SNSBusinessCards";
 			sourceTree = "<group>";
 		};
-		666EEFD4FFAB96F3456313E467685117 /* Resources */ = {
+		5163322BE0B5A3023AFD6A967301EF42 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9EA06482471B9953000C46109481775E /* FontAwesome.otf */,
+				E8D42E780A232015CCD9E83793E644DE /* FontAwesome.otf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		76EE1E2A0B264BE73BE0BB1532E3A66F /* Support Files */ = {
+		67286DD6B493D7B8011B1C9D4554BE28 /* Zocial */ = {
 			isa = PBXGroup;
 			children = (
-				CBC07F1A99302E00AAAD9833E110DF44 /* Info.plist */,
-				5C6BA63DD9A17FE7695B4D680D2725E5 /* RAMAnimatedTabBarController.modulemap */,
-				81B32C5CF6D5E88E1721E18D5E90F254 /* RAMAnimatedTabBarController.xcconfig */,
-				DE54FFE3B8B7261228B3C2871CBA72CF /* RAMAnimatedTabBarController-dummy.m */,
-				DECEDA2A5B9C60CE11F32A25947BEFD0 /* RAMAnimatedTabBarController-prefix.pch */,
-				B606B2F760DB3BE193B4F8ED4BA02377 /* RAMAnimatedTabBarController-umbrella.h */,
+				4B16C5B9B259F0A642EC40EFFAF918D5 /* FAKZocial.h */,
+				FF651A6BB1EB8455EDE145448F41CD43 /* FAKZocial.m */,
+				7AEA926D8700597854BAEC9F53C19336 /* Resources */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/RAMAnimatedTabBarController";
+			name = Zocial;
 			sourceTree = "<group>";
 		};
-		7751941A1B0B99A86358D89A1DE6A708 /* Resources */ = {
+		6886FCBCC5F46F06AEFAA605F496F1BA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B880161E0A52B3B364206840437D117D /* zocial-regular-webfont.ttf */,
+				FE0CCAE8CF11E90A6D5D1230C31366C2 /* Info.plist */,
+				7A056242014FDF0B99531CB9C4B579AA /* NCMB.modulemap */,
+				85AF5A43807045DED6B8447B28BDE7CE /* NCMB.xcconfig */,
+				AB9B49C1F3B8FB5503A9BD31C95B0BE2 /* NCMB-dummy.m */,
+				D3853F6ED2ADFD0D8A18AA9A222A74E6 /* NCMB-prefix.pch */,
+				150DDE30FF3182B33544121C40E8E778 /* NCMB-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NCMB";
+			sourceTree = "<group>";
+		};
+		69DA165C6E771987AE52DFE2ABE44C50 /* RAMAnimatedTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				EF49E672C33378C8C16C531CF6DD7EAD /* RAMAnimatedTabBarController.swift */,
+				2F3F8348A2658A0415F5D27D4F5F63C8 /* RAMBadge.swift */,
+				D2A679FB27F2863F230D7F64E0487F94 /* RAMBounceAnimation.swift */,
+				16D13D39C62128EDA01DF39D83FEC85E /* RAMFrameItemAnimation.swift */,
+				2EF35106F73EF4A768C0AF1BC04F513B /* RAMFumeAnimation.swift */,
+				2B5684F355C7543E85C1C206EBBE521B /* RAMItemAnimationProtocol.swift */,
+				4A55BA207666CC39FD73BAA0C324DB6B /* RAMRotationAnimation.swift */,
+				E70E4E7B845995A3C4815C03BF5CF234 /* RAMTransitionItemAnimations.swift */,
+				E5821BDDC2CA2D1F92535D5D85D34267 /* Support Files */,
+			);
+			name = RAMAnimatedTabBarController;
+			path = RAMAnimatedTabBarController;
+			sourceTree = "<group>";
+		};
+		756520B7943EE977F91A2D796A129E8C /* FontAwesome */ = {
+			isa = PBXGroup;
+			children = (
+				FFFA6903641B9B37D435A12DC93D3C3C /* FAKFontAwesome.h */,
+				5D53DE7A76814705A5EF18F6D79A250D /* FAKFontAwesome.m */,
+				5163322BE0B5A3023AFD6A967301EF42 /* Resources */,
+			);
+			name = FontAwesome;
+			sourceTree = "<group>";
+		};
+		7AEA926D8700597854BAEC9F53C19336 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E6B4FBB56E6D83F3F4A8D90013635D4D /* zocial-regular-webfont.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -323,181 +512,321 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				FA90C1913324181D3A69F100EA3E7F92 /* Pods */,
-				FE2F8A7877A31D2E38D4F3E78542CDBD /* Products */,
+				0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */,
+				1E563716B50EB98A19837C898C692F26 /* Pods */,
+				FB4EFDE29554FEFBF600BEFFE58D5ACE /* Products */,
 				10690183D226E2B51F4D6D7E4CAC8E04 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		844AD5638AFA86593709F215F9EBF527 /* Resources */ = {
+		83BF8374D3C0C6368A96926CD7F43A6B /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				FB767A92D62014A2A0912FAC38D5C15E /* ionicons.ttf */,
+				C8F6BC099A66560B930E92187C1286E8 /* AudioToolbox.framework */,
+				D3734509F777950D031D63009A2E395C /* CoreText.framework */,
+				F4123E9C8D3E960B53B8951881808A7D /* Foundation.framework */,
+				34EB5B41928EE4385747800CF7BAC911 /* MobileCoreServices.framework */,
+				251341B08AC9197D6206C5DDAF59DA6C /* SystemConfiguration.framework */,
+				4BD443D47DE1E61FC73D01BCD277E3B4 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		86C67D0237A669F6DC211273F15CA062 /* Material */ = {
+			isa = PBXGroup;
+			children = (
+				03B37DF5E823A37884B1F0D4B0C709FF /* FAKMaterialIcons.h */,
+				930CCA7ADC2B2A422BCF84FBA9FE5468 /* FAKMaterialIcons.m */,
+				225508EB8FE7A72F26902B000F9A9C23 /* Resources */,
+			);
+			name = Material;
+			sourceTree = "<group>";
+		};
+		889B39AF8B5E0613B5D43C6AD59CDBB6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				49BD183A2D7414E5F1F998B0FD27DA30 /* octicons.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		8CC995EB0C742D658BF1AB5E569F5083 /* FontAwesomeKit */ = {
+		A57477C93D6F1670B645B17F8E9FBAA4 /* FoundationIcons */ = {
 			isa = PBXGroup;
 			children = (
-				F5CC72B7CFCA0C8C9FD1F7397A9B8E57 /* FontAwesomeKit.h */,
-				DD56D55E8551A5F621866A46C1D8DE9C /* Core */,
-				FE6C385A7F0A87FE80E2D1D24DA5876E /* FontAwesome */,
-				1D823D7B8FB8FFCC74D05100054BA686 /* FoundationIcons */,
-				D3FC0531D6DDBBCA848D537C6530A835 /* IonIcons */,
-				D3D865CAC2EA0EED652ED9EE682FB2E3 /* Material */,
-				2EF55D8063FD78C5D806D461256B3029 /* Octicons */,
-				B7EF61E5D0050065B5B2E51B25B10708 /* Support Files */,
-				A842C1805B26A035F2E73FF5315776F3 /* Zocial */,
+				171AC89616AE1612B963F9B8739E5893 /* FAKFoundationIcons.h */,
+				58FA4103CD04AE291EC29F8931F9C53A /* FAKFoundationIcons.m */,
+				FF439A71612ADDE516737E67D8094FF5 /* Resources */,
 			);
-			name = FontAwesomeKit;
-			path = FontAwesomeKit;
+			name = FoundationIcons;
 			sourceTree = "<group>";
 		};
-		A842C1805B26A035F2E73FF5315776F3 /* Zocial */ = {
+		AED34A020E193DF92C86FFB6A152531B /* Octicons */ = {
 			isa = PBXGroup;
 			children = (
-				15B5D5F0F7845888C539A94585BDDDDF /* FAKZocial.h */,
-				4D8B51E2BCF1F660033AFBB98719D3D9 /* FAKZocial.m */,
-				7751941A1B0B99A86358D89A1DE6A708 /* Resources */,
+				AC240D37D23516FC89EAE04568D04C99 /* FAKOcticons.h */,
+				2A1673D847B2B3FFF690873F2040A800 /* FAKOcticons.m */,
+				889B39AF8B5E0613B5D43C6AD59CDBB6 /* Resources */,
 			);
-			name = Zocial;
+			name = Octicons;
 			sourceTree = "<group>";
 		};
-		A990BD3103454EDDD5FB75516813CF53 /* TextFieldEffects */ = {
+		BC188AE187403F3802BE215763C39021 /* TextFieldEffects */ = {
 			isa = PBXGroup;
 			children = (
-				C804B2243CEE6827269060D13AB92DF3 /* AkiraTextField.swift */,
-				63C3371D45C4F2FA4B9805E7FAB07403 /* HoshiTextField.swift */,
-				5BF7E3428AF5DD695B255B1FB7293138 /* IsaoTextField.swift */,
-				958A7ED5874B53718752A3A452329670 /* JiroTextField.swift */,
-				6E5A6A3E336D98498B47768E689EF492 /* KaedeTextField.swift */,
-				78485EEAA10C1C44850FA671A9DAB3AF /* MadokaTextField.swift */,
-				38539EEE44711B036EFDA10CD20099F1 /* MinoruTextField.swift */,
-				96D1B330E7012800E3B2F4BDA15FD376 /* TextFieldEffects.swift */,
-				20461B169EE8C91100FB57E54A6AC598 /* YokoTextField.swift */,
-				533543BEF7565733E20AE7CBFCE1AE0C /* YoshikoTextField.swift */,
-				EE85415FA465965454AB50DA2006A8BC /* Support Files */,
+				27BE98FE3549AAB0A637618EE245803B /* AkiraTextField.swift */,
+				F18278F207C1C0B09D281571E6E714B1 /* HoshiTextField.swift */,
+				EF7E05914FCC725FB91AD12863789264 /* IsaoTextField.swift */,
+				5CF36AB1735AC850F24A2DA0403F841A /* JiroTextField.swift */,
+				9C34160D18B0FC87A892225536A56F7E /* KaedeTextField.swift */,
+				73FB5C727611BF1DA0FA754EDAF498C9 /* MadokaTextField.swift */,
+				DB1FE6C3EF7A4DF0D38DD94B58BBAC0A /* MinoruTextField.swift */,
+				84280388041E5BF27052D3FF2F6DA03D /* TextFieldEffects.swift */,
+				357496A66202CD05FEA3EA0D6EE1BCB7 /* YokoTextField.swift */,
+				7B5F04CCB096CAB4C9894716ADE0F69A /* YoshikoTextField.swift */,
+				F0B938E4911CAEAD3912AB6B5946D4E4 /* Support Files */,
 			);
 			name = TextFieldEffects;
 			path = TextFieldEffects;
 			sourceTree = "<group>";
 		};
-		B7EF61E5D0050065B5B2E51B25B10708 /* Support Files */ = {
+		DCA3862604B1B695EDF343C650BFA609 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				438C33F09E63AD854B88B81B11DA2502 /* FontAwesomeKit.modulemap */,
-				49FCF48EB5D2DF204737798FDBA820C7 /* FontAwesomeKit.xcconfig */,
-				C63E0A34DE669E295AD7EB9C78C783FB /* FontAwesomeKit-dummy.m */,
-				669A6F42AF7C023DD46AC8BAA70B64AD /* FontAwesomeKit-prefix.pch */,
-				304A00725BEAC3AB3AC66F230D1695D5 /* FontAwesomeKit-umbrella.h */,
-				0F1E520192DCB4BB3673359F07C82729 /* Info.plist */,
+				7294090865693A2AE5B4F39957F776CE /* FAKIcon.h */,
+				EE0F00C943E16384C3A46D6AAEBAA015 /* FAKIcon.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		E39F0933A3BB548450DEA37B249EEE8E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6808644633C601DDB99B1D5B5FE805F5 /* FontAwesomeKit.modulemap */,
+				90822EAA37A342DA4785C55401F05FE1 /* FontAwesomeKit.xcconfig */,
+				E59F6B714497C10FB0A6A90200F4C327 /* FontAwesomeKit-dummy.m */,
+				8A15041020DB7F5E9B99714C528910A5 /* FontAwesomeKit-prefix.pch */,
+				91B6172D51DBDD163C4FEC84B312A08A /* FontAwesomeKit-umbrella.h */,
+				FC40C494DC7FE30BADD84B743E0AD8CB /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/FontAwesomeKit";
 			sourceTree = "<group>";
 		};
-		D3D865CAC2EA0EED652ED9EE682FB2E3 /* Material */ = {
+		E5821BDDC2CA2D1F92535D5D85D34267 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B565A3A0A7E483FFD08BFCBE8B27F358 /* FAKMaterialIcons.h */,
-				F7138C2DA0E36040D45175A36C37226D /* FAKMaterialIcons.m */,
-				E118941FA98FAE5F989C1CAF1EF6A14B /* Resources */,
+				22CF845658AF5E0C6A4348F358401E94 /* Info.plist */,
+				BA58391466C71BB223F0E4D284D5D050 /* RAMAnimatedTabBarController.modulemap */,
+				76BE426D544F5D6B11ACAA8E1A256EB5 /* RAMAnimatedTabBarController.xcconfig */,
+				9A87EE2E3D4D72463F848DE04C17CE88 /* RAMAnimatedTabBarController-dummy.m */,
+				8B30C9038B9A0585FEB357BD778B014B /* RAMAnimatedTabBarController-prefix.pch */,
+				5629CCB101E7FB94DA5B14740268904E /* RAMAnimatedTabBarController-umbrella.h */,
 			);
-			name = Material;
+			name = "Support Files";
+			path = "../Target Support Files/RAMAnimatedTabBarController";
 			sourceTree = "<group>";
 		};
-		D3FC0531D6DDBBCA848D537C6530A835 /* IonIcons */ = {
+		E897A8D2761A957A8E18CD1F4908AF03 /* NCMB */ = {
 			isa = PBXGroup;
 			children = (
-				8589542D4E4D3B62F0F14D1595D3928E /* FAKIonIcons.h */,
-				EA176DB3839AA16A0823CBFD51D86CEA /* FAKIonIcons.m */,
-				844AD5638AFA86593709F215F9EBF527 /* Resources */,
+				D986F19785D2A162459D72C2AE7BA23C /* NCMB.h */,
+				0251FB1878CE9E6355B277D40946492E /* NCMB.m */,
+				7EA2F1CFDFA33A664F5BEE7DB26D1B16 /* NCMB_umbrella.h */,
+				B27D779BE1D927B7CA4800AEFBDD9E96 /* NCMBACL.h */,
+				A3902AE94D0C7BE4236975DE3BBEFCC9 /* NCMBACL.m */,
+				F4B345C9E9B6E532E7F7E458C9D70FB0 /* NCMBAddOperation.h */,
+				AE40DD1DD403290E538650F8A4781B9E /* NCMBAddOperation.m */,
+				DE2F17711595263CE24630F223D893D0 /* NCMBAddUniqueOperation.h */,
+				AA9F5AAE04D9C9A901AE4AB4AFA2B803 /* NCMBAddUniqueOperation.m */,
+				7502141FF7A8BABE8ECC58289E329CA3 /* NCMBAnalytics.h */,
+				44E11CD0F7076CBD5BFE7BFE2AA626BF /* NCMBAnalytics.m */,
+				B824F7CBC5EB8BA501CC92F614DC4260 /* NCMBAnonymousUtils.h */,
+				A01B31FA86746E160FA65733E77D466B /* NCMBAnonymousUtils.m */,
+				2F82C03A9376CD41D64973F5194337B6 /* NCMBCloseImageView.h */,
+				4EA50141A22E947E06F071475D368C6F /* NCMBCloseImageView.m */,
+				8AE879BEA49C72A22A273102301FC48E /* NCMBConstants.h */,
+				40154F109D9CC9D06DB44EE0738B5BB2 /* NCMBDateFormat.h */,
+				4BBFA11DA82413668C73BC671613B29C /* NCMBDateFormat.m */,
+				1E34096F7FCE4F1AB33C62609AC60CA1 /* NCMBDeleteOperation.h */,
+				7B317E5C2E38744F840A3B061964D929 /* NCMBDeleteOperation.m */,
+				51E7A0CF4249169EB84F93010145F957 /* NCMBError.h */,
+				5796AD80F18A5E44A9EE3FFF9C0200E5 /* NCMBError.m */,
+				A5108BF3671F4D93675E5C68A5A86FCF /* NCMBFile.h */,
+				133712096A4480F5FF7A6D9037A57656 /* NCMBFile.m */,
+				49EF0CE0B2C3D2D4687625D0D206AF49 /* NCMBGeoPoint.h */,
+				9A92298BB64BE51ECE4A6CF39790E6BF /* NCMBGeoPoint.m */,
+				E91B69FBCF43D9B90B6995ADA7D926D0 /* NCMBIncrementOperation.h */,
+				5ECC015979A0F03B8FD315E553AAF237 /* NCMBIncrementOperation.m */,
+				D9BF875706D91BA44701D7D406D47809 /* NCMBInstallation.h */,
+				ADA0C410433FDD7E2A2D24305F3C38A6 /* NCMBInstallation.m */,
+				BCEB45F6335AEDAD9203825E9377FFDD /* NCMBObject.h */,
+				FC59DC116425FEE4EC1724DECCBE40F3 /* NCMBObject.m */,
+				90EB63A8F1C189823AF034829E9C8E07 /* NCMBObject+Private.h */,
+				CBD6D2028064CB13CE6904B4E18C4076 /* NCMBObject+Subclass.h */,
+				AB9F27B460CFBEE3524DB5E374FA3147 /* NCMBPush.h */,
+				A9F5F3F5A6A58C035DCF473D168D2D97 /* NCMBPush.m */,
+				6192327FFE5AC1B11B0439F237E5712D /* NCMBQuery.h */,
+				E5276FE4987B665D6892A56E5AA726E6 /* NCMBQuery.m */,
+				A9BBA26674AD8AE60C964AD2D0E662CE /* NCMBQuery+Private.h */,
+				1F7BBFBB23D48B4343413EEB25EC0D2C /* NCMBReachability.h */,
+				1F1CA6F823BA24E5BD234984B2E039E2 /* NCMBReachability.m */,
+				AD743D284F02222431A22C46ECFD3900 /* NCMBRelation.h */,
+				F34108416D00F2EF22C942AE4F5CBECA /* NCMBRelation.m */,
+				EEA80B26B326E42E38E55590487ACF82 /* NCMBRelation+Private.h */,
+				8774409F89FB763D8539A478A0AC13E1 /* NCMBRelationOperation.h */,
+				0B3698CB43CB90582A85AC011A2D89E9 /* NCMBRelationOperation.m */,
+				348A47D78CF59E447F3A12EE6C1FE306 /* NCMBRemoveOperation.h */,
+				66182B3CBF575C821CC53A0B701AD98D /* NCMBRemoveOperation.m */,
+				8796AB6F34B9E73C317CDC79591ACF6B /* NCMBRequest.h */,
+				063C27B7477BF956876B685D9DE981B0 /* NCMBRequest.m */,
+				6F5977B0AD4D73FCDAE16E7012991FA7 /* NCMBRichPushView.h */,
+				D35E65583DED38A232DDDCE191BC6013 /* NCMBRichPushView.m */,
+				27B892C03DB1D0630813E6A3C587D8D5 /* NCMBRole.h */,
+				7F00D842AAB97AB8C625E5236C326B9E /* NCMBRole.m */,
+				D5ED8E0B58D32F8CF181EAF659122C0F /* NCMBScript.h */,
+				DFE888F1C3EBD0A9C4879DDA6A4EA060 /* NCMBScript.m */,
+				FE7AE22F14DDE3D4116CADEC6BD1A299 /* NCMBScriptService.h */,
+				804C70D90C7DAAEE048B26EEA28627B6 /* NCMBScriptService.m */,
+				6B58AA03C967504BF0B0A15364DD4F5B /* NCMBSetOperation.h */,
+				2FA35229B0B2390E5DDE547FFDC5AAAC /* NCMBSetOperation.m */,
+				433239FA4E77D2A4A2D91BCEC5027B9D /* NCMBSubclassing.h */,
+				3AA78132F030A836A98F8895D70568C5 /* NCMBURLSession.h */,
+				36850092A78F44EBA9FD9D70B97DA4C6 /* NCMBURLSession.m */,
+				C0CC092371E9CF743C2F4BDDCDE8DD18 /* NCMBUser.h */,
+				E33FA2D750B2F9F28FE9F43575E64FBF /* NCMBUser.m */,
+				BA28DA215C5698E8E42F46227F3BC759 /* NCMBUser+Private.h */,
+				D864EF1B8B30962334D23E81B0645605 /* NSDataBase64Encode.h */,
+				7A72DAC8AE9F9AD3B7E55DE8554566D1 /* NSDataBase64Encode.m */,
+				16B1849D65954FDF8EDD3627D6479603 /* SubClassHandler.h */,
+				1CF8A8EA91087E69985D48C574F7A984 /* SubClassHandler.m */,
+				6886FCBCC5F46F06AEFAA605F496F1BA /* Support Files */,
 			);
-			name = IonIcons;
+			name = NCMB;
+			path = NCMB;
 			sourceTree = "<group>";
 		};
-		DD56D55E8551A5F621866A46C1D8DE9C /* Core */ = {
+		F0B938E4911CAEAD3912AB6B5946D4E4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E6B51E443C281C65EB849E2D3C1029C0 /* FAKIcon.h */,
-				9AEE2A903B35F7EACD5C4A107B26E748 /* FAKIcon.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		E118941FA98FAE5F989C1CAF1EF6A14B /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				2ECEB9DDF892E9B96693C62D245215F6 /* Material-Design-Iconic-Font.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		EE85415FA465965454AB50DA2006A8BC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				350F0077E66B21BDED69168EBF262399 /* Info.plist */,
-				A4257E5C8426805D78CF48B66A982D6A /* TextFieldEffects.modulemap */,
-				D7F7289291AE601FF2EFE6076CB2564C /* TextFieldEffects.xcconfig */,
-				50ACB9D24A45153268D7E7291DEBADA9 /* TextFieldEffects-dummy.m */,
-				1448E368A495A0BB83DC05C2984E4707 /* TextFieldEffects-prefix.pch */,
-				055D827A4E0928F13F0ED4F2121A40C9 /* TextFieldEffects-umbrella.h */,
+				69CD43150A5FA5B4DDACEB325577125C /* Info.plist */,
+				E927D7B34B586D31C371816BCD1B968B /* TextFieldEffects.modulemap */,
+				1B0C472412D7F6F900A1D95054F286E9 /* TextFieldEffects.xcconfig */,
+				F0A9BECC9C0DD9566DA1F109ACEADE61 /* TextFieldEffects-dummy.m */,
+				DF74B8AD8E712B5709CFF34F2D5CFDFC /* TextFieldEffects-prefix.pch */,
+				FC4EF65A0C915BF6E7C5D25B3C7FC5BF /* TextFieldEffects-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/TextFieldEffects";
 			sourceTree = "<group>";
 		};
-		FA90C1913324181D3A69F100EA3E7F92 /* Pods */ = {
+		F3899F8515056E60395F526C59A603A9 /* FontAwesomeKit */ = {
 			isa = PBXGroup;
 			children = (
-				8CC995EB0C742D658BF1AB5E569F5083 /* FontAwesomeKit */,
-				235D1932C6C10220BD4B53437F52D8F2 /* RAMAnimatedTabBarController */,
-				A990BD3103454EDDD5FB75516813CF53 /* TextFieldEffects */,
+				3AB5383861FB5882D894E7477C916790 /* FontAwesomeKit.h */,
+				DCA3862604B1B695EDF343C650BFA609 /* Core */,
+				756520B7943EE977F91A2D796A129E8C /* FontAwesome */,
+				A57477C93D6F1670B645B17F8E9FBAA4 /* FoundationIcons */,
+				15A5C93DC26142C4BAE63B5AD365EAA1 /* IonIcons */,
+				86C67D0237A669F6DC211273F15CA062 /* Material */,
+				AED34A020E193DF92C86FFB6A152531B /* Octicons */,
+				E39F0933A3BB548450DEA37B249EEE8E /* Support Files */,
+				67286DD6B493D7B8011B1C9D4554BE28 /* Zocial */,
 			);
-			name = Pods;
+			name = FontAwesomeKit;
+			path = FontAwesomeKit;
 			sourceTree = "<group>";
 		};
-		FE2F8A7877A31D2E38D4F3E78542CDBD /* Products */ = {
+		FB4EFDE29554FEFBF600BEFFE58D5ACE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3678F7C472B86DB487FBB6FF09B0EAC5 /* FontAwesomeKit.framework */,
-				4610FEBC9643A9D055A0D79BAC8EAD89 /* Pods_SNSBusinessCards.framework */,
-				D49B75FDCA45D1745FAB3287CB7DDEC3 /* RAMAnimatedTabBarController.framework */,
-				A3544DF05A3E475AF9F4D049D929B6DC /* TextFieldEffects.framework */,
+				4434C9110C1DCADAE9C417C7C0123713 /* FontAwesomeKit.framework */,
+				DD8DCBB70BA060B91132890B0D15BF80 /* NCMB.framework */,
+				C8D867CB1D88D481BACAFB63035F3F70 /* Pods_SNSBusinessCards.framework */,
+				BFA5D5D501D8A9DF184858629F558E03 /* RAMAnimatedTabBarController.framework */,
+				3C5A876FE7A31495145FE45372CA263D /* TextFieldEffects.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FE6C385A7F0A87FE80E2D1D24DA5876E /* FontAwesome */ = {
+		FBBF209529F55B3DA5D9501E528A08BC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5ABF99FE2667EA486D4EBA97902D6D43 /* FAKFontAwesome.h */,
-				C993B50BDA1DC5C87167C0E608BBBF4D /* FAKFontAwesome.m */,
-				666EEFD4FFAB96F3456313E467685117 /* Resources */,
+				4B7C5F5B4B1216F8185007B0D11DCD37 /* ionicons.ttf */,
 			);
-			name = FontAwesome;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		FF1CA95E532A8F990E19506982FA04EE /* iOS */ = {
+		FF439A71612ADDE516737E67D8094FF5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				C55C580E1FC5B6E9F442FE42A9553FEA /* CoreText.framework */,
-				A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */,
-				27BE1AF8CEE8818CBCFD0010AE8BEE51 /* UIKit.framework */,
+				892F6D06CF647049886F8BC8C76EAC88 /* foundation-icons.ttf */,
 			);
-			name = iOS;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7B50FA4406BD898FF03C1FC4333DBAA1 /* Headers */ = {
+		0EFE9689E9F54EFFB54CC1AD34615CCE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B7FA4ECCF190B7E0D291D24B94F3F56 /* TextFieldEffects-umbrella.h in Headers */,
+				9A7272B15F6B81A1FEC1E81F2A9169DA /* TextFieldEffects-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2126F871E7E78346832906BCE40F82F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				477158E1EDBB1E8482F4F8E13DBDCF72 /* NCMB-umbrella.h in Headers */,
+				B8F613743A15EF8CC206DC20D96BE90E /* NCMB.h in Headers */,
+				D388A0F9B42B452E9C3608AEF73379D7 /* NCMB_umbrella.h in Headers */,
+				46C79256045B440DCD399B8A454FEA73 /* NCMBACL.h in Headers */,
+				BA3E3A52D273C9C4118A7F066E3955E8 /* NCMBAddOperation.h in Headers */,
+				6ED11884F22ED63874E7303A1BA96F0B /* NCMBAddUniqueOperation.h in Headers */,
+				DB67CBBD76DD779B15EE65AD2C972AAB /* NCMBAnalytics.h in Headers */,
+				D0AFFD17203C216F7FE5A3B7C0F36A51 /* NCMBAnonymousUtils.h in Headers */,
+				E9AD7EE2AD3C96C08F6F0040DDC767FA /* NCMBCloseImageView.h in Headers */,
+				96F8DB29728F1F5E2BB3F9B1B52C7140 /* NCMBConstants.h in Headers */,
+				D2D1BEDBC632B48D5F9FE99BDAB05022 /* NCMBDateFormat.h in Headers */,
+				6D74D6AE5914578CCC0A8DC4994FFE68 /* NCMBDeleteOperation.h in Headers */,
+				67330FB7DE571AB7B7A56F084F7C5EAC /* NCMBError.h in Headers */,
+				87C947CF3B3F514D133B19A1411E07E7 /* NCMBFile.h in Headers */,
+				0960F8356D44DFDFC0A091D8C928264D /* NCMBGeoPoint.h in Headers */,
+				558D7E301E80546D923F4CBF27C1C444 /* NCMBIncrementOperation.h in Headers */,
+				9E26F2E8DB237BD1F39D4D55CCC78599 /* NCMBInstallation.h in Headers */,
+				F5CBD1B3482A17D151209E504C3222EB /* NCMBObject+Private.h in Headers */,
+				0CC1A0D5DCCABA65D7A7DD3301B25253 /* NCMBObject+Subclass.h in Headers */,
+				48C1546EE63E0700B5F3EFCEBFD4C12A /* NCMBObject.h in Headers */,
+				A3AE12C8E86BD923BBD4587F655FC0BA /* NCMBPush.h in Headers */,
+				38A9A1343CFF40100983CFADC724F304 /* NCMBQuery+Private.h in Headers */,
+				2859B97332840C5C469E8E36B8701578 /* NCMBQuery.h in Headers */,
+				01E6F89D906C26E12FFB26B3C84122CD /* NCMBReachability.h in Headers */,
+				0F41FD3C9349ED3CFAC454FC009ADB13 /* NCMBRelation+Private.h in Headers */,
+				F2E3F4563E3F63A00B3C56AD3CE52661 /* NCMBRelation.h in Headers */,
+				7D23E46ED69E72257A3CBBBF822C83DB /* NCMBRelationOperation.h in Headers */,
+				1D91DEE411B797AA529F7947AA83709C /* NCMBRemoveOperation.h in Headers */,
+				73C681C37B82BD65FEA0E4E7353369C7 /* NCMBRequest.h in Headers */,
+				C68BC568ECC6AF7BFE42C53C0FA758F0 /* NCMBRichPushView.h in Headers */,
+				0AD21DC1786FB48A569ABC3E00832D10 /* NCMBRole.h in Headers */,
+				B9970DE19ABA09FFCDB5BE59D0BDE2F4 /* NCMBScript.h in Headers */,
+				A1D008A25471566FFA4251DACBF0146A /* NCMBScriptService.h in Headers */,
+				568E15627786D3F071042C6229CBA483 /* NCMBSetOperation.h in Headers */,
+				CF4DCA1132594DE49BE1499E971DE9E6 /* NCMBSubclassing.h in Headers */,
+				EEA0822E3167202EDF608DE6F404AE95 /* NCMBURLSession.h in Headers */,
+				3376B458232ECFCED5002B98ECD083E7 /* NCMBUser+Private.h in Headers */,
+				993F399B0D5211CD8B4E46B0568AFD6D /* NCMBUser.h in Headers */,
+				7F1D460E3549B997C77C233442ACBF79 /* NSDataBase64Encode.h in Headers */,
+				FE258945D8EC4D7487139CBDCA6E327F /* SubClassHandler.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B8384C870AA7D5526D05D3F4BEFAD37 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5E76CBF7683CE2E5273D5668FB4CF04 /* RAMAnimatedTabBarController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,52 +846,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4AEEF38E10A761A6D67A6699DB41B7A /* Headers */ = {
+		FF4A152F6E871D7FCF3A54C71436A34B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9725563C2AEE1687840A7F5E61719B20 /* RAMAnimatedTabBarController-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F2E93FE673F38384CF97A9F3F143E45A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				587B4579C6B7641EF8076185B9AB0035 /* Pods-SNSBusinessCards-umbrella.h in Headers */,
+				B3CE9A2A40AE91B0D39D1281F2F6E930 /* Pods-SNSBusinessCards-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		29631F1059DBACAD166424FA8151A25B /* Pods-SNSBusinessCards */ = {
+		09A0304BAC0D61017A96F6A006910421 /* TextFieldEffects */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5405065CBA0F749468BB7042C9535867 /* Build configuration list for PBXNativeTarget "Pods-SNSBusinessCards" */;
+			buildConfigurationList = 180A39307A4B0B8EF57826B8E190C89D /* Build configuration list for PBXNativeTarget "TextFieldEffects" */;
 			buildPhases = (
-				EAD0D5C645F28487869E5F076A4F3823 /* Sources */,
-				B1F6B0D3C2407A27F0F57D5C76E8C9BD /* Frameworks */,
-				F2E93FE673F38384CF97A9F3F143E45A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6EA9EB8C714590A1799DD392A8DFB3B0 /* PBXTargetDependency */,
-				6F3382E7BE66AB46793A9EEBB0275BE3 /* PBXTargetDependency */,
-				73613B3A66B5BA75A4286818F95B93E3 /* PBXTargetDependency */,
-			);
-			name = "Pods-SNSBusinessCards";
-			productName = "Pods-SNSBusinessCards";
-			productReference = 4610FEBC9643A9D055A0D79BAC8EAD89 /* Pods_SNSBusinessCards.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		3BE329A6FA4F57E5848D524326AF7554 /* TextFieldEffects */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BE6A9F9DE5A901F1DF7CBB8FB7AF5326 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */;
-			buildPhases = (
-				F906B5F971215AC3616685724D69D257 /* Sources */,
-				BBB5308CA59A3FA6903B211AECE9EA6E /* Frameworks */,
-				7B50FA4406BD898FF03C1FC4333DBAA1 /* Headers */,
+				2626F77BDA5D2589E32153D94ABC0802 /* Sources */,
+				C5D0646E48EB88858768A02CF0FA6375 /* Frameworks */,
+				0EFE9689E9F54EFFB54CC1AD34615CCE /* Headers */,
 			);
 			buildRules = (
 			);
@@ -570,16 +871,37 @@
 			);
 			name = TextFieldEffects;
 			productName = TextFieldEffects;
-			productReference = A3544DF05A3E475AF9F4D049D929B6DC /* TextFieldEffects.framework */;
+			productReference = 3C5A876FE7A31495145FE45372CA263D /* TextFieldEffects.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		626D0A030458E6191AB5B1C389D17CB1 /* RAMAnimatedTabBarController */ = {
+		1C2268E0D7D483975ABB5B8048B99786 /* Pods-SNSBusinessCards */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F9FB0720C616E7FC38CC70B21BF9C0E /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarController" */;
+			buildConfigurationList = 408B233A261D050B6DEFDE6E8C3C7BF0 /* Build configuration list for PBXNativeTarget "Pods-SNSBusinessCards" */;
 			buildPhases = (
-				0118F65ED0DC1D1AC5D640B622FDDE79 /* Sources */,
-				A3FF119F81A01E1B1C371874B0453497 /* Frameworks */,
-				C4AEEF38E10A761A6D67A6699DB41B7A /* Headers */,
+				68EDFDD2F0E2D7CFB95AFD544FC1EAAE /* Sources */,
+				057CD7914101CBC7EC0DCA4FB77E4F12 /* Frameworks */,
+				FF4A152F6E871D7FCF3A54C71436A34B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				429F7EEC140E960450E63BC2549A35BC /* PBXTargetDependency */,
+				6806925C51C132429E096E2758BB6A0A /* PBXTargetDependency */,
+				42579E1B68D193B3C1930BC6F8616593 /* PBXTargetDependency */,
+				D7B07FDB758E2099BF8EF005CB4A9249 /* PBXTargetDependency */,
+			);
+			name = "Pods-SNSBusinessCards";
+			productName = "Pods-SNSBusinessCards";
+			productReference = C8D867CB1D88D481BACAFB63035F3F70 /* Pods_SNSBusinessCards.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4EA887B9D9A48B6C7A221328AB78544E /* RAMAnimatedTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9D8AEC29AFFFABC83B6377DE77A870D /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarController" */;
+			buildPhases = (
+				948AA793A712E12A0AC29B3D6087BCF6 /* Sources */,
+				BE35B12F09BD672D38719678B8513BF3 /* Frameworks */,
+				5B8384C870AA7D5526D05D3F4BEFAD37 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -587,7 +909,24 @@
 			);
 			name = RAMAnimatedTabBarController;
 			productName = RAMAnimatedTabBarController;
-			productReference = D49B75FDCA45D1745FAB3287CB7DDEC3 /* RAMAnimatedTabBarController.framework */;
+			productReference = BFA5D5D501D8A9DF184858629F558E03 /* RAMAnimatedTabBarController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		70150FD598FAA13FDC9795CCE8F76926 /* NCMB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27915B51AE70BE7108C1D020D334E562 /* Build configuration list for PBXNativeTarget "NCMB" */;
+			buildPhases = (
+				EFC706FB49980F589801F5A5389F7D11 /* Sources */,
+				CCC5E1638FDCC346405589E10398A312 /* Frameworks */,
+				2126F871E7E78346832906BCE40F82F9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NCMB;
+			productName = NCMB;
+			productReference = DD8DCBB70BA060B91132890B0D15BF80 /* NCMB.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A8E1DFAA9703A5C068D915A4C272EA21 /* FontAwesomeKit */ = {
@@ -605,7 +944,7 @@
 			);
 			name = FontAwesomeKit;
 			productName = FontAwesomeKit;
-			productReference = 3678F7C472B86DB487FBB6FF09B0EAC5 /* FontAwesomeKit.framework */;
+			productReference = 4434C9110C1DCADAE9C417C7C0123713 /* FontAwesomeKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -625,14 +964,15 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = FE2F8A7877A31D2E38D4F3E78542CDBD /* Products */;
+			productRefGroup = FB4EFDE29554FEFBF600BEFFE58D5ACE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A8E1DFAA9703A5C068D915A4C272EA21 /* FontAwesomeKit */,
-				29631F1059DBACAD166424FA8151A25B /* Pods-SNSBusinessCards */,
-				626D0A030458E6191AB5B1C389D17CB1 /* RAMAnimatedTabBarController */,
-				3BE329A6FA4F57E5848D524326AF7554 /* TextFieldEffects */,
+				70150FD598FAA13FDC9795CCE8F76926 /* NCMB */,
+				1C2268E0D7D483975ABB5B8048B99786 /* Pods-SNSBusinessCards */,
+				4EA887B9D9A48B6C7A221328AB78544E /* RAMAnimatedTabBarController */,
+				09A0304BAC0D61017A96F6A006910421 /* TextFieldEffects */,
 			);
 		};
 /* End PBXProject section */
@@ -654,22 +994,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0118F65ED0DC1D1AC5D640B622FDDE79 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				639C4AECF710FD113F4CBCCBB3602DC6 /* RAMAnimatedTabBarController-dummy.m in Sources */,
-				F3D5C5CC4CD812699F9921AC90CFA2A3 /* RAMAnimatedTabBarController.swift in Sources */,
-				16C233CACC4EC8E127E2D7C3B583CB12 /* RAMBadge.swift in Sources */,
-				A7BC09314467DF874C03B88C326FC039 /* RAMBounceAnimation.swift in Sources */,
-				130A29BFC06CD3D6B89A164915039276 /* RAMFrameItemAnimation.swift in Sources */,
-				2A1B30AF73791C92C21A02EBA9B3EEB7 /* RAMFumeAnimation.swift in Sources */,
-				0664858BE3BEB63562A554CA51FA5208 /* RAMItemAnimationProtocol.swift in Sources */,
-				1910E3E78B66F32FE33C3200EF6C8B88 /* RAMRotationAnimation.swift in Sources */,
-				FA700B17895CF8819CD5E3DA04308999 /* RAMTransitionItemAnimations.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1C11690BF49CDCBB7017548784E319D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -685,59 +1009,192 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EAD0D5C645F28487869E5F076A4F3823 /* Sources */ = {
+		2626F77BDA5D2589E32153D94ABC0802 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91FF5315FCDBE4415DEB1F6730B9BF5B /* Pods-SNSBusinessCards-dummy.m in Sources */,
+				7CCD5B19B1543E89ADE3B97896D71254 /* AkiraTextField.swift in Sources */,
+				112D5606DAA5470E7C6053FE3ED23300 /* HoshiTextField.swift in Sources */,
+				70D72DCD2FA3AB8B875B64BC0DA30C3A /* IsaoTextField.swift in Sources */,
+				6A4C1C100BC3CDA3B57D67E1406E05A9 /* JiroTextField.swift in Sources */,
+				047AB7B6A274E23725D4A836E2AE3672 /* KaedeTextField.swift in Sources */,
+				859521129AFF9A2CEA525129DD19D563 /* MadokaTextField.swift in Sources */,
+				ED526AE8662E4B8505FFE7D75A413B97 /* MinoruTextField.swift in Sources */,
+				2A8976C074617605736D0E4A766404BC /* TextFieldEffects-dummy.m in Sources */,
+				194A9C5885BED1684748BFD8C2E4B99D /* TextFieldEffects.swift in Sources */,
+				AB735F7CBD92400000981D97E154819D /* YokoTextField.swift in Sources */,
+				620B1D9003150213E9BEA802DC433B68 /* YoshikoTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F906B5F971215AC3616685724D69D257 /* Sources */ = {
+		68EDFDD2F0E2D7CFB95AFD544FC1EAAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4E6FB4C3492D8DD24A24C4AD81BD51A /* AkiraTextField.swift in Sources */,
-				57E0CE5DA556E9A8483716C31D3843B2 /* HoshiTextField.swift in Sources */,
-				275893AE5F06D05536598EF74DC8E6D0 /* IsaoTextField.swift in Sources */,
-				52C3E135A4F8F37E9E48AB170202A48C /* JiroTextField.swift in Sources */,
-				52341315AD29A2716D4D91C66FD62217 /* KaedeTextField.swift in Sources */,
-				8513E85651B03831741DAFEED07E724A /* MadokaTextField.swift in Sources */,
-				43C289029D31E1097802878C9DABBDEA /* MinoruTextField.swift in Sources */,
-				B9847B8C3E705EC7EAF58C2BFCCB350A /* TextFieldEffects-dummy.m in Sources */,
-				594AFFA9CEB1776FA1C853281ADB3D0B /* TextFieldEffects.swift in Sources */,
-				BE1B2D29DB7A92DD4B3F561F4A479832 /* YokoTextField.swift in Sources */,
-				67B08EEBFAF69578EE180330B6ADE064 /* YoshikoTextField.swift in Sources */,
+				BE3A4F7EF819434E57E597F3BA1D5014 /* Pods-SNSBusinessCards-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		948AA793A712E12A0AC29B3D6087BCF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4747AAEBD6545867DD314A0237805A2F /* RAMAnimatedTabBarController-dummy.m in Sources */,
+				D0B0ECDF0487DD118611AB58FCFD8333 /* RAMAnimatedTabBarController.swift in Sources */,
+				DEF3B2B84E66C49C70C4873BE5C31CDB /* RAMBadge.swift in Sources */,
+				142FC0D27D2BFA015312FDC05CF84D83 /* RAMBounceAnimation.swift in Sources */,
+				A6612BB1A830DFBF4F28C33E42B4023D /* RAMFrameItemAnimation.swift in Sources */,
+				231F5BA5B933988EC55FE503E152A1BD /* RAMFumeAnimation.swift in Sources */,
+				4A0178E0489396E62423C37FBAAAF37D /* RAMItemAnimationProtocol.swift in Sources */,
+				5C6BF7ACA8CAFA870243648C4D135FEF /* RAMRotationAnimation.swift in Sources */,
+				B9A1B08384FD13331E932ADDA6B8C2FB /* RAMTransitionItemAnimations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC706FB49980F589801F5A5389F7D11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64EBD2AD2390EBD24ECABADE73EF702 /* NCMB-dummy.m in Sources */,
+				B49247130B057284F1D321FE0CDCCC1A /* NCMB.m in Sources */,
+				9399F21B18F6C63069BB52D584BAA462 /* NCMBACL.m in Sources */,
+				1C00CEEA58DC69F70306EB699B985C30 /* NCMBAddOperation.m in Sources */,
+				9677C3BFCAF4C5327015A6E4041AEED8 /* NCMBAddUniqueOperation.m in Sources */,
+				F8461CFABE3044D91CB2B4A681300A13 /* NCMBAnalytics.m in Sources */,
+				6ECEA1038883806E145E7DCD5D02CC24 /* NCMBAnonymousUtils.m in Sources */,
+				771F219C7BC92100CD54E670109CD5F6 /* NCMBCloseImageView.m in Sources */,
+				03F55A66F1B76B885BFE25D961E45759 /* NCMBDateFormat.m in Sources */,
+				8F26A8E3DF2D46505846EE66D08BB7CE /* NCMBDeleteOperation.m in Sources */,
+				A6689020E1BD51358E6780B1505FDA50 /* NCMBError.m in Sources */,
+				938D935663C0EBB7C19BA6E739F9F5C9 /* NCMBFile.m in Sources */,
+				7384AB611F10D78C88EA41ED92D08D99 /* NCMBGeoPoint.m in Sources */,
+				D687A0D4AE287B5232E0D03BDEF606DD /* NCMBIncrementOperation.m in Sources */,
+				61429DACCE41B6118D4695EE0CFFAEA2 /* NCMBInstallation.m in Sources */,
+				4520F5469BD4F6BD6F16ED1293A694D8 /* NCMBObject.m in Sources */,
+				EC3AA70E889C164C8AFF45BD9396C42F /* NCMBPush.m in Sources */,
+				3903E2E106D9CF51ECE71DD24F9C8872 /* NCMBQuery.m in Sources */,
+				783F1AADEF0E9A74D126C837505D7666 /* NCMBReachability.m in Sources */,
+				6C242D4FF6586055E29D9A24CEF8D679 /* NCMBRelation.m in Sources */,
+				50659BE4953FE9DAB3AF4CBEFCFDB11B /* NCMBRelationOperation.m in Sources */,
+				DF3F196D29C2CB7C3B3F52C0A1D70BD8 /* NCMBRemoveOperation.m in Sources */,
+				5936C5EFBF40CF4B272CE21DB13EFD4C /* NCMBRequest.m in Sources */,
+				D1FD3FEE20EBE81BCABFEDC4D90B177F /* NCMBRichPushView.m in Sources */,
+				B469F5E257EFB98D358B72CE0CA459A2 /* NCMBRole.m in Sources */,
+				4904C82AA1B3E8EF76DCA0839AACCB0F /* NCMBScript.m in Sources */,
+				C86013B1823BA874D74482E39CD0125B /* NCMBScriptService.m in Sources */,
+				47B93EA336FE53B8BC62173C4B527525 /* NCMBSetOperation.m in Sources */,
+				04DCC6FBD9B27C31BD3FA3A608EE2B0A /* NCMBURLSession.m in Sources */,
+				163289DC941E999ED33E11F947796272 /* NCMBUser.m in Sources */,
+				13EC3F7CC34FA7A595724F0B5A619218 /* NSDataBase64Encode.m in Sources */,
+				736BDA866E999B10F20FC59A1A0D2527 /* SubClassHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6EA9EB8C714590A1799DD392A8DFB3B0 /* PBXTargetDependency */ = {
+		42579E1B68D193B3C1930BC6F8616593 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RAMAnimatedTabBarController;
+			target = 4EA887B9D9A48B6C7A221328AB78544E /* RAMAnimatedTabBarController */;
+			targetProxy = 4F4481F94A267FAECE8588FBEDA64CD3 /* PBXContainerItemProxy */;
+		};
+		429F7EEC140E960450E63BC2549A35BC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FontAwesomeKit;
 			target = A8E1DFAA9703A5C068D915A4C272EA21 /* FontAwesomeKit */;
-			targetProxy = 1C28F947BA589710FCEA19A7FE28261C /* PBXContainerItemProxy */;
+			targetProxy = 41730AB0953F11CB58139E025480662D /* PBXContainerItemProxy */;
 		};
-		6F3382E7BE66AB46793A9EEBB0275BE3 /* PBXTargetDependency */ = {
+		6806925C51C132429E096E2758BB6A0A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = RAMAnimatedTabBarController;
-			target = 626D0A030458E6191AB5B1C389D17CB1 /* RAMAnimatedTabBarController */;
-			targetProxy = DF8FEEE895903A1C10AE84C14E6A735E /* PBXContainerItemProxy */;
+			name = NCMB;
+			target = 70150FD598FAA13FDC9795CCE8F76926 /* NCMB */;
+			targetProxy = 10C3E719E4AA9E7896E0F65CC4DB4F07 /* PBXContainerItemProxy */;
 		};
-		73613B3A66B5BA75A4286818F95B93E3 /* PBXTargetDependency */ = {
+		D7B07FDB758E2099BF8EF005CB4A9249 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TextFieldEffects;
-			target = 3BE329A6FA4F57E5848D524326AF7554 /* TextFieldEffects */;
-			targetProxy = 0E212A79548AAC6265C4D2F45EAD3879 /* PBXContainerItemProxy */;
+			target = 09A0304BAC0D61017A96F6A006910421 /* TextFieldEffects */;
+			targetProxy = D4293ABB5B2C06007449D0E10840F56D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3FB72244F4654D19CF111827E1B68935 /* Debug */ = {
+		1ACF064C451C2C8FDB94E2AC82601050 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7F7289291AE601FF2EFE6076CB2564C /* TextFieldEffects.xcconfig */;
+			baseConfigurationReference = 9B022641335EDD0CDCEBC5E49540ECDA /* Pods-SNSBusinessCards.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SNSBusinessCards/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SNSBusinessCards/Pods-SNSBusinessCards.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SNSBusinessCards;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D6C8F4E4A522EDFD82F8DB5592FD93C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85AF5A43807045DED6B8447B28BDE7CE /* NCMB.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NCMB/NCMB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NCMB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NCMB/NCMB.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = NCMB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63FD301B5DB6D640761644B2FC80C84E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B0C472412D7F6F900A1D95054F286E9 /* TextFieldEffects.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -770,9 +1227,9 @@
 			};
 			name = Debug;
 		};
-		54161ED3FC652A1A4125D0A0E0197EB6 /* Debug */ = {
+		663225E600E7A62AE190B850E74CEFFC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81B32C5CF6D5E88E1721E18D5E90F254 /* RAMAnimatedTabBarController.xcconfig */;
+			baseConfigurationReference = 85AF5A43807045DED6B8447B28BDE7CE /* NCMB.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -786,18 +1243,17 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RAMAnimatedTabBarController/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/NCMB/NCMB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NCMB/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController.modulemap";
+				MODULEMAP_FILE = "Target Support Files/NCMB/NCMB.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = RAMAnimatedTabBarController;
+				PRODUCT_NAME = NCMB;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -807,7 +1263,7 @@
 		};
 		897C54121A03461249DF5C5A6A128FDC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49FCF48EB5D2DF204737798FDBA820C7 /* FontAwesomeKit.xcconfig */;
+			baseConfigurationReference = 90822EAA37A342DA4785C55401F05FE1 /* FontAwesomeKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -888,45 +1344,7 @@
 			};
 			name = Debug;
 		};
-		9FA2EE2E1C014308468DC4B3B4637044 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B022641335EDD0CDCEBC5E49540ECDA /* Pods-SNSBusinessCards.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SNSBusinessCards/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SNSBusinessCards/Pods-SNSBusinessCards.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SNSBusinessCards;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9FA5DD43B7DDAC0D1B484225ED485D4E /* Debug */ = {
+		9B2589C0BF6B80054AF770595FD3173D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 67852B0A9354AF2479A039C7CBDCE2F4 /* Pods-SNSBusinessCards.debug.xcconfig */;
 			buildSettings = {
@@ -964,6 +1382,76 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		A890E0B4454C9A987309E75FA6CB0895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76BE426D544F5D6B11ACAA8E1A256EB5 /* RAMAnimatedTabBarController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RAMAnimatedTabBarController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RAMAnimatedTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AC7D363AA7C68485F49E4FA7685C6D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B0C472412D7F6F900A1D95054F286E9 /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1009,44 +1497,9 @@
 			};
 			name = Release;
 		};
-		D737D9FF4FDC09D554B2D006523161F6 /* Release */ = {
+		E2039CF33C0CF0F979FCAD1AEE3EB7A0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7F7289291AE601FF2EFE6076CB2564C /* TextFieldEffects.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = TextFieldEffects;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E0E88733E53E2E7688DA0015B44EB856 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81B32C5CF6D5E88E1721E18D5E90F254 /* RAMAnimatedTabBarController.xcconfig */;
+			baseConfigurationReference = 76BE426D544F5D6B11ACAA8E1A256EB5 /* RAMAnimatedTabBarController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1081,7 +1534,7 @@
 		};
 		EC1AE99970EAFE23526183C4C73835AE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49FCF48EB5D2DF204737798FDBA820C7 /* FontAwesomeKit.xcconfig */;
+			baseConfigurationReference = 90822EAA37A342DA4785C55401F05FE1 /* FontAwesomeKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1125,6 +1578,24 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		180A39307A4B0B8EF57826B8E190C89D /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63FD301B5DB6D640761644B2FC80C84E /* Debug */,
+				AC7D363AA7C68485F49E4FA7685C6D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27915B51AE70BE7108C1D020D334E562 /* Build configuration list for PBXNativeTarget "NCMB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				663225E600E7A62AE190B850E74CEFFC /* Debug */,
+				5D6C8F4E4A522EDFD82F8DB5592FD93C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1134,29 +1605,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5405065CBA0F749468BB7042C9535867 /* Build configuration list for PBXNativeTarget "Pods-SNSBusinessCards" */ = {
+		408B233A261D050B6DEFDE6E8C3C7BF0 /* Build configuration list for PBXNativeTarget "Pods-SNSBusinessCards" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9FA5DD43B7DDAC0D1B484225ED485D4E /* Debug */,
-				9FA2EE2E1C014308468DC4B3B4637044 /* Release */,
+				9B2589C0BF6B80054AF770595FD3173D /* Debug */,
+				1ACF064C451C2C8FDB94E2AC82601050 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F9FB0720C616E7FC38CC70B21BF9C0E /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarController" */ = {
+		C9D8AEC29AFFFABC83B6377DE77A870D /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54161ED3FC652A1A4125D0A0E0197EB6 /* Debug */,
-				E0E88733E53E2E7688DA0015B44EB856 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BE6A9F9DE5A901F1DF7CBB8FB7AF5326 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3FB72244F4654D19CF111827E1B68935 /* Debug */,
-				D737D9FF4FDC09D554B2D006523161F6 /* Release */,
+				A890E0B4454C9A987309E75FA6CB0895 /* Debug */,
+				E2039CF33C0CF0F979FCAD1AEE3EB7A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

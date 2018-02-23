@@ -9,6 +9,7 @@
 
 import UIKit
 import CoreData
+import NCMB
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,7 +18,35 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // DBとの接続のコードを書く
+        /*
+        let applicationKey = "ade916f736e4deec9958d06c71ddb683a9303ef077cca256d97c59fe5efbe218"
+        let clientKey = "fd111c007d0cf7c5897df33dfba17d905045fbebff5246818d4ce8583bea2680"
+        NCMB.setApplicationKey(applicationKey, clientKey: clientKey)
+        */
+        
+        //表示するビューコントローラーを指定
+        let viewController: UIViewController
+        let currentUser = NCMBUser.current()
+        
+        //windowを生成
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        //Storyboardを指定
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        if currentUser == nil {
+            //Viewcontrollerを指定
+            let initialViewController = storyboard.instantiateViewController(withIdentifier: "LoginViewController")
+            //rootViewControllerに入れる
+            self.window?.rootViewController = initialViewController
+        } else {
+            //Viewcontrollerを指定
+            let initialViewController = storyboard.instantiateViewController(withIdentifier: "FriendListViewController")
+            //rootViewControllerに入れる
+            self.window?.rootViewController = initialViewController
+        }
+        //表示
+        self.window?.makeKeyAndVisible()
         return true
     }
 

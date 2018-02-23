@@ -16,6 +16,8 @@
 		CD34FD71203AD27700B8076B /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD34FD70203AD27700B8076B /* SettingView.swift */; };
 		CD34FD73203AE94C00B8076B /* CreateFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD34FD72203AE94C00B8076B /* CreateFriendViewController.swift */; };
 		CD34FD75203AE95C00B8076B /* CreateFriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD34FD74203AE95C00B8076B /* CreateFriendView.swift */; };
+		CD512164203FB546002DB3D1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD512163203FB546002DB3D1 /* LoginViewController.swift */; };
+		CD512166203FB56C002DB3D1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD512165203FB56C002DB3D1 /* LoginView.swift */; };
 		CD565D5E203568E3004CD120 /* FriendListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD565D5D203568E3004CD120 /* FriendListView.swift */; };
 		CD565D60203568EF004CD120 /* FriendListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD565D5F203568EF004CD120 /* FriendListViewModel.swift */; };
 		CD6F00682034379B002DA6F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6F00672034379B002DA6F4 /* AppDelegate.swift */; };
@@ -39,6 +41,8 @@
 		CD34FD70203AD27700B8076B /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		CD34FD72203AE94C00B8076B /* CreateFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFriendViewController.swift; sourceTree = "<group>"; };
 		CD34FD74203AE95C00B8076B /* CreateFriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFriendView.swift; sourceTree = "<group>"; };
+		CD512163203FB546002DB3D1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CD512165203FB56C002DB3D1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		CD565D5D203568E3004CD120 /* FriendListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListView.swift; sourceTree = "<group>"; };
 		CD565D5F203568EF004CD120 /* FriendListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListViewModel.swift; sourceTree = "<group>"; };
 		CD6F00642034379B002DA6F4 /* SNSBusinessCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNSBusinessCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,6 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				CD6F00672034379B002DA6F4 /* AppDelegate.swift */,
+				CD512163203FB546002DB3D1 /* LoginViewController.swift */,
+				CD512165203FB56C002DB3D1 /* LoginView.swift */,
 				CD6F00692034379B002DA6F4 /* FriendListViewController.swift */,
 				CD565D5F203568EF004CD120 /* FriendListViewModel.swift */,
 				CD565D5D203568E3004CD120 /* FriendListView.swift */,
@@ -236,12 +242,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SNSBusinessCards/Pods-SNSBusinessCards-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FontAwesomeKit/FontAwesomeKit.framework",
+				"${BUILT_PRODUCTS_DIR}/NCMB/NCMB.framework",
 				"${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework",
 				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesomeKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NCMB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMAnimatedTabBarController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
 			);
@@ -260,6 +268,7 @@
 				CD34FD73203AE94C00B8076B /* CreateFriendViewController.swift in Sources */,
 				CD6F006C2034379B002DA6F4 /* SendViewController.swift in Sources */,
 				CD565D60203568EF004CD120 /* FriendListViewModel.swift in Sources */,
+				CD512164203FB546002DB3D1 /* LoginViewController.swift in Sources */,
 				CD34FD6B203AD25400B8076B /* SendView.swift in Sources */,
 				CD34FD75203AE95C00B8076B /* CreateFriendView.swift in Sources */,
 				CD7C45D220343D5A0091CE61 /* FriendModel.xcdatamodeld in Sources */,
@@ -270,6 +279,7 @@
 				CD34FD6F203AD26D00B8076B /* SettingViewModel.swift in Sources */,
 				CD34FD71203AD27700B8076B /* SettingView.swift in Sources */,
 				CD6F006A2034379B002DA6F4 /* FriendListViewController.swift in Sources */,
+				CD512166203FB56C002DB3D1 /* LoginView.swift in Sources */,
 				CD565D5E203568E3004CD120 /* FriendListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
