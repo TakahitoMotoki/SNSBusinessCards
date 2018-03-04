@@ -11,6 +11,12 @@ import UIKit
 import CoreData
 import NCMB
 
+// MARK: - My Colors Start
+let MY_PURPLE = UIColor(red: 200.0 / 255.0, green: 0.0 / 255.0, blue: 200.0 / 255.0, alpha: 1.0)
+let MY_YELLOW = UIColor(red: 255.0 / 255.0, green: 255.0 / 255.0, blue: 0.0 / 255.0, alpha: 0.9)
+let MY_LIGHTGREEN = UIColor(red: 0.0/255.0, green: 213.0/255.0, blue: 17.0/255.0, alpha: 1.0)
+// MARK: - My Colors End
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -19,11 +25,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // DBとの接続のコードを書く
-        /*
         let applicationKey = "ade916f736e4deec9958d06c71ddb683a9303ef077cca256d97c59fe5efbe218"
         let clientKey = "fd111c007d0cf7c5897df33dfba17d905045fbebff5246818d4ce8583bea2680"
         NCMB.setApplicationKey(applicationKey, clientKey: clientKey)
-        */
         
         //表示するビューコントローラーを指定
         let viewController: UIViewController

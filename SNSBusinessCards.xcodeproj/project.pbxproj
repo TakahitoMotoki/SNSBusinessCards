@@ -18,6 +18,12 @@
 		CD34FD75203AE95C00B8076B /* CreateFriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD34FD74203AE95C00B8076B /* CreateFriendView.swift */; };
 		CD512164203FB546002DB3D1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD512163203FB546002DB3D1 /* LoginViewController.swift */; };
 		CD512166203FB56C002DB3D1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD512165203FB56C002DB3D1 /* LoginView.swift */; };
+		CD512168204BFA0D002DB3D1 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD512167204BFA0D002DB3D1 /* SignUpView.swift */; };
+		CD51216A204BFA1F002DB3D1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD512169204BFA1F002DB3D1 /* SignUpViewController.swift */; };
+		CD51216C204BFA2C002DB3D1 /* ForgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD51216B204BFA2C002DB3D1 /* ForgetViewController.swift */; };
+		CD51216E204BFA3E002DB3D1 /* ForgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD51216D204BFA3E002DB3D1 /* ForgetView.swift */; };
+		CD512170204C4B7E002DB3D1 /* TermsOfServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD51216F204C4B7E002DB3D1 /* TermsOfServiceView.swift */; };
+		CD512172204C4B90002DB3D1 /* TermsOfServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD512171204C4B90002DB3D1 /* TermsOfServiceViewController.swift */; };
 		CD565D5E203568E3004CD120 /* FriendListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD565D5D203568E3004CD120 /* FriendListView.swift */; };
 		CD565D60203568EF004CD120 /* FriendListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD565D5F203568EF004CD120 /* FriendListViewModel.swift */; };
 		CD6F00682034379B002DA6F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6F00672034379B002DA6F4 /* AppDelegate.swift */; };
@@ -43,6 +49,12 @@
 		CD34FD74203AE95C00B8076B /* CreateFriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFriendView.swift; sourceTree = "<group>"; };
 		CD512163203FB546002DB3D1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CD512165203FB56C002DB3D1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CD512167204BFA0D002DB3D1 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		CD512169204BFA1F002DB3D1 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		CD51216B204BFA2C002DB3D1 /* ForgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetViewController.swift; sourceTree = "<group>"; };
+		CD51216D204BFA3E002DB3D1 /* ForgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetView.swift; sourceTree = "<group>"; };
+		CD51216F204C4B7E002DB3D1 /* TermsOfServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfServiceView.swift; sourceTree = "<group>"; };
+		CD512171204C4B90002DB3D1 /* TermsOfServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfServiceViewController.swift; sourceTree = "<group>"; };
 		CD565D5D203568E3004CD120 /* FriendListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListView.swift; sourceTree = "<group>"; };
 		CD565D5F203568EF004CD120 /* FriendListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListViewModel.swift; sourceTree = "<group>"; };
 		CD6F00642034379B002DA6F4 /* SNSBusinessCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNSBusinessCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,6 +121,12 @@
 				CD6F00672034379B002DA6F4 /* AppDelegate.swift */,
 				CD512163203FB546002DB3D1 /* LoginViewController.swift */,
 				CD512165203FB56C002DB3D1 /* LoginView.swift */,
+				CD512169204BFA1F002DB3D1 /* SignUpViewController.swift */,
+				CD512167204BFA0D002DB3D1 /* SignUpView.swift */,
+				CD512171204C4B90002DB3D1 /* TermsOfServiceViewController.swift */,
+				CD51216F204C4B7E002DB3D1 /* TermsOfServiceView.swift */,
+				CD51216B204BFA2C002DB3D1 /* ForgetViewController.swift */,
+				CD51216D204BFA3E002DB3D1 /* ForgetView.swift */,
 				CD6F00692034379B002DA6F4 /* FriendListViewController.swift */,
 				CD565D5F203568EF004CD120 /* FriendListViewModel.swift */,
 				CD565D5D203568E3004CD120 /* FriendListView.swift */,
@@ -266,17 +284,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD34FD73203AE94C00B8076B /* CreateFriendViewController.swift in Sources */,
+				CD51216E204BFA3E002DB3D1 /* ForgetView.swift in Sources */,
 				CD6F006C2034379B002DA6F4 /* SendViewController.swift in Sources */,
+				CD512172204C4B90002DB3D1 /* TermsOfServiceViewController.swift in Sources */,
 				CD565D60203568EF004CD120 /* FriendListViewModel.swift in Sources */,
 				CD512164203FB546002DB3D1 /* LoginViewController.swift in Sources */,
+				CD512170204C4B7E002DB3D1 /* TermsOfServiceView.swift in Sources */,
 				CD34FD6B203AD25400B8076B /* SendView.swift in Sources */,
+				CD51216C204BFA2C002DB3D1 /* ForgetViewController.swift in Sources */,
 				CD34FD75203AE95C00B8076B /* CreateFriendView.swift in Sources */,
+				CD51216A204BFA1F002DB3D1 /* SignUpViewController.swift in Sources */,
 				CD7C45D220343D5A0091CE61 /* FriendModel.xcdatamodeld in Sources */,
 				CD34FD67203ACC2100B8076B /* MainTabBarController.swift in Sources */,
 				CD34FD6D203AD26100B8076B /* SettingViewController.swift in Sources */,
 				CD34FD69203AD24200B8076B /* SendViewModel.swift in Sources */,
 				CD6F00682034379B002DA6F4 /* AppDelegate.swift in Sources */,
 				CD34FD6F203AD26D00B8076B /* SettingViewModel.swift in Sources */,
+				CD512168204BFA0D002DB3D1 /* SignUpView.swift in Sources */,
 				CD34FD71203AD27700B8076B /* SettingView.swift in Sources */,
 				CD6F006A2034379B002DA6F4 /* FriendListViewController.swift in Sources */,
 				CD512166203FB56C002DB3D1 /* LoginView.swift in Sources */,

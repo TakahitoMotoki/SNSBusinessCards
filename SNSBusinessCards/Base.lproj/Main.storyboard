@@ -18,7 +18,7 @@
         <!--Login View Controller-->
         <scene sceneID="u3N-Bs-LVh">
             <objects>
-                <viewController id="olK-qG-mgx" customClass="LoginViewController" customModule="SNSBusinessCards" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="olK-qG-mgx" customClass="LoginViewController" customModule="SNSBusinessCards" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MjX-ZT-caa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -30,10 +30,40 @@
             </objects>
             <point key="canvasLocation" x="-1" y="-1182"/>
         </scene>
+        <!--Sign Up View Controller-->
+        <scene sceneID="QtU-Uo-VpM">
+            <objects>
+                <viewController storyboardIdentifier="signup" id="hEX-rL-5M5" customClass="SignUpViewController" customModule="SNSBusinessCards" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Q3M-wj-F9b">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="WWE-XQ-gyo"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H2M-TR-Uvx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4" y="-1875"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="03D-Va-uxr">
+            <objects>
+                <viewController id="BAf-eA-bVK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bFv-9u-331">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="spG-mT-r5L"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qgj-DW-OlC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="860" y="-1182"/>
+        </scene>
         <!--First-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="SNSBusinessCards" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FriendListViewController" id="9pv-A4-QxB" customClass="FriendListViewController" customModule="SNSBusinessCards" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -119,7 +149,7 @@
         <!--Main Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
-                <tabBarController id="49e-Tb-3d3" customClass="MainTabBarController" customModule="SNSBusinessCards" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="home" id="49e-Tb-3d3" customClass="MainTabBarController" customModule="SNSBusinessCards" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
